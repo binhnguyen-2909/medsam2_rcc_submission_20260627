@@ -1,0 +1,68 @@
+  SS22-02205^2022_01_1   auto base=0.626 cc=0.619 ellfill=0.641 | ceil base=0.813 ellfill=0.790
+  SS21-42826^2021_07_0   auto base=0.887 cc=0.886 ellfill=0.888 | ceil base=0.905 ellfill=0.904
+  SS21-58881^2021_09_1   auto base=0.384 cc=0.379 ellfill=0.373 | ceil base=0.911 ellfill=0.913
+  SS22-49889^2022_08_0   auto base=0.638 cc=0.627 ellfill=0.668 | ceil base=0.872 ellfill=0.892
+  SS22-23641^2022_04_2   auto base=0.448 cc=0.495 ellfill=0.400 | ceil base=0.910 ellfill=0.907
+  SS23-61141^2023_09_1   auto base=0.790 cc=0.763 ellfill=0.813 | ceil base=0.922 ellfill=0.933
+  SS22-45604^2022_07_2   auto base=0.672 cc=0.631 ellfill=0.689 | ceil base=0.892 ellfill=0.887
+  SS21-42835^2021_07_0   auto base=0.168 cc=0.190 ellfill=0.156 | ceil base=0.655 ellfill=0.519
+  SS21-34765^2021_06_0   auto base=0.484 cc=0.468 ellfill=0.485 | ceil base=0.911 ellfill=0.863
+  SS21-53209^2021_08_2   auto base=0.789 cc=0.770 ellfill=0.787 | ceil base=0.830 ellfill=0.899
+  SS23-12955^2023_02_2   auto base=0.853 cc=0.859 ellfill=0.869 | ceil base=0.902 ellfill=0.926
+  SS23-45516^2023_07_1   auto base=0.856 cc=0.855 ellfill=0.861 | ceil base=0.867 ellfill=0.870
+  SS21-58163^2021_09_1   auto base=0.331 cc=0.275 ellfill=0.291 | ceil base=0.894 ellfill=0.896
+  SS23-49481^2023_07_2   auto base=0.280 cc=0.265 ellfill=0.289 | ceil base=0.894 ellfill=0.861
+  SS23-18116^2023_03_2   auto base=0.871 cc=0.854 ellfill=0.871 | ceil base=0.902 ellfill=0.907
+  SS21-37627^2021_06_1   auto base=0.814 cc=0.815 ellfill=0.836 | ceil base=0.831 ellfill=0.848
+  SS22-38394^2022_06_2   auto base=0.703 cc=0.770 ellfill=0.680 | ceil base=0.803 ellfill=0.749
+  SS22-29126^2022_05_1   auto base=0.028 cc=0.024 ellfill=0.033 | ceil base=0.605 ellfill=0.648
+  SS22-04076^2022_01_1   auto base=0.633 cc=0.661 ellfill=0.616 | ceil base=0.921 ellfill=0.922
+  SS22-55042^2022_08_3   auto base=0.385 cc=0.322 ellfill=0.380 | ceil base=0.845 ellfill=0.804
+  SS23-04505^2023_01_1   auto base=0.943 cc=0.948 ellfill=0.908 | ceil base=0.950 ellfill=0.911
+  SS23-18073^2023_03_2   auto base=0.656 cc=0.645 ellfill=0.652 | ceil base=0.879 ellfill=0.813
+  SS23-12958^2023_02_2   auto base=0.238 cc=0.233 ellfill=0.255 | ceil base=0.850 ellfill=0.868
+  SS22-41080^2022_07_0   auto base=0.803 cc=0.813 ellfill=0.779 | ceil base=0.849 ellfill=0.809
+  SS23-19048^2023_03_2   auto base=0.278 cc=0.257 ellfill=0.297 | ceil base=0.868 ellfill=0.872
+  SS22-49101^2022_08_0   auto base=0.514 cc=0.531 ellfill=0.490 | ceil base=0.892 ellfill=0.887
+  SS21-60615^2021_09_2   auto base=0.693 cc=0.651 ellfill=0.669 | ceil base=0.809 ellfill=0.795
+  SS21-60938^2021_09_3   auto base=0.228 cc=0.253 ellfill=0.217 | ceil base=0.865 ellfill=0.869
+  SS21-34765^2021_06_0   auto base=0.480 cc=0.463 ellfill=0.468 | ceil base=0.907 ellfill=0.920
+  SS22-17247^2022_03_2   auto base=0.391 cc=0.419 ellfill=0.416 | ceil base=0.811 ellfill=0.796
+  SS22-49101^2022_08_0   auto base=0.374 cc=0.337 ellfill=0.328 | ceil base=0.864 ellfill=0.862
+  SS21-35913^2021_06_1   auto base=0.486 cc=0.407 ellfill=0.545 | ceil base=0.723 ellfill=0.795
+  SS23-21408^2023_04_0   auto base=0.253 cc=0.238 ellfill=0.269 | ceil base=0.913 ellfill=0.920
+  SS23-32996^2023_05_2   auto base=0.636 cc=0.572 ellfill=0.583 | ceil base=0.885 ellfill=0.895
+  SS22-41080^2022_07_0   auto base=0.615 cc=0.613 ellfill=0.591 | ceil base=0.882 ellfill=0.849
+  SS23-18116^2023_03_2   auto base=0.704 cc=0.659 ellfill=0.612 | ceil base=0.852 ellfill=0.685
+  SS21-39246^2021_06_2   auto base=0.940 cc=0.939 ellfill=0.932 | ceil base=0.940 ellfill=0.929
+  SS21-43481^2021_07_1   auto base=0.364 cc=0.337 ellfill=0.306 | ceil base=0.813 ellfill=0.850
+  SS23-23412^2023_04_1   auto base=0.480 cc=0.431 ellfill=0.357 | ceil base=0.912 ellfill=0.899
+  SS22-05400^2022_01_2   auto base=0.426 cc=0.396 ellfill=0.444 | ceil base=0.863 ellfill=0.852
+  SS21-38745^2021_06_2   auto base=0.939 cc=0.937 ellfill=0.935 | ceil base=0.940 ellfill=0.934
+  SS22-43857^2022_07_1   auto base=0.643 cc=0.654 ellfill=0.585 | ceil base=0.843 ellfill=0.808
+  SS21-42051^2021_07_0   auto base=0.855 cc=0.855 ellfill=0.855 | ceil base=0.947 ellfill=0.949
+  SS21-39090^2021_06_2   auto base=0.854 cc=0.876 ellfill=0.887 | ceil base=0.887 ellfill=0.908
+  SS21-37297^2021_06_1   auto base=0.572 cc=0.575 ellfill=0.542 | ceil base=0.876 ellfill=0.903
+  SS21-37293^2021_06_1   auto base=0.874 cc=0.874 ellfill=0.865 | ceil base=0.876 ellfill=0.867
+  SS21-35590^2021_06_0   auto base=0.770 cc=0.779 ellfill=0.746 | ceil base=0.910 ellfill=0.901
+  SS21-35425^2021_06_0   auto base=0.875 cc=0.853 ellfill=0.876 | ceil base=0.893 ellfill=0.893
+  SS21-41214^2021_07_0   auto base=0.184 cc=0.153 ellfill=0.157 | ceil base=0.909 ellfill=0.891
+  SS21-35590^2021_06_1   auto base=0.777 cc=0.777 ellfill=0.752 | ceil base=0.921 ellfill=0.932
+
+===== REFINE HÌNH HỌC (blob/ellipse) trên 50 vẽ tay =====
+
+[FULL-AUTO (mốc 0.635)]
+  base        median=0.6347 mean=0.5897 | 1u=0.854 >1u=0.564
+  cc_rebox    median=0.6228 mean=0.5800 | 1u=0.854 >1u=0.551
+  ell_rebox   median=0.6152 mean=0.5730 | 1u=0.836 >1u=0.489
+  ell_fill    median=0.6016 mean=0.5789 | 1u=0.858 >1u=0.564
+  cc_rebox2   median=0.6046 mean=0.5778 | 1u=0.840 >1u=0.568
+
+[CEILING (mốc 0.883)]
+  base        median=0.8834 mean=0.8682 | 1u=0.890 >1u=0.880
+  cc_rebox    median=0.8550 mean=0.8395 | 1u=0.877 >1u=0.839
+  ell_rebox   median=0.8154 mean=0.7911 | 1u=0.855 >1u=0.791
+  ell_fill    median=0.8873 mean=0.8601 | 1u=0.901 >1u=0.871
+  cc_rebox2   median=0.8196 mean=0.8085 | 1u=0.854 >1u=0.802
+
+-> results/blob_rebox.json

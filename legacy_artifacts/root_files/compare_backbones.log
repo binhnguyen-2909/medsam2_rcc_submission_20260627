@@ -1,0 +1,14 @@
+[2026-06-19 08:55:34] Chờ checkpoint large tải xong...
+[2026-06-19 09:14:50] Tải xong (856 MB).
+[2026-06-19 09:14:50] Chờ vòng train/finetune hiện tại xong (tránh tranh GPU)...
+[2026-06-19 09:14:50] Đo zero-shot TINY (baseline, split hiện tại)...
+    Backbone: checkpoints/sam2.1_hiera_tiny.pt @ 1024 | test 12 ảnh
+    ZERO-SHOT test Dice = 0.9580
+    -> results/zeroshot_tiny.json
+[2026-06-19 09:15:06] Đo zero-shot LARGE...
+    Backbone: checkpoints/sam2.1_hiera_large.pt @ 1024 | test 12 ảnh
+    ZERO-SHOT test Dice = 0.9461
+    -> results/zeroshot_large.json
+[2026-06-19 09:15:27] === XONG. So sánh: ===
+    tiny  : Dice=0.958 (n_test=12)
+    large : Dice=0.9461 (n_test=12)

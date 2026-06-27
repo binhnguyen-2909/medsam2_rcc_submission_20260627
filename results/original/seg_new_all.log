@@ -1,0 +1,308 @@
+[new] chờ MAE xong (results/mae_all.done)...
+[03:25:09] MAE xong -> bắt đầu 3 hướng bổ sung
+==== (1) TWO-STREAM FFT ====
+[gate] GPU free=12871MB -> chạy
+[cfg] two-stream FFT tag=fft_lab channels=lab(6)
+[split] train patch=295 val patch=23
+[model] params=9.03M
+[ep 1] loss=0.7317 val_dice=0.8153  *best
+[ep 2] loss=0.5907 val_dice=0.8126
+[ep 3] loss=0.5582 val_dice=0.8168  *best
+[ep 4] loss=0.5223 val_dice=0.7972
+[ep 5] loss=0.4918 val_dice=0.8016
+[ep 6] loss=0.4973 val_dice=0.8492  *best
+[ep 7] loss=0.4926 val_dice=0.7813
+[ep 8] loss=0.4772 val_dice=0.8168
+[ep 9] loss=0.4691 val_dice=0.7836
+[ep 10] loss=0.4644 val_dice=0.8130
+[ep 11] loss=0.4679 val_dice=0.8160
+[ep 12] loss=0.4538 val_dice=0.8276
+[ep 13] loss=0.4575 val_dice=0.7968
+[ep 14] loss=0.4437 val_dice=0.7752
+[ep 15] loss=0.4459 val_dice=0.8133
+[ep 16] loss=0.4412 val_dice=0.7721
+[ep 17] loss=0.4502 val_dice=0.8090
+[ep 18] loss=0.4427 val_dice=0.8123
+[ep 19] loss=0.4348 val_dice=0.8330
+[ep 20] loss=0.4311 val_dice=0.8353
+[ep 21] loss=0.4356 val_dice=0.8154
+[ep 22] loss=0.4232 val_dice=0.8035
+[ep 23] loss=0.4201 val_dice=0.8288
+[ep 24] loss=0.4128 val_dice=0.8364
+[ep 25] loss=0.4256 val_dice=0.8153
+[ep 26] loss=0.4333 val_dice=0.8127
+[ep 27] loss=0.4123 val_dice=0.8191
+[ep 28] loss=0.4103 val_dice=0.8236
+[ep 29] loss=0.4192 val_dice=0.8204
+[ep 30] loss=0.4085 val_dice=0.8219
+[ep 31] loss=0.4143 val_dice=0.8200
+[ep 32] loss=0.4025 val_dice=0.8349
+[ep 33] loss=0.4068 val_dice=0.8044
+[ep 34] loss=0.3965 val_dice=0.8168
+[ep 35] loss=0.4170 val_dice=0.8065
+[ep 36] loss=0.4060 val_dice=0.8227
+[ep 37] loss=0.4010 val_dice=0.8281
+[ep 38] loss=0.3961 val_dice=0.8398
+[ep 39] loss=0.3958 val_dice=0.8473
+[ep 40] loss=0.3953 val_dice=0.8056
+[ep 41] loss=0.3750 val_dice=0.8163
+[ep 42] loss=0.3884 val_dice=0.8152
+[ep 43] loss=0.3815 val_dice=0.8333
+[ep 44] loss=0.3871 val_dice=0.8274
+[ep 45] loss=0.3705 val_dice=0.8295
+[ep 46] loss=0.3743 val_dice=0.8323
+[ep 47] loss=0.3679 val_dice=0.8105
+[ep 48] loss=0.3731 val_dice=0.8236
+[ep 49] loss=0.3694 val_dice=0.8316
+[ep 50] loss=0.3653 val_dice=0.8203
+[ep 51] loss=0.3661 val_dice=0.8139
+[ep 52] loss=0.3822 val_dice=0.8240
+[ep 53] loss=0.3791 val_dice=0.8101
+[ep 54] loss=0.3727 val_dice=0.8190
+[ep 55] loss=0.3620 val_dice=0.8186
+[ep 56] loss=0.3650 val_dice=0.8103
+[ep 57] loss=0.3730 val_dice=0.8092
+[ep 58] loss=0.3709 val_dice=0.8116
+[ep 59] loss=0.3609 val_dice=0.8123
+[ep 60] loss=0.3616 val_dice=0.8124
+
+Train xong. best val=0.8492 -> checkpoints/seg_crop_fft_lab.pt
+  SS22-02205^2022_01_12_   n=3 auto=0.588 ceil=0.789 (#box 5)
+  SS21-42826^2021_07_09_   n=1 auto=0.883 ceil=0.922 (#box 5)
+  SS21-58881^2021_09_16_   n=1 auto=0.325 ceil=0.882 (#box 3)
+  SS22-49889^2022_08_09_   n=3 auto=0.628 ceil=0.848 (#box 6)
+  SS22-23641^2022_04_22_   n=2 auto=0.520 ceil=0.900 (#box 3)
+  SS23-61141^2023_09_13_   n=2 auto=0.727 ceil=0.874 (#box 3)
+  SS22-45604^2022_07_22_   n=2 auto=0.601 ceil=0.868 (#box 8)
+  SS21-42835^2021_07_09_   n=3 auto=0.198 ceil=0.569 (#box 4)
+  SS21-34765^2021_06_04_   n=4 auto=0.494 ceil=0.859 (#box 9)
+  SS21-53209^2021_08_24_   n=2 auto=0.784 ceil=0.872 (#box 12)
+  SS23-12955^2023_02_23_   n=1 auto=0.870 ceil=0.882 (#box 1)
+  SS23-45516^2023_07_12_   n=1 auto=0.855 ceil=0.855 (#box 5)
+  SS21-58163^2021_09_15_   n=4 auto=0.367 ceil=0.867 (#box 6)
+  SS23-49481^2023_07_27_   n=3 auto=0.249 ceil=0.864 (#box 3)
+  SS23-18116^2023_03_21_   n=3 auto=0.853 ceil=0.878 (#box 9)
+  SS21-37627^2021_06_17_   n=1 auto=0.821 ceil=0.816 (#box 5)
+  SS22-38394^2022_06_24_   n=1 auto=0.687 ceil=0.796 (#box 6)
+  SS22-29126^2022_05_16_   n=1 auto=0.023 ceil=0.585 (#box 2)
+  SS22-04076^2022_01_19_   n=2 auto=0.663 ceil=0.823 (#box 10)
+  SS22-55042^2022_08_30_   n=2 auto=0.384 ceil=0.828 (#box 10)
+  SS23-04505^2023_01_19_   n=1 auto=0.944 ceil=0.943 (#box 8)
+  SS23-18073^2023_03_21_   n=4 auto=0.645 ceil=0.866 (#box 3)
+  SS23-12958^2023_02_23_   n=2 auto=0.228 ceil=0.783 (#box 2)
+  SS22-41080^2022_07_06_   n=3 auto=0.807 ceil=0.851 (#box 12)
+  SS23-19048^2023_03_23_   n=4 auto=0.263 ceil=0.847 (#box 2)
+  SS22-49101^2022_08_04_   n=5 auto=0.527 ceil=0.875 (#box 10)
+  SS21-60615^2021_09_29_   n=3 auto=0.695 ceil=0.837 (#box 11)
+  SS21-60938^2021_09_30_   n=2 auto=0.249 ceil=0.872 (#box 2)
+  SS21-34765^2021_06_07_   n=4 auto=0.495 ceil=0.835 (#box 10)
+  SS22-17247^2022_03_24_   n=1 auto=0.382 ceil=0.852 (#box 3)
+  SS22-49101^2022_08_04_   n=6 auto=0.400 ceil=0.860 (#box 12)
+  SS21-35913^2021_06_11_   n=3 auto=0.541 ceil=0.830 (#box 7)
+  SS23-21408^2023_04_03_   n=4 auto=0.226 ceil=0.843 (#box 3)
+  SS23-32996^2023_05_24_   n=2 auto=0.689 ceil=0.857 (#box 7)
+  SS22-41080^2022_07_06_   n=6 auto=0.620 ceil=0.872 (#box 6)
+  SS23-18116^2023_03_22_   n=2 auto=0.708 ceil=0.890 (#box 8)
+  SS21-39246^2021_06_25_   n=1 auto=0.941 ceil=0.940 (#box 7)
+  SS21-43481^2021_07_14_   n=2 auto=0.315 ceil=0.798 (#box 5)
+  SS23-23412^2023_04_11_   n=1 auto=0.458 ceil=0.904 (#box 6)
+  SS22-05400^2022_01_25_   n=1 auto=0.363 ceil=0.868 (#box 3)
+  SS21-38745^2021_06_22_   n=1 auto=0.941 ceil=0.936 (#box 7)
+  SS22-43857^2022_07_15_   n=3 auto=0.645 ceil=0.824 (#box 6)
+  SS21-42051^2021_07_07_   n=1 auto=0.853 ceil=0.939 (#box 8)
+  SS21-39090^2021_06_24_   n=1 auto=0.829 ceil=0.870 (#box 3)
+  SS21-37297^2021_06_17_   n=1 auto=0.573 ceil=0.839 (#box 6)
+  SS21-37293^2021_06_16_   n=1 auto=0.872 ceil=0.871 (#box 4)
+  SS21-35590^2021_06_09_   n=2 auto=0.825 ceil=0.880 (#box 9)
+  SS21-35425^2021_06_09_   n=1 auto=0.864 ceil=0.898 (#box 4)
+  SS21-41214^2021_07_05_   n=2 auto=0.204 ceil=0.884 (#box 11)
+  SS21-35590^2021_06_10_   n=2 auto=0.802 ceil=0.871 (#box 8)
+
+===== SEG-CROP [fft_lab] trên 50 vẽ tay =====
+FULL-AUTO (box detector): median=0.6241 mean=0.5885 | 1u=0.841(n18) >1u=0.564(n32)
+CEILING   (box GT-mảnh) : median=0.8664 mean=0.8522 | 1u=0.877 >1u=0.859
+SO SÁNH: full-auto box->SAM=0.666 | ceiling box->SAM=0.857 | red-ceiling=0.938 | nhãn SAM cũ=0.554
+==== (2) BODY-EDGE DECOUPLING ====
+[gate] GPU free=12871MB -> chạy
+[cfg] body-edge tag=be_lab channels=lab(6) ksize=9
+[split] train patch=295 val patch=23
+[model] params=4.90M
+[ep 1] loss=3.6179 val_dice=0.0000  *best
+[ep 2] loss=3.2822 val_dice=0.0000
+[ep 3] loss=2.9915 val_dice=0.5080  *best
+[ep 4] loss=2.7243 val_dice=0.7756  *best
+[ep 5] loss=2.4741 val_dice=0.8383  *best
+[ep 6] loss=2.3442 val_dice=0.8361
+[ep 7] loss=2.2160 val_dice=0.8242
+[ep 8] loss=2.1472 val_dice=0.8190
+[ep 9] loss=2.1248 val_dice=0.7399
+[ep 10] loss=2.0835 val_dice=0.8398  *best
+[ep 11] loss=2.0411 val_dice=0.8366
+[ep 12] loss=2.0065 val_dice=0.7888
+[ep 13] loss=1.9643 val_dice=0.8131
+[ep 14] loss=1.9428 val_dice=0.8266
+[ep 15] loss=1.9459 val_dice=0.8265
+[ep 16] loss=1.9352 val_dice=0.8134
+[ep 17] loss=1.8983 val_dice=0.8298
+[ep 18] loss=1.8903 val_dice=0.8373
+[ep 19] loss=1.8666 val_dice=0.7743
+[ep 20] loss=1.8517 val_dice=0.8071
+[ep 21] loss=1.8289 val_dice=0.8312
+[ep 22] loss=1.8286 val_dice=0.8188
+[ep 23] loss=1.8301 val_dice=0.8151
+[ep 24] loss=1.8308 val_dice=0.8294
+[ep 25] loss=1.8135 val_dice=0.8175
+[ep 26] loss=1.8089 val_dice=0.8245
+[ep 27] loss=1.7809 val_dice=0.8345
+[ep 28] loss=1.7762 val_dice=0.8183
+[ep 29] loss=1.7526 val_dice=0.8119
+[ep 30] loss=1.7638 val_dice=0.8218
+[ep 31] loss=1.7710 val_dice=0.8185
+[ep 32] loss=1.7387 val_dice=0.7896
+[ep 33] loss=1.7382 val_dice=0.8152
+[ep 34] loss=1.7242 val_dice=0.8276
+[ep 35] loss=1.7190 val_dice=0.8260
+[ep 36] loss=1.7266 val_dice=0.8151
+[ep 37] loss=1.7430 val_dice=0.8104
+[ep 38] loss=1.7090 val_dice=0.7989
+[ep 39] loss=1.7168 val_dice=0.8338
+[ep 40] loss=1.6954 val_dice=0.8144
+[ep 41] loss=1.6777 val_dice=0.8073
+[ep 42] loss=1.6846 val_dice=0.8018
+[ep 43] loss=1.7184 val_dice=0.8135
+[ep 44] loss=1.6897 val_dice=0.8112
+[ep 45] loss=1.6754 val_dice=0.8082
+[ep 46] loss=1.6688 val_dice=0.8145
+[ep 47] loss=1.6620 val_dice=0.8092
+[ep 48] loss=1.6423 val_dice=0.8134
+[ep 49] loss=1.6555 val_dice=0.8104
+[ep 50] loss=1.6711 val_dice=0.8086
+[ep 51] loss=1.6588 val_dice=0.8125
+[ep 52] loss=1.6523 val_dice=0.8101
+[ep 53] loss=1.6446 val_dice=0.8079
+[ep 54] loss=1.6399 val_dice=0.8091
+[ep 55] loss=1.6289 val_dice=0.8036
+[ep 56] loss=1.6401 val_dice=0.8062
+[ep 57] loss=1.6333 val_dice=0.8059
+[ep 58] loss=1.6124 val_dice=0.8044
+[ep 59] loss=1.6429 val_dice=0.8049
+[ep 60] loss=1.6231 val_dice=0.8052
+
+Train xong. best val=0.8398 -> checkpoints/seg_crop_be_lab.pt
+  SS22-02205^2022_01_12_   n=3 auto=0.599 ceil=0.801 (#box 5)
+  SS21-42826^2021_07_09_   n=1 auto=0.884 ceil=0.899 (#box 5)
+  SS21-58881^2021_09_16_   n=1 auto=0.329 ceil=0.871 (#box 3)
+  SS22-49889^2022_08_09_   n=3 auto=0.625 ceil=0.845 (#box 6)
+  SS22-23641^2022_04_22_   n=2 auto=0.516 ceil=0.879 (#box 3)
+  SS23-61141^2023_09_13_   n=2 auto=0.748 ceil=0.899 (#box 3)
+  SS22-45604^2022_07_22_   n=2 auto=0.651 ceil=0.869 (#box 8)
+  SS21-42835^2021_07_09_   n=3 auto=0.191 ceil=0.640 (#box 4)
+  SS21-34765^2021_06_04_   n=4 auto=0.502 ceil=0.876 (#box 9)
+  SS21-53209^2021_08_24_   n=2 auto=0.810 ceil=0.891 (#box 12)
+  SS23-12955^2023_02_23_   n=1 auto=0.862 ceil=0.886 (#box 1)
+  SS23-45516^2023_07_12_   n=1 auto=0.829 ceil=0.827 (#box 5)
+  SS21-58163^2021_09_15_   n=4 auto=0.357 ceil=0.866 (#box 6)
+  SS23-49481^2023_07_27_   n=3 auto=0.255 ceil=0.875 (#box 3)
+  SS23-18116^2023_03_21_   n=3 auto=0.852 ceil=0.868 (#box 9)
+  SS21-37627^2021_06_17_   n=1 auto=0.785 ceil=0.783 (#box 5)
+  SS22-38394^2022_06_24_   n=1 auto=0.703 ceil=0.777 (#box 6)
+  SS22-29126^2022_05_16_   n=1 auto=0.024 ceil=0.599 (#box 2)
+  SS22-04076^2022_01_19_   n=2 auto=0.670 ceil=0.868 (#box 10)
+  SS22-55042^2022_08_30_   n=2 auto=0.394 ceil=0.820 (#box 10)
+  SS23-04505^2023_01_19_   n=1 auto=0.933 ceil=0.922 (#box 8)
+  SS23-18073^2023_03_21_   n=4 auto=0.637 ceil=0.859 (#box 3)
+  SS23-12958^2023_02_23_   n=2 auto=0.207 ceil=0.802 (#box 2)
+  SS22-41080^2022_07_06_   n=3 auto=0.796 ceil=0.823 (#box 12)
+  SS23-19048^2023_03_23_   n=4 auto=0.264 ceil=0.857 (#box 2)
+  SS22-49101^2022_08_04_   n=5 auto=0.548 ceil=0.867 (#box 10)
+  SS21-60615^2021_09_29_   n=3 auto=0.714 ceil=0.818 (#box 11)
+  SS21-60938^2021_09_30_   n=2 auto=0.231 ceil=0.857 (#box 2)
+  SS21-34765^2021_06_07_   n=4 auto=0.486 ceil=0.861 (#box 10)
+  SS22-17247^2022_03_24_   n=1 auto=0.409 ceil=0.787 (#box 3)
+  SS22-49101^2022_08_04_   n=6 auto=0.385 ceil=0.845 (#box 12)
+  SS21-35913^2021_06_11_   n=3 auto=0.547 ceil=0.838 (#box 7)
+  SS23-21408^2023_04_03_   n=4 auto=0.236 ceil=0.845 (#box 3)
+  SS23-32996^2023_05_24_   n=2 auto=0.676 ceil=0.849 (#box 7)
+  SS22-41080^2022_07_06_   n=6 auto=0.611 ceil=0.865 (#box 6)
+  SS23-18116^2023_03_22_   n=2 auto=0.718 ceil=0.868 (#box 8)
+  SS21-39246^2021_06_25_   n=1 auto=0.929 ceil=0.927 (#box 7)
+  SS21-43481^2021_07_14_   n=2 auto=0.340 ceil=0.855 (#box 5)
+  SS23-23412^2023_04_11_   n=1 auto=0.492 ceil=0.899 (#box 6)
+  SS22-05400^2022_01_25_   n=1 auto=0.378 ceil=0.855 (#box 3)
+  SS21-38745^2021_06_22_   n=1 auto=0.919 ceil=0.916 (#box 7)
+  SS22-43857^2022_07_15_   n=3 auto=0.659 ceil=0.807 (#box 6)
+  SS21-42051^2021_07_07_   n=1 auto=0.859 ceil=0.927 (#box 8)
+  SS21-39090^2021_06_24_   n=1 auto=0.816 ceil=0.821 (#box 3)
+  SS21-37297^2021_06_17_   n=1 auto=0.582 ceil=0.857 (#box 6)
+  SS21-37293^2021_06_16_   n=1 auto=0.869 ceil=0.866 (#box 4)
+  SS21-35590^2021_06_09_   n=2 auto=0.822 ceil=0.880 (#box 9)
+  SS21-35425^2021_06_09_   n=1 auto=0.855 ceil=0.857 (#box 4)
+  SS21-41214^2021_07_05_   n=2 auto=0.201 ceil=0.870 (#box 11)
+  SS21-35590^2021_06_10_   n=2 auto=0.820 ceil=0.880 (#box 8)
+
+===== SEG-CROP [be_lab] trên 50 vẽ tay =====
+FULL-AUTO (box detector): median=0.6307 mean=0.5904 | 1u=0.822(n18) >1u=0.573(n32)
+CEILING   (box GT-mảnh) : median=0.8599 mean=0.8483 | 1u=0.862 >1u=0.860
+SO SÁNH: full-auto box->SAM=0.666 | ceiling box->SAM=0.857 | red-ceiling=0.938 | nhãn SAM cũ=0.554
+==== (3) HẬU XỬ LÝ refine (Snakes/guided trên champion segR_lab) ====
+[gate] GPU free=12871MB -> chạy
+segmenter=checkpoints/seg_crop_segR_lab.pt (lab) | refine methods: none/guided/gac/acwe
+  SS22-02205^2022_01_1   none auto=0.626 ceil=0.813 | guided ceil=0.813 gac ceil=0.802
+  SS21-42826^2021_07_0   none auto=0.887 ceil=0.905 | guided ceil=0.906 gac ceil=0.905
+  SS21-58881^2021_09_1   none auto=0.384 ceil=0.911 | guided ceil=0.909 gac ceil=0.892
+  SS22-49889^2022_08_0   none auto=0.638 ceil=0.872 | guided ceil=0.872 gac ceil=0.846
+  SS22-23641^2022_04_2   none auto=0.448 ceil=0.910 | guided ceil=0.913 gac ceil=0.882
+  SS23-61141^2023_09_1   none auto=0.790 ceil=0.922 | guided ceil=0.923 gac ceil=0.915
+  SS22-45604^2022_07_2   none auto=0.672 ceil=0.892 | guided ceil=0.891 gac ceil=0.886
+  SS21-42835^2021_07_0   none auto=0.168 ceil=0.655 | guided ceil=0.656 gac ceil=0.668
+  SS21-34765^2021_06_0   none auto=0.484 ceil=0.911 | guided ceil=0.912 gac ceil=0.891
+  SS21-53209^2021_08_2   none auto=0.789 ceil=0.830 | guided ceil=0.830 gac ceil=0.815
+  SS23-12955^2023_02_2   none auto=0.853 ceil=0.902 | guided ceil=0.904 gac ceil=0.900
+  SS23-45516^2023_07_1   none auto=0.856 ceil=0.867 | guided ceil=0.860 gac ceil=0.855
+  SS21-58163^2021_09_1   none auto=0.331 ceil=0.894 | guided ceil=0.894 gac ceil=0.857
+  SS23-49481^2023_07_2   none auto=0.280 ceil=0.894 | guided ceil=0.895 gac ceil=0.877
+  SS23-18116^2023_03_2   none auto=0.871 ceil=0.902 | guided ceil=0.902 gac ceil=0.895
+  SS21-37627^2021_06_1   none auto=0.814 ceil=0.831 | guided ceil=0.827 gac ceil=0.816
+  SS22-38394^2022_06_2   none auto=0.703 ceil=0.803 | guided ceil=0.803 gac ceil=0.807
+  SS22-29126^2022_05_1   none auto=0.028 ceil=0.605 | guided ceil=0.605 gac ceil=0.595
+  SS22-04076^2022_01_1   none auto=0.633 ceil=0.921 | guided ceil=0.921 gac ceil=0.908
+  SS22-55042^2022_08_3   none auto=0.385 ceil=0.845 | guided ceil=0.845 gac ceil=0.837
+  SS23-04505^2023_01_1   none auto=0.943 ceil=0.950 | guided ceil=0.949 gac ceil=0.944
+  SS23-18073^2023_03_2   none auto=0.656 ceil=0.879 | guided ceil=0.880 gac ceil=0.868
+  SS23-12958^2023_02_2   none auto=0.238 ceil=0.850 | guided ceil=0.852 gac ceil=0.837
+  SS22-41080^2022_07_0   none auto=0.803 ceil=0.849 | guided ceil=0.850 gac ceil=0.849
+  SS23-19048^2023_03_2   none auto=0.278 ceil=0.868 | guided ceil=0.867 gac ceil=0.849
+  SS22-49101^2022_08_0   none auto=0.514 ceil=0.892 | guided ceil=0.893 gac ceil=0.876
+  SS21-60615^2021_09_2   none auto=0.693 ceil=0.809 | guided ceil=0.810 gac ceil=0.808
+  SS21-60938^2021_09_3   none auto=0.228 ceil=0.865 | guided ceil=0.869 gac ceil=0.802
+  SS21-34765^2021_06_0   none auto=0.480 ceil=0.907 | guided ceil=0.907 gac ceil=0.893
+  SS22-17247^2022_03_2   none auto=0.391 ceil=0.811 | guided ceil=0.811 gac ceil=0.815
+  SS22-49101^2022_08_0   none auto=0.374 ceil=0.864 | guided ceil=0.864 gac ceil=0.846
+  SS21-35913^2021_06_1   none auto=0.486 ceil=0.723 | guided ceil=0.727 gac ceil=0.682
+  SS23-21408^2023_04_0   none auto=0.253 ceil=0.913 | guided ceil=0.908 gac ceil=0.855
+  SS23-32996^2023_05_2   none auto=0.636 ceil=0.885 | guided ceil=0.885 gac ceil=0.859
+  SS22-41080^2022_07_0   none auto=0.615 ceil=0.882 | guided ceil=0.884 gac ceil=0.880
+  SS23-18116^2023_03_2   none auto=0.704 ceil=0.852 | guided ceil=0.851 gac ceil=0.851
+  SS21-39246^2021_06_2   none auto=0.940 ceil=0.940 | guided ceil=0.940 gac ceil=0.939
+  SS21-43481^2021_07_1   none auto=0.364 ceil=0.813 | guided ceil=0.815 gac ceil=0.798
+  SS23-23412^2023_04_1   none auto=0.480 ceil=0.912 | guided ceil=0.913 gac ceil=0.918
+  SS22-05400^2022_01_2   none auto=0.426 ceil=0.863 | guided ceil=0.863 gac ceil=0.856
+  SS21-38745^2021_06_2   none auto=0.939 ceil=0.940 | guided ceil=0.939 gac ceil=0.936
+  SS22-43857^2022_07_1   none auto=0.643 ceil=0.843 | guided ceil=0.843 gac ceil=0.846
+  SS21-42051^2021_07_0   none auto=0.855 ceil=0.947 | guided ceil=0.947 gac ceil=0.941
+  SS21-39090^2021_06_2   none auto=0.854 ceil=0.887 | guided ceil=0.887 gac ceil=0.865
+  SS21-37297^2021_06_1   none auto=0.572 ceil=0.876 | guided ceil=0.876 gac ceil=0.845
+  SS21-37293^2021_06_1   none auto=0.874 ceil=0.876 | guided ceil=0.878 gac ceil=0.877
+  SS21-35590^2021_06_0   none auto=0.770 ceil=0.910 | guided ceil=0.911 gac ceil=0.912
+  SS21-35425^2021_06_0   none auto=0.875 ceil=0.893 | guided ceil=0.894 gac ceil=0.896
+  SS21-41214^2021_07_0   none auto=0.184 ceil=0.909 | guided ceil=0.910 gac ceil=0.902
+  SS21-35590^2021_06_1   none auto=0.777 ceil=0.921 | guided ceil=0.921 gac ceil=0.917
+
+===== HẬU XỬ LÝ refine trên 50 vẽ tay (so champion segR_lab) =====
+  none    full-auto median=0.6347 mean=0.5897 | ceiling median=0.8834 mean=0.8682
+  guided  full-auto median=0.6355 mean=0.5900 | ceiling median=0.8843 mean=0.8685
+  gac     full-auto median=0.6436 mean=0.5881 | ceiling median=0.8617 mean=0.8563
+  acwe    full-auto median=0.6291 mean=0.5892 | ceiling median=0.8744 mean=0.8607
+SO: none = champion (auto~0.635 / ceil 0.883). >0 = refine giúp.
+-> results/refine_postproc.json
+[04:29:21] ===== XONG 3 HƯỚNG BỔ SUNG =====

@@ -1,0 +1,59 @@
+Stem có mask vẽ tay: 50/50
+detector=checkpoints/detector_recall_ms.pt ep17 thr=0.5
+  SS22-02205^2022_01_12_ n_u=3 | SAMcũ=0.706 box=nan auto=0.589
+  SS21-42826^2021_07_09_ n_u=1 | SAMcũ=0.043 box=nan auto=0.699
+  SS21-58881^2021_09_16_ n_u=1 | SAMcũ=0.002 box=nan auto=0.732
+  SS22-49889^2022_08_09_ n_u=3 | SAMcũ=0.592 box=nan auto=0.524
+  SS22-23641^2022_04_22_ n_u=2 | SAMcũ=0.763 box=nan auto=0.230
+  SS23-61141^2023_09_13_ n_u=2 | SAMcũ=0.912 box=nan auto=0.743
+  SS22-45604^2022_07_22_ n_u=2 | SAMcũ=0.952 box=nan auto=0.581
+  SS21-42835^2021_07_09_ n_u=3 | SAMcũ=0.321 box=nan auto=0.095
+  SS21-34765^2021_06_04_ n_u=4 | SAMcũ=0.272 box=0.272 auto=0.673
+  SS21-53209^2021_08_24_ n_u=2 | SAMcũ=0.395 box=nan auto=0.725
+  SS23-12955^2023_02_23_ n_u=1 | SAMcũ=0.391 box=nan auto=0.493
+  SS23-45516^2023_07_12_ n_u=1 | SAMcũ=0.769 box=nan auto=0.865
+  SS21-58163^2021_09_15_ n_u=4 | SAMcũ=0.000 box=nan auto=0.384
+  SS23-49481^2023_07_27_ n_u=3 | SAMcũ=0.301 box=nan auto=0.277
+  SS23-18116^2023_03_21_ n_u=3 | SAMcũ=0.914 box=nan auto=0.778
+  SS21-37627^2021_06_17_ n_u=1 | SAMcũ=0.807 box=nan auto=0.808
+  SS22-38394^2022_06_24_ n_u=1 | SAMcũ=0.681 box=nan auto=0.520
+  SS22-29126^2022_05_16_ n_u=1 | SAMcũ=0.140 box=nan auto=0.060
+  SS22-04076^2022_01_19_ n_u=2 | SAMcũ=0.766 box=nan auto=0.541
+  SS22-55042^2022_08_30_ n_u=2 | SAMcũ=0.650 box=nan auto=0.086
+  SS23-04505^2023_01_19_ n_u=1 | SAMcũ=0.923 box=nan auto=0.951
+  SS23-18073^2023_03_21_ n_u=4 | SAMcũ=0.718 box=nan auto=0.695
+  SS23-12958^2023_02_23_ n_u=2 | SAMcũ=0.458 box=nan auto=0.375
+  SS22-41080^2022_07_06_ n_u=3 | SAMcũ=0.787 box=nan auto=0.810
+  SS23-19048^2023_03_23_ n_u=4 | SAMcũ=0.509 box=nan auto=0.524
+  SS22-49101^2022_08_04_ n_u=5 | SAMcũ=0.472 box=nan auto=0.456
+  SS21-60615^2021_09_29_ n_u=3 | SAMcũ=0.299 box=nan auto=0.773
+  SS21-60938^2021_09_30_ n_u=2 | SAMcũ=0.056 box=nan auto=0.195
+  SS21-34765^2021_06_07_ n_u=4 | SAMcũ=0.316 box=0.316 auto=0.543
+  SS22-17247^2022_03_24_ n_u=1 | SAMcũ=0.659 box=nan auto=0.581
+  SS22-49101^2022_08_04_ n_u=6 | SAMcũ=0.416 box=nan auto=0.338
+  SS21-35913^2021_06_11_ n_u=3 | SAMcũ=0.223 box=nan auto=0.590
+  SS23-21408^2023_04_03_ n_u=4 | SAMcũ=0.189 box=nan auto=0.094
+  SS23-32996^2023_05_24_ n_u=2 | SAMcũ=0.830 box=nan auto=0.648
+  SS22-41080^2022_07_06_ n_u=6 | SAMcũ=0.744 box=nan auto=0.746
+  SS23-18116^2023_03_22_ n_u=2 | SAMcũ=0.630 box=nan auto=0.631
+  SS21-39246^2021_06_25_ n_u=1 | SAMcũ=0.939 box=nan auto=0.936
+  SS21-43481^2021_07_14_ n_u=2 | SAMcũ=0.283 box=nan auto=0.402
+  SS23-23412^2023_04_11_ n_u=1 | SAMcũ=0.446 box=nan auto=0.468
+  SS22-05400^2022_01_25_ n_u=1 | SAMcũ=0.892 box=nan auto=0.577
+  SS21-38745^2021_06_22_ n_u=1 | SAMcũ=0.859 box=nan auto=0.935
+  SS22-43857^2022_07_15_ n_u=3 | SAMcũ=0.673 box=nan auto=0.439
+  SS21-42051^2021_07_07_ n_u=1 | SAMcũ=0.539 box=nan auto=0.535
+  SS21-39090^2021_06_24_ n_u=1 | SAMcũ=0.164 box=0.164 auto=0.896
+  SS21-37297^2021_06_17_ n_u=1 | SAMcũ=0.834 box=0.834 auto=0.545
+  SS21-37293^2021_06_16_ n_u=1 | SAMcũ=0.777 box=0.777 auto=0.858
+  SS21-35590^2021_06_09_ n_u=2 | SAMcũ=0.569 box=0.569 auto=0.873
+  SS21-35425^2021_06_09_ n_u=1 | SAMcũ=0.246 box=0.246 auto=0.832
+  SS21-41214^2021_07_05_ n_u=2 | SAMcũ=0.000 box=nan auto=0.000
+  SS21-35590^2021_06_10_ n_u=2 | SAMcũ=0.024 box=0.024 auto=0.875
+
+===== EVAL VẼ TAY (N=50: 18 đơn-u + 32 đa-u) =====
+SAM-cũ vs vẽtay (độ THIÊN VỊ nhãn cũ)      Dice median=0.5541 mean=0.5171 (n=50) | 1u=0.670 >1u=0.490
+Deliverable SAM(GT-box)                    Dice median=0.2936 mean=0.4002 (n=8) | 1u=0.511 >1u=0.294
+Full-auto detector+maskloss                Dice median=0.5807 mean=0.5704 (n=50) | 1u=0.715 >1u=0.542
+-> results/handdraw_eval.csv
+-> results/handdraw_montage.png

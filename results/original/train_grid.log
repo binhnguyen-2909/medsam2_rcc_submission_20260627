@@ -1,0 +1,9 @@
+[grid] trích patch từ 178 ảnh...
+[grid] patches=27756 pos=13081 (47.1%)
+[ep 5] loss=0.4125
+[ep 10] loss=0.2987
+[ep 15] loss=0.1528
+[ep 20] loss=0.0586
+[ep 25] loss=0.0364
+[ep 30] loss=0.0344
+[grid] -> checkpoints/grid_clf.pt

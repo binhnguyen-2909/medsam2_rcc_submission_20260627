@@ -1,0 +1,222 @@
+50 ảnh | đã lưu 0 | bắt đầu ở #1
+* Running on local URL:  http://0.0.0.0:18864
+* To create a public link, set `share=True` in `launch()`.
+/home/hvusynh2/conda_envs/medsam2_anno/lib/python3.12/site-packages/gradio/routes.py:1379: StarletteDeprecationWarning: 'HTTP_422_UNPROCESSABLE_ENTITY' is deprecated. Use 'HTTP_422_UNPROCESSABLE_CONTENT' instead.
+  return await queue_join_helper(body, request, username)
+/home/hvusynh2/conda_envs/medsam2_anno/lib/python3.12/site-packages/gradio/routes.py:1379: StarletteDeprecationWarning: 'HTTP_422_UNPROCESSABLE_ENTITY' is deprecated. Use 'HTTP_422_UNPROCESSABLE_CONTENT' instead.
+  return await queue_join_helper(body, request, username)
+/home/hvusynh2/conda_envs/medsam2_anno/lib/python3.12/site-packages/gradio/routes.py:1379: StarletteDeprecationWarning: 'HTTP_422_UNPROCESSABLE_ENTITY' is deprecated. Use 'HTTP_422_UNPROCESSABLE_CONTENT' instead.
+  return await queue_join_helper(body, request, username)
+/home/hvusynh2/conda_envs/medsam2_anno/lib/python3.12/site-packages/gradio/routes.py:1379: StarletteDeprecationWarning: 'HTTP_422_UNPROCESSABLE_ENTITY' is deprecated. Use 'HTTP_422_UNPROCESSABLE_CONTENT' instead.
+  return await queue_join_helper(body, request, username)
+/home/hvusynh2/conda_envs/medsam2_anno/lib/python3.12/site-packages/gradio/routes.py:1379: StarletteDeprecationWarning: 'HTTP_422_UNPROCESSABLE_ENTITY' is deprecated. Use 'HTTP_422_UNPROCESSABLE_CONTENT' instead.
+  return await queue_join_helper(body, request, username)
+/home/hvusynh2/conda_envs/medsam2_anno/lib/python3.12/site-packages/gradio/routes.py:1379: StarletteDeprecationWarning: 'HTTP_422_UNPROCESSABLE_ENTITY' is deprecated. Use 'HTTP_422_UNPROCESSABLE_CONTENT' instead.
+  return await queue_join_helper(body, request, username)
+/home/hvusynh2/conda_envs/medsam2_anno/lib/python3.12/site-packages/gradio/routes.py:1379: StarletteDeprecationWarning: 'HTTP_422_UNPROCESSABLE_ENTITY' is deprecated. Use 'HTTP_422_UNPROCESSABLE_CONTENT' instead.
+  return await queue_join_helper(body, request, username)
+/home/hvusynh2/conda_envs/medsam2_anno/lib/python3.12/site-packages/gradio/routes.py:1379: StarletteDeprecationWarning: 'HTTP_422_UNPROCESSABLE_ENTITY' is deprecated. Use 'HTTP_422_UNPROCESSABLE_CONTENT' instead.
+  return await queue_join_helper(body, request, username)
+/home/hvusynh2/conda_envs/medsam2_anno/lib/python3.12/site-packages/gradio/routes.py:1379: StarletteDeprecationWarning: 'HTTP_422_UNPROCESSABLE_ENTITY' is deprecated. Use 'HTTP_422_UNPROCESSABLE_CONTENT' instead.
+  return await queue_join_helper(body, request, username)
+/home/hvusynh2/conda_envs/medsam2_anno/lib/python3.12/site-packages/gradio/routes.py:1379: StarletteDeprecationWarning: 'HTTP_422_UNPROCESSABLE_ENTITY' is deprecated. Use 'HTTP_422_UNPROCESSABLE_CONTENT' instead.
+  return await queue_join_helper(body, request, username)
+/home/hvusynh2/conda_envs/medsam2_anno/lib/python3.12/site-packages/gradio/routes.py:1379: StarletteDeprecationWarning: 'HTTP_422_UNPROCESSABLE_ENTITY' is deprecated. Use 'HTTP_422_UNPROCESSABLE_CONTENT' instead.
+  return await queue_join_helper(body, request, username)
+/home/hvusynh2/conda_envs/medsam2_anno/lib/python3.12/site-packages/gradio/routes.py:1379: StarletteDeprecationWarning: 'HTTP_422_UNPROCESSABLE_ENTITY' is deprecated. Use 'HTTP_422_UNPROCESSABLE_CONTENT' instead.
+  return await queue_join_helper(body, request, username)
+/home/hvusynh2/conda_envs/medsam2_anno/lib/python3.12/site-packages/gradio/routes.py:1379: StarletteDeprecationWarning: 'HTTP_422_UNPROCESSABLE_ENTITY' is deprecated. Use 'HTTP_422_UNPROCESSABLE_CONTENT' instead.
+  return await queue_join_helper(body, request, username)
+/home/hvusynh2/conda_envs/medsam2_anno/lib/python3.12/site-packages/gradio/routes.py:1379: StarletteDeprecationWarning: 'HTTP_422_UNPROCESSABLE_ENTITY' is deprecated. Use 'HTTP_422_UNPROCESSABLE_CONTENT' instead.
+  return await queue_join_helper(body, request, username)
+/home/hvusynh2/conda_envs/medsam2_anno/lib/python3.12/site-packages/gradio/routes.py:1379: StarletteDeprecationWarning: 'HTTP_422_UNPROCESSABLE_ENTITY' is deprecated. Use 'HTTP_422_UNPROCESSABLE_CONTENT' instead.
+  return await queue_join_helper(body, request, username)
+/home/hvusynh2/conda_envs/medsam2_anno/lib/python3.12/site-packages/gradio/routes.py:1379: StarletteDeprecationWarning: 'HTTP_422_UNPROCESSABLE_ENTITY' is deprecated. Use 'HTTP_422_UNPROCESSABLE_CONTENT' instead.
+  return await queue_join_helper(body, request, username)
+/home/hvusynh2/conda_envs/medsam2_anno/lib/python3.12/site-packages/gradio/routes.py:1379: StarletteDeprecationWarning: 'HTTP_422_UNPROCESSABLE_ENTITY' is deprecated. Use 'HTTP_422_UNPROCESSABLE_CONTENT' instead.
+  return await queue_join_helper(body, request, username)
+/home/hvusynh2/conda_envs/medsam2_anno/lib/python3.12/site-packages/gradio/routes.py:1379: StarletteDeprecationWarning: 'HTTP_422_UNPROCESSABLE_ENTITY' is deprecated. Use 'HTTP_422_UNPROCESSABLE_CONTENT' instead.
+  return await queue_join_helper(body, request, username)
+/home/hvusynh2/conda_envs/medsam2_anno/lib/python3.12/site-packages/gradio/routes.py:1379: StarletteDeprecationWarning: 'HTTP_422_UNPROCESSABLE_ENTITY' is deprecated. Use 'HTTP_422_UNPROCESSABLE_CONTENT' instead.
+  return await queue_join_helper(body, request, username)
+/home/hvusynh2/conda_envs/medsam2_anno/lib/python3.12/site-packages/gradio/routes.py:1379: StarletteDeprecationWarning: 'HTTP_422_UNPROCESSABLE_ENTITY' is deprecated. Use 'HTTP_422_UNPROCESSABLE_CONTENT' instead.
+  return await queue_join_helper(body, request, username)
+/home/hvusynh2/conda_envs/medsam2_anno/lib/python3.12/site-packages/gradio/routes.py:1379: StarletteDeprecationWarning: 'HTTP_422_UNPROCESSABLE_ENTITY' is deprecated. Use 'HTTP_422_UNPROCESSABLE_CONTENT' instead.
+  return await queue_join_helper(body, request, username)
+/home/hvusynh2/conda_envs/medsam2_anno/lib/python3.12/site-packages/gradio/routes.py:1379: StarletteDeprecationWarning: 'HTTP_422_UNPROCESSABLE_ENTITY' is deprecated. Use 'HTTP_422_UNPROCESSABLE_CONTENT' instead.
+  return await queue_join_helper(body, request, username)
+/home/hvusynh2/conda_envs/medsam2_anno/lib/python3.12/site-packages/gradio/routes.py:1379: StarletteDeprecationWarning: 'HTTP_422_UNPROCESSABLE_ENTITY' is deprecated. Use 'HTTP_422_UNPROCESSABLE_CONTENT' instead.
+  return await queue_join_helper(body, request, username)
+/home/hvusynh2/conda_envs/medsam2_anno/lib/python3.12/site-packages/gradio/routes.py:1379: StarletteDeprecationWarning: 'HTTP_422_UNPROCESSABLE_ENTITY' is deprecated. Use 'HTTP_422_UNPROCESSABLE_CONTENT' instead.
+  return await queue_join_helper(body, request, username)
+/home/hvusynh2/conda_envs/medsam2_anno/lib/python3.12/site-packages/gradio/routes.py:1379: StarletteDeprecationWarning: 'HTTP_422_UNPROCESSABLE_ENTITY' is deprecated. Use 'HTTP_422_UNPROCESSABLE_CONTENT' instead.
+  return await queue_join_helper(body, request, username)
+/home/hvusynh2/conda_envs/medsam2_anno/lib/python3.12/site-packages/gradio/routes.py:1379: StarletteDeprecationWarning: 'HTTP_422_UNPROCESSABLE_ENTITY' is deprecated. Use 'HTTP_422_UNPROCESSABLE_CONTENT' instead.
+  return await queue_join_helper(body, request, username)
+/home/hvusynh2/conda_envs/medsam2_anno/lib/python3.12/site-packages/gradio/routes.py:1379: StarletteDeprecationWarning: 'HTTP_422_UNPROCESSABLE_ENTITY' is deprecated. Use 'HTTP_422_UNPROCESSABLE_CONTENT' instead.
+  return await queue_join_helper(body, request, username)
+/home/hvusynh2/conda_envs/medsam2_anno/lib/python3.12/site-packages/gradio/routes.py:1379: StarletteDeprecationWarning: 'HTTP_422_UNPROCESSABLE_ENTITY' is deprecated. Use 'HTTP_422_UNPROCESSABLE_CONTENT' instead.
+  return await queue_join_helper(body, request, username)
+/home/hvusynh2/conda_envs/medsam2_anno/lib/python3.12/site-packages/gradio/routes.py:1379: StarletteDeprecationWarning: 'HTTP_422_UNPROCESSABLE_ENTITY' is deprecated. Use 'HTTP_422_UNPROCESSABLE_CONTENT' instead.
+  return await queue_join_helper(body, request, username)
+/home/hvusynh2/conda_envs/medsam2_anno/lib/python3.12/site-packages/gradio/routes.py:1379: StarletteDeprecationWarning: 'HTTP_422_UNPROCESSABLE_ENTITY' is deprecated. Use 'HTTP_422_UNPROCESSABLE_CONTENT' instead.
+  return await queue_join_helper(body, request, username)
+/home/hvusynh2/conda_envs/medsam2_anno/lib/python3.12/site-packages/gradio/routes.py:1379: StarletteDeprecationWarning: 'HTTP_422_UNPROCESSABLE_ENTITY' is deprecated. Use 'HTTP_422_UNPROCESSABLE_CONTENT' instead.
+  return await queue_join_helper(body, request, username)
+/home/hvusynh2/conda_envs/medsam2_anno/lib/python3.12/site-packages/gradio/routes.py:1379: StarletteDeprecationWarning: 'HTTP_422_UNPROCESSABLE_ENTITY' is deprecated. Use 'HTTP_422_UNPROCESSABLE_CONTENT' instead.
+  return await queue_join_helper(body, request, username)
+/home/hvusynh2/conda_envs/medsam2_anno/lib/python3.12/site-packages/gradio/routes.py:1379: StarletteDeprecationWarning: 'HTTP_422_UNPROCESSABLE_ENTITY' is deprecated. Use 'HTTP_422_UNPROCESSABLE_CONTENT' instead.
+  return await queue_join_helper(body, request, username)
+Traceback (most recent call last):
+  File "/home/hvusynh2/conda_envs/medsam2_anno/lib/python3.12/site-packages/gradio/queueing.py", line 867, in process_events
+    response = await route_utils.call_process_api(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hvusynh2/conda_envs/medsam2_anno/lib/python3.12/site-packages/gradio/route_utils.py", line 386, in call_process_api
+    output = await app.get_blocks().process_api(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hvusynh2/conda_envs/medsam2_anno/lib/python3.12/site-packages/gradio/blocks.py", line 2293, in process_api
+    data = await self.postprocess_data(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hvusynh2/conda_envs/medsam2_anno/lib/python3.12/site-packages/gradio/blocks.py", line 1973, in postprocess_data
+    self.validate_outputs(block_fn, predictions)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hvusynh2/conda_envs/medsam2_anno/lib/python3.12/site-packages/gradio/blocks.py", line 1926, in validate_outputs
+    raise ValueError(
+ValueError: A  function (on_save) didn't return enough output values (needed: 3, returned: 2).
+    Output components:
+        [imageeditor, markdown, state]
+    Output values returned:
+        ["### 30/50 — ⬜ chưa
+`SS22-17247^2022_03_24_10_01_53^^`
+
+**Kích u (Excel, sanity-check — KHÔNG phải vị trí):** 8.7x7.0  |  n_mass≈1
+
+Đã lưu: **29/50**
+
+➡️ Tô **TẤT CẢ** vùng u (nhiều mảnh thì tô hết). Vẽ tự do, KHÔNG nhìn gợi ý máy.
+
+⚠️ **Chưa vẽ gì** — tô vùng u rồi Lưu, hoặc bấm Skip.", 29]
+/home/hvusynh2/conda_envs/medsam2_anno/lib/python3.12/site-packages/gradio/routes.py:1379: StarletteDeprecationWarning: 'HTTP_422_UNPROCESSABLE_ENTITY' is deprecated. Use 'HTTP_422_UNPROCESSABLE_CONTENT' instead.
+  return await queue_join_helper(body, request, username)
+Traceback (most recent call last):
+  File "/home/hvusynh2/conda_envs/medsam2_anno/lib/python3.12/site-packages/gradio/queueing.py", line 867, in process_events
+    response = await route_utils.call_process_api(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hvusynh2/conda_envs/medsam2_anno/lib/python3.12/site-packages/gradio/route_utils.py", line 386, in call_process_api
+    output = await app.get_blocks().process_api(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hvusynh2/conda_envs/medsam2_anno/lib/python3.12/site-packages/gradio/blocks.py", line 2293, in process_api
+    data = await self.postprocess_data(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hvusynh2/conda_envs/medsam2_anno/lib/python3.12/site-packages/gradio/blocks.py", line 1973, in postprocess_data
+    self.validate_outputs(block_fn, predictions)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hvusynh2/conda_envs/medsam2_anno/lib/python3.12/site-packages/gradio/blocks.py", line 1926, in validate_outputs
+    raise ValueError(
+ValueError: A  function (on_save) didn't return enough output values (needed: 3, returned: 2).
+    Output components:
+        [imageeditor, markdown, state]
+    Output values returned:
+        ["### 30/50 — ⬜ chưa
+`SS22-17247^2022_03_24_10_01_53^^`
+
+**Kích u (Excel, sanity-check — KHÔNG phải vị trí):** 8.7x7.0  |  n_mass≈1
+
+Đã lưu: **29/50**
+
+➡️ Tô **TẤT CẢ** vùng u (nhiều mảnh thì tô hết). Vẽ tự do, KHÔNG nhìn gợi ý máy.
+
+⚠️ **Chưa vẽ gì** — tô vùng u rồi Lưu, hoặc bấm Skip.", 29]
+/home/hvusynh2/conda_envs/medsam2_anno/lib/python3.12/site-packages/gradio/routes.py:1379: StarletteDeprecationWarning: 'HTTP_422_UNPROCESSABLE_ENTITY' is deprecated. Use 'HTTP_422_UNPROCESSABLE_CONTENT' instead.
+  return await queue_join_helper(body, request, username)
+/home/hvusynh2/conda_envs/medsam2_anno/lib/python3.12/site-packages/gradio/routes.py:1379: StarletteDeprecationWarning: 'HTTP_422_UNPROCESSABLE_ENTITY' is deprecated. Use 'HTTP_422_UNPROCESSABLE_CONTENT' instead.
+  return await queue_join_helper(body, request, username)
+/home/hvusynh2/conda_envs/medsam2_anno/lib/python3.12/site-packages/gradio/routes.py:1379: StarletteDeprecationWarning: 'HTTP_422_UNPROCESSABLE_ENTITY' is deprecated. Use 'HTTP_422_UNPROCESSABLE_CONTENT' instead.
+  return await queue_join_helper(body, request, username)
+Traceback (most recent call last):
+  File "/home/hvusynh2/conda_envs/medsam2_anno/lib/python3.12/site-packages/gradio/queueing.py", line 867, in process_events
+    response = await route_utils.call_process_api(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hvusynh2/conda_envs/medsam2_anno/lib/python3.12/site-packages/gradio/route_utils.py", line 386, in call_process_api
+    output = await app.get_blocks().process_api(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hvusynh2/conda_envs/medsam2_anno/lib/python3.12/site-packages/gradio/blocks.py", line 2293, in process_api
+    data = await self.postprocess_data(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hvusynh2/conda_envs/medsam2_anno/lib/python3.12/site-packages/gradio/blocks.py", line 1973, in postprocess_data
+    self.validate_outputs(block_fn, predictions)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hvusynh2/conda_envs/medsam2_anno/lib/python3.12/site-packages/gradio/blocks.py", line 1926, in validate_outputs
+    raise ValueError(
+ValueError: A  function (on_save) didn't return enough output values (needed: 3, returned: 2).
+    Output components:
+        [imageeditor, markdown, state]
+    Output values returned:
+        ["### 30/50 — ⬜ chưa
+`SS22-17247^2022_03_24_10_01_53^^`
+
+**Kích u (Excel, sanity-check — KHÔNG phải vị trí):** 8.7x7.0  |  n_mass≈1
+
+Đã lưu: **29/50**
+
+➡️ Tô **TẤT CẢ** vùng u (nhiều mảnh thì tô hết). Vẽ tự do, KHÔNG nhìn gợi ý máy.
+
+⚠️ **Chưa vẽ gì** — tô vùng u rồi Lưu, hoặc bấm Skip.", 29]
+/home/hvusynh2/conda_envs/medsam2_anno/lib/python3.12/site-packages/gradio/routes.py:1379: StarletteDeprecationWarning: 'HTTP_422_UNPROCESSABLE_ENTITY' is deprecated. Use 'HTTP_422_UNPROCESSABLE_CONTENT' instead.
+  return await queue_join_helper(body, request, username)
+/home/hvusynh2/conda_envs/medsam2_anno/lib/python3.12/site-packages/gradio/routes.py:1379: StarletteDeprecationWarning: 'HTTP_422_UNPROCESSABLE_ENTITY' is deprecated. Use 'HTTP_422_UNPROCESSABLE_CONTENT' instead.
+  return await queue_join_helper(body, request, username)
+/home/hvusynh2/conda_envs/medsam2_anno/lib/python3.12/site-packages/gradio/routes.py:1379: StarletteDeprecationWarning: 'HTTP_422_UNPROCESSABLE_ENTITY' is deprecated. Use 'HTTP_422_UNPROCESSABLE_CONTENT' instead.
+  return await queue_join_helper(body, request, username)
+/home/hvusynh2/conda_envs/medsam2_anno/lib/python3.12/site-packages/gradio/routes.py:1379: StarletteDeprecationWarning: 'HTTP_422_UNPROCESSABLE_ENTITY' is deprecated. Use 'HTTP_422_UNPROCESSABLE_CONTENT' instead.
+  return await queue_join_helper(body, request, username)
+/home/hvusynh2/conda_envs/medsam2_anno/lib/python3.12/site-packages/gradio/routes.py:1379: StarletteDeprecationWarning: 'HTTP_422_UNPROCESSABLE_ENTITY' is deprecated. Use 'HTTP_422_UNPROCESSABLE_CONTENT' instead.
+  return await queue_join_helper(body, request, username)
+/home/hvusynh2/conda_envs/medsam2_anno/lib/python3.12/site-packages/gradio/routes.py:1379: StarletteDeprecationWarning: 'HTTP_422_UNPROCESSABLE_ENTITY' is deprecated. Use 'HTTP_422_UNPROCESSABLE_CONTENT' instead.
+  return await queue_join_helper(body, request, username)
+/home/hvusynh2/conda_envs/medsam2_anno/lib/python3.12/site-packages/gradio/routes.py:1379: StarletteDeprecationWarning: 'HTTP_422_UNPROCESSABLE_ENTITY' is deprecated. Use 'HTTP_422_UNPROCESSABLE_CONTENT' instead.
+  return await queue_join_helper(body, request, username)
+/home/hvusynh2/conda_envs/medsam2_anno/lib/python3.12/site-packages/gradio/routes.py:1379: StarletteDeprecationWarning: 'HTTP_422_UNPROCESSABLE_ENTITY' is deprecated. Use 'HTTP_422_UNPROCESSABLE_CONTENT' instead.
+  return await queue_join_helper(body, request, username)
+/home/hvusynh2/conda_envs/medsam2_anno/lib/python3.12/site-packages/gradio/routes.py:1379: StarletteDeprecationWarning: 'HTTP_422_UNPROCESSABLE_ENTITY' is deprecated. Use 'HTTP_422_UNPROCESSABLE_CONTENT' instead.
+  return await queue_join_helper(body, request, username)
+/home/hvusynh2/conda_envs/medsam2_anno/lib/python3.12/site-packages/gradio/routes.py:1379: StarletteDeprecationWarning: 'HTTP_422_UNPROCESSABLE_ENTITY' is deprecated. Use 'HTTP_422_UNPROCESSABLE_CONTENT' instead.
+  return await queue_join_helper(body, request, username)
+/home/hvusynh2/conda_envs/medsam2_anno/lib/python3.12/site-packages/gradio/routes.py:1379: StarletteDeprecationWarning: 'HTTP_422_UNPROCESSABLE_ENTITY' is deprecated. Use 'HTTP_422_UNPROCESSABLE_CONTENT' instead.
+  return await queue_join_helper(body, request, username)
+/home/hvusynh2/conda_envs/medsam2_anno/lib/python3.12/site-packages/gradio/routes.py:1379: StarletteDeprecationWarning: 'HTTP_422_UNPROCESSABLE_ENTITY' is deprecated. Use 'HTTP_422_UNPROCESSABLE_CONTENT' instead.
+  return await queue_join_helper(body, request, username)
+/home/hvusynh2/conda_envs/medsam2_anno/lib/python3.12/site-packages/gradio/routes.py:1379: StarletteDeprecationWarning: 'HTTP_422_UNPROCESSABLE_ENTITY' is deprecated. Use 'HTTP_422_UNPROCESSABLE_CONTENT' instead.
+  return await queue_join_helper(body, request, username)
+/home/hvusynh2/conda_envs/medsam2_anno/lib/python3.12/site-packages/gradio/routes.py:1379: StarletteDeprecationWarning: 'HTTP_422_UNPROCESSABLE_ENTITY' is deprecated. Use 'HTTP_422_UNPROCESSABLE_CONTENT' instead.
+  return await queue_join_helper(body, request, username)
+/home/hvusynh2/conda_envs/medsam2_anno/lib/python3.12/site-packages/gradio/routes.py:1379: StarletteDeprecationWarning: 'HTTP_422_UNPROCESSABLE_ENTITY' is deprecated. Use 'HTTP_422_UNPROCESSABLE_CONTENT' instead.
+  return await queue_join_helper(body, request, username)
+/home/hvusynh2/conda_envs/medsam2_anno/lib/python3.12/site-packages/gradio/routes.py:1379: StarletteDeprecationWarning: 'HTTP_422_UNPROCESSABLE_ENTITY' is deprecated. Use 'HTTP_422_UNPROCESSABLE_CONTENT' instead.
+  return await queue_join_helper(body, request, username)
+/home/hvusynh2/conda_envs/medsam2_anno/lib/python3.12/site-packages/gradio/routes.py:1379: StarletteDeprecationWarning: 'HTTP_422_UNPROCESSABLE_ENTITY' is deprecated. Use 'HTTP_422_UNPROCESSABLE_CONTENT' instead.
+  return await queue_join_helper(body, request, username)
+/home/hvusynh2/conda_envs/medsam2_anno/lib/python3.12/site-packages/gradio/routes.py:1379: StarletteDeprecationWarning: 'HTTP_422_UNPROCESSABLE_ENTITY' is deprecated. Use 'HTTP_422_UNPROCESSABLE_CONTENT' instead.
+  return await queue_join_helper(body, request, username)
+/home/hvusynh2/conda_envs/medsam2_anno/lib/python3.12/site-packages/gradio/routes.py:1379: StarletteDeprecationWarning: 'HTTP_422_UNPROCESSABLE_ENTITY' is deprecated. Use 'HTTP_422_UNPROCESSABLE_CONTENT' instead.
+  return await queue_join_helper(body, request, username)
+/home/hvusynh2/conda_envs/medsam2_anno/lib/python3.12/site-packages/gradio/routes.py:1379: StarletteDeprecationWarning: 'HTTP_422_UNPROCESSABLE_ENTITY' is deprecated. Use 'HTTP_422_UNPROCESSABLE_CONTENT' instead.
+  return await queue_join_helper(body, request, username)
+/home/hvusynh2/conda_envs/medsam2_anno/lib/python3.12/site-packages/gradio/routes.py:1379: StarletteDeprecationWarning: 'HTTP_422_UNPROCESSABLE_ENTITY' is deprecated. Use 'HTTP_422_UNPROCESSABLE_CONTENT' instead.
+  return await queue_join_helper(body, request, username)
+/home/hvusynh2/conda_envs/medsam2_anno/lib/python3.12/site-packages/gradio/routes.py:1379: StarletteDeprecationWarning: 'HTTP_422_UNPROCESSABLE_ENTITY' is deprecated. Use 'HTTP_422_UNPROCESSABLE_CONTENT' instead.
+  return await queue_join_helper(body, request, username)
+/home/hvusynh2/conda_envs/medsam2_anno/lib/python3.12/site-packages/gradio/routes.py:1379: StarletteDeprecationWarning: 'HTTP_422_UNPROCESSABLE_ENTITY' is deprecated. Use 'HTTP_422_UNPROCESSABLE_CONTENT' instead.
+  return await queue_join_helper(body, request, username)
+/home/hvusynh2/conda_envs/medsam2_anno/lib/python3.12/site-packages/gradio/routes.py:1379: StarletteDeprecationWarning: 'HTTP_422_UNPROCESSABLE_ENTITY' is deprecated. Use 'HTTP_422_UNPROCESSABLE_CONTENT' instead.
+  return await queue_join_helper(body, request, username)
+/home/hvusynh2/conda_envs/medsam2_anno/lib/python3.12/site-packages/gradio/routes.py:1379: StarletteDeprecationWarning: 'HTTP_422_UNPROCESSABLE_ENTITY' is deprecated. Use 'HTTP_422_UNPROCESSABLE_CONTENT' instead.
+  return await queue_join_helper(body, request, username)
+/home/hvusynh2/conda_envs/medsam2_anno/lib/python3.12/site-packages/gradio/routes.py:1379: StarletteDeprecationWarning: 'HTTP_422_UNPROCESSABLE_ENTITY' is deprecated. Use 'HTTP_422_UNPROCESSABLE_CONTENT' instead.
+  return await queue_join_helper(body, request, username)
+/home/hvusynh2/conda_envs/medsam2_anno/lib/python3.12/site-packages/gradio/routes.py:1379: StarletteDeprecationWarning: 'HTTP_422_UNPROCESSABLE_ENTITY' is deprecated. Use 'HTTP_422_UNPROCESSABLE_CONTENT' instead.
+  return await queue_join_helper(body, request, username)
+/home/hvusynh2/conda_envs/medsam2_anno/lib/python3.12/site-packages/gradio/routes.py:1379: StarletteDeprecationWarning: 'HTTP_422_UNPROCESSABLE_ENTITY' is deprecated. Use 'HTTP_422_UNPROCESSABLE_CONTENT' instead.
+  return await queue_join_helper(body, request, username)
+/home/hvusynh2/conda_envs/medsam2_anno/lib/python3.12/site-packages/gradio/routes.py:1379: StarletteDeprecationWarning: 'HTTP_422_UNPROCESSABLE_ENTITY' is deprecated. Use 'HTTP_422_UNPROCESSABLE_CONTENT' instead.
+  return await queue_join_helper(body, request, username)

@@ -1,0 +1,10 @@
+[supcon] trích patch từ 178 ảnh...
+[supcon] train=2531 (u=1916) val=284 (u=215)
+[ep 10] loss=5.6151 val_AUC(u/lành)=0.7428
+[ep 20] loss=5.4912 val_AUC(u/lành)=0.7589
+[ep 30] loss=5.1651 val_AUC(u/lành)=0.7554
+[ep 40] loss=5.0633 val_AUC(u/lành)=0.7637
+
+===== SUPCON: AUC phân biệt vân U/LÀNH = 0.7637 =====
+=> AUC cao (>0.9) = vân tách được (có hi vọng localize) | ~0.7 = tường xác nhận
+-> ckpt checkpoints/supcon.pt, AUC 0.7637

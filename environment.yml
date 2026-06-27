@@ -1,0 +1,16 @@
+name: medsam2-rcc-repro
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      - -r requirements.txt
+
+# Reproducibility note:
+# This environment file delegates exact package pins to requirements.txt, which
+# was exported from the working /home/hvusynh2/conda_envs/medsam2_anno env.
+# CUDA runtime/driver must be compatible with torch==2.5.1 in that lock file.

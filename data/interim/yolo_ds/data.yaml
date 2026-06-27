@@ -1,0 +1,5 @@
+path: /home/hvusynh2/nguyenduong/MedSAM2 a/MedSAM2/yolo_ds
+train: images/train
+val: images/val
+nc: 1
+names: ['tumor']

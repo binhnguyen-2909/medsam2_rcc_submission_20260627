@@ -1,0 +1,141 @@
+[split] seg train=166 val=12 (handdraw 50 HELD-OUT, 0 rò rỉ)
+Nạp feature train...
+Nạp feature val...
+Tham số head: 0.63M
+[ep 1] loss=1.1557 | val_dice=0.4487  *best
+[ep 2] loss=0.8980 | val_dice=0.4542  *best
+[ep 3] loss=0.8749 | val_dice=0.5027  *best
+[ep 4] loss=0.8248 | val_dice=0.5168  *best
+[ep 5] loss=0.8047 | val_dice=0.5205  *best
+[ep 6] loss=0.7848 | val_dice=0.5175
+[ep 7] loss=0.7540 | val_dice=0.5236  *best
+[ep 8] loss=0.7345 | val_dice=0.4893
+[ep 9] loss=0.7148 | val_dice=0.5273  *best
+[ep 10] loss=0.6999 | val_dice=0.4990
+[ep 11] loss=0.7041 | val_dice=0.5371  *best
+[ep 12] loss=0.6694 | val_dice=0.5233
+[ep 13] loss=0.6417 | val_dice=0.5234
+[ep 14] loss=0.6411 | val_dice=0.5379  *best
+[ep 15] loss=0.6219 | val_dice=0.4910
+[ep 16] loss=0.5965 | val_dice=0.5309
+[ep 17] loss=0.5769 | val_dice=0.5050
+[ep 18] loss=0.5668 | val_dice=0.5330
+[ep 19] loss=0.5585 | val_dice=0.5105
+[ep 20] loss=0.5328 | val_dice=0.5190
+[ep 21] loss=0.5361 | val_dice=0.5062
+[ep 22] loss=0.4990 | val_dice=0.5189
+[ep 23] loss=0.4922 | val_dice=0.5421  *best
+[ep 24] loss=0.4612 | val_dice=0.5150
+[ep 25] loss=0.4506 | val_dice=0.5191
+[ep 26] loss=0.4293 | val_dice=0.4611
+[ep 27] loss=0.4347 | val_dice=0.5148
+[ep 28] loss=0.3970 | val_dice=0.5260
+[ep 29] loss=0.3934 | val_dice=0.5047
+[ep 30] loss=0.4011 | val_dice=0.5070
+[ep 31] loss=0.3621 | val_dice=0.4815
+[ep 32] loss=0.3592 | val_dice=0.5235
+[ep 33] loss=0.3490 | val_dice=0.4794
+[ep 34] loss=0.3325 | val_dice=0.5041
+[ep 35] loss=0.3265 | val_dice=0.5003
+[ep 36] loss=0.3096 | val_dice=0.5133
+[ep 37] loss=0.3071 | val_dice=0.4643
+[ep 38] loss=0.2811 | val_dice=0.4948
+[ep 39] loss=0.2705 | val_dice=0.4943
+[ep 40] loss=0.2682 | val_dice=0.4703
+[ep 41] loss=0.2633 | val_dice=0.4934
+[ep 42] loss=0.2470 | val_dice=0.4459
+[ep 43] loss=0.2563 | val_dice=0.4724
+[ep 44] loss=0.2528 | val_dice=0.5149
+[ep 45] loss=0.2409 | val_dice=0.4851
+[ep 46] loss=0.2386 | val_dice=0.4577
+[ep 47] loss=0.2328 | val_dice=0.4857
+[ep 48] loss=0.2234 | val_dice=0.4337
+[ep 49] loss=0.2117 | val_dice=0.4480
+[ep 50] loss=0.1991 | val_dice=0.4710
+[ep 51] loss=0.2111 | val_dice=0.4136
+[ep 52] loss=0.1951 | val_dice=0.4581
+[ep 53] loss=0.2032 | val_dice=0.4893
+[ep 54] loss=0.2029 | val_dice=0.4414
+[ep 55] loss=0.1960 | val_dice=0.4522
+[ep 56] loss=0.1882 | val_dice=0.4153
+[ep 57] loss=0.1919 | val_dice=0.4495
+[ep 58] loss=0.1807 | val_dice=0.4534
+[ep 59] loss=0.1768 | val_dice=0.4687
+[ep 60] loss=0.1691 | val_dice=0.4397
+[ep 61] loss=0.1657 | val_dice=0.4533
+[ep 62] loss=0.1646 | val_dice=0.4574
+[ep 63] loss=0.1615 | val_dice=0.4269
+[ep 64] loss=0.1608 | val_dice=0.4261
+[ep 65] loss=0.1597 | val_dice=0.4345
+[ep 66] loss=0.1582 | val_dice=0.4584
+[ep 67] loss=0.1554 | val_dice=0.4750
+[ep 68] loss=0.1457 | val_dice=0.4568
+[ep 69] loss=0.1440 | val_dice=0.4228
+[ep 70] loss=0.1467 | val_dice=0.4486
+[ep 71] loss=0.1391 | val_dice=0.4505
+[ep 72] loss=0.1411 | val_dice=0.4891
+[ep 73] loss=0.1913 | val_dice=0.4557
+[ep 74] loss=0.1658 | val_dice=0.4822
+[ep 75] loss=0.1507 | val_dice=0.4562
+[ep 76] loss=0.1460 | val_dice=0.4441
+[ep 77] loss=0.1242 | val_dice=0.3857
+[ep 78] loss=0.1490 | val_dice=0.4054
+[ep 79] loss=0.1473 | val_dice=0.4188
+[ep 80] loss=0.1338 | val_dice=0.4571
+
+Train xong. best val=0.5421 -> checkpoints/seg_sam_large.pt
+  SS22-02205^2022_01_12_09   n=3 seg=0.668
+  SS21-42826^2021_07_09_08   n=1 seg=0.882
+  SS21-58881^2021_09_16_09   n=1 seg=0.418
+  SS22-49889^2022_08_09_08   n=3 seg=0.609
+  SS22-23641^2022_04_22_08   n=2 seg=0.294
+  SS23-61141^2023_09_13_08   n=2 seg=0.561
+  SS22-45604^2022_07_22_08   n=2 seg=0.830
+  SS21-42835^2021_07_09_08   n=3 seg=0.385
+  SS21-34765^2021_06_04_16   n=4 seg=0.560
+  SS21-53209^2021_08_24_11   n=2 seg=0.681
+  SS23-12955^2023_02_23_10   n=1 seg=0.422
+  SS23-45516^2023_07_12_13   n=1 seg=0.868
+  SS21-58163^2021_09_15_14   n=4 seg=0.493
+  SS23-49481^2023_07_27_11   n=3 seg=0.363
+  SS23-18116^2023_03_21_14   n=3 seg=0.707
+  SS21-37627^2021_06_17_14   n=1 seg=0.831
+  SS22-38394^2022_06_24_08   n=1 seg=0.847
+  SS22-29126^2022_05_16_14   n=1 seg=0.049
+  SS22-04076^2022_01_19_13   n=2 seg=0.838
+  SS22-55042^2022_08_30_13   n=2 seg=0.445
+  SS23-04505^2023_01_19_10   n=1 seg=0.911
+  SS23-18073^2023_03_21_08   n=4 seg=0.514
+  SS23-12958^2023_02_23_09   n=2 seg=0.207
+  SS22-41080^2022_07_06_08   n=3 seg=0.804
+  SS23-19048^2023_03_23_14   n=4 seg=0.605
+  SS22-49101^2022_08_04_11   n=5 seg=0.593
+  SS21-60615^2021_09_29_08   n=3 seg=0.815
+  SS21-60938^2021_09_30_08   n=2 seg=0.022
+  SS21-34765^2021_06_07_07   n=4 seg=0.641
+  SS22-17247^2022_03_24_10   n=1 seg=0.106
+  SS22-49101^2022_08_04_11   n=6 seg=0.532
+  SS21-35913^2021_06_11_07   n=3 seg=0.561
+  SS23-21408^2023_04_03_13   n=4 seg=0.277
+  SS23-32996^2023_05_24_09   n=2 seg=0.847
+  SS22-41080^2022_07_06_09   n=6 seg=0.816
+  SS23-18116^2023_03_22_08   n=2 seg=0.690
+  SS21-39246^2021_06_25_08   n=1 seg=0.946
+  SS21-43481^2021_07_14_07   n=2 seg=0.359
+  SS23-23412^2023_04_11_09   n=1 seg=0.633
+  SS22-05400^2022_01_25_09   n=1 seg=0.612
+  SS21-38745^2021_06_22_15   n=1 seg=0.927
+  SS22-43857^2022_07_15_10   n=3 seg=0.734
+  SS21-42051^2021_07_07_08   n=1 seg=0.853
+  SS21-39090^2021_06_24_08   n=1 seg=0.893
+  SS21-37297^2021_06_17_08   n=1 seg=0.583
+  SS21-37293^2021_06_16_14   n=1 seg=0.879
+  SS21-35590^2021_06_09_10   n=2 seg=0.897
+  SS21-35425^2021_06_09_08   n=1 seg=0.837
+  SS21-41214^2021_07_05_07   n=2 seg=0.533
+  SS21-35590^2021_06_10_07   n=2 seg=0.815
+
+===== SEGMENTER (SAM-feat + head) trên 50 vẽ tay =====
+seg median=0.6371 mean=0.6239 (n=50) | 1u=0.842 (n=18) >1u=0.599 (n=32)
+backbone=sam2.1_hiera_large.pt  cache=cache_feats_large
+SO: seg-tiny=0.624 | full-auto(box+SAM)=0.666 | ceiling=0.857 | nhãn SAM cũ=0.554

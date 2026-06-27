@@ -1,0 +1,22 @@
+[10:24:02] ===== TRAIN amg-clf + anomaly-ae (song song) =====
+[10:35:50] train xong: checkpoints/amg_clf.pt
+checkpoints/anomaly_ae.pt
+[10:35:50] EVAL size
+[10:36:04] size xong
+[10:36:04] EVAL anomaly
+Dice median=0.0573 mean=0.1297 (n=50) | 1u=0.008(n18) >1u=0.119(n32)
+[10:36:47] anomaly xong
+[10:36:47] EVAL amg
+Dice median=0.3556 mean=0.3637 (n=50) | 1u=0.305(n18) >1u=0.357(n32)
+[10:54:26] amg xong
+[10:54:26] ===== XONG 3 HƯỚNG MỚI =====
+method           median     mean      1u     >1u
+iter             0.6397   0.5936   0.850   0.568
+detector         0.6347   0.5897   0.854   0.564
+refiner          0.6296   0.5900   0.855   0.564
+centerpoint      0.5992   0.5672   0.824   0.544
+grid             0.5046   0.5213   0.834   0.395
+slic             0.4946   0.5108   0.821   0.365
+amg              0.3556   0.3637   0.305   0.357
+anomaly          0.0573   0.1297   0.008   0.119
+SO: detector 0.635 | ceiling 0.883

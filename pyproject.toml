@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "medsam2-rcc-reproducible"
+version = "0.1.0"
+description = "Reproducible RCC gross-pathology tumor segmentation research package"
+requires-python = ">=3.12"
+
+[tool.setuptools]
+packages = ["src", "src.data", "src.model", "src.train", "src.evaluate", "src.inference", "src.utils"]

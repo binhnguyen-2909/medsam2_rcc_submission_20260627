@@ -1,0 +1,10 @@
+{
+ "n_train": 526,
+ "n_train_comp": 915,
+ "n_test": 24,
+ "zero_shot_dice": 0.9373,
+ "best_ft_dice": 0.9452,
+ "epochs": 40,
+ "beats_zero_shot": true,
+ "ckpt": "checkpoints/sam2.1_rcc_ft_e2e.pt"
+}

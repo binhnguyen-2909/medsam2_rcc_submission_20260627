@@ -1,0 +1,25 @@
+[refiner] train=295 val=23 frag
+[ep 1] loss=0.8206 val_giou≈0.8253  *best
+[ep 2] loss=0.4910 val_giou≈0.8587  *best
+[ep 4] loss=0.4861 val_giou≈0.8963  *best
+[ep 5] loss=0.4834 val_giou≈0.8937
+[ep 6] loss=0.4763 val_giou≈0.9038  *best
+[ep 7] loss=0.4834 val_giou≈0.9072  *best
+[ep 9] loss=0.4881 val_giou≈0.9431  *best
+[ep 10] loss=0.4995 val_giou≈0.8941
+[ep 15] loss=0.4828 val_giou≈0.9240
+[ep 20] loss=0.4656 val_giou≈0.9069
+[ep 25] loss=0.4650 val_giou≈0.9530  *best
+[ep 30] loss=0.4807 val_giou≈0.8670
+[ep 35] loss=0.4682 val_giou≈0.8953
+[ep 40] loss=0.4743 val_giou≈0.8926
+[ep 45] loss=0.4647 val_giou≈0.9257
+[ep 50] loss=0.4697 val_giou≈0.8761
+[ep 55] loss=0.4739 val_giou≈0.9026
+[ep 60] loss=0.4860 val_giou≈0.9118
+[ep 65] loss=0.4846 val_giou≈0.8981
+[ep 70] loss=0.4692 val_giou≈0.8981
+[ep 75] loss=0.4663 val_giou≈0.8977
+[ep 80] loss=0.4739 val_giou≈0.8976
+
+Refiner xong. best val giou≈0.9530 -> checkpoints/box_refiner.pt

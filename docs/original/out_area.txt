@@ -1,0 +1,17 @@
+Tổng nhãn: 55 | dùng được (có px/cm & Excel cm²): 28
+  bỏ vì thiếu px/cm: 27 | thiếu Excel cm²: 0
+
+Spearman(tumor_cm2 ↔ Excel mass_cm2) = 0.088  (n=28)
+  >0.5 = mask to/nhỏ ĐÚNG theo kích u thật -> tin được
+tỉ lệ tumor_cm2/Excel_cm2: med 2.03 (min 0.05, max 119.23)
+  ~0.5-1.0 hợp lý (mask 2D < diện tích từ caliper 3D).
+
+[soi lại] 15 ảnh mask LỚN bất thường (>1.8x Excel) — có thể còn dính mô lành:
+  SS21-39246^2021_06_25_08_31_34^^   tumor=268.3cm2 Excel=  2.2cm2 x119.2
+  SS21-37297^2021_06_17_08_30_20^^   tumor= 82.8cm2 Excel=  1.4cm2 x57.5
+  SS21-35913^2021_06_11_07_40_56^^   tumor=230.2cm2 Excel=  7.6cm2 x30.3
+  SS21-35913^2021_06_10_10_46_24^^   tumor=183.3cm2 Excel=  7.6cm2 x24.1
+  SS21-38576^2021_06_23_07_44_22^^   tumor= 72.9cm2 Excel=  7.6cm2 x9.6
+  SS21-41214^2021_07_05_07_36_15^^   tumor= 37.5cm2 Excel=  5.9cm2 x6.3
+  SS21-38576^2021_06_22_09_36_32^^   tumor= 33.2cm2 Excel=  7.6cm2 x4.4
+  SS21-43481^2021_07_14_07_51_58^^   tumor=146.7cm2 Excel= 37.0cm2 x4.0

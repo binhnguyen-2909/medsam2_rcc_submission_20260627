@@ -1,0 +1,58 @@
+  SS22-02205^2022_01_1   nbox 5->2 | base=0.626 merge=0.607 merge_d40=0.620
+  SS21-42826^2021_07_0   nbox 5->1 | base=0.887 merge=0.884 merge_d40=0.882
+  SS21-58881^2021_09_1   nbox 3->1 | base=0.384 merge=0.368 merge_d40=0.367
+  SS22-49889^2022_08_0   nbox 6->2 | base=0.638 merge=0.632 merge_d40=0.626
+  SS22-23641^2022_04_2   nbox 3->2 | base=0.448 merge=0.442 merge_d40=0.373
+  SS23-61141^2023_09_1   nbox 3->2 | base=0.790 merge=0.795 merge_d40=0.814
+  SS22-45604^2022_07_2   nbox 8->2 | base=0.672 merge=0.652 merge_d40=0.658
+  SS21-42835^2021_07_0   nbox 4->3 | base=0.168 merge=0.168 merge_d40=0.188
+  SS21-34765^2021_06_0   nbox 9->2 | base=0.484 merge=0.448 merge_d40=0.428
+  SS21-53209^2021_08_2   nbox 12->2 | base=0.789 merge=0.776 merge_d40=0.736
+  SS23-12955^2023_02_2   nbox 1->1 | base=0.853 merge=0.854 merge_d40=0.809
+  SS23-45516^2023_07_1   nbox 5->1 | base=0.856 merge=0.886 merge_d40=0.910
+  SS21-58163^2021_09_1   nbox 6->1 | base=0.331 merge=0.275 merge_d40=0.273
+  SS23-49481^2023_07_2   nbox 3->1 | base=0.280 merge=0.278 merge_d40=0.294
+  SS23-18116^2023_03_2   nbox 9->2 | base=0.871 merge=0.781 merge_d40=0.766
+  SS21-37627^2021_06_1   nbox 5->1 | base=0.814 merge=0.835 merge_d40=0.848
+  SS22-38394^2022_06_2   nbox 6->1 | base=0.703 merge=0.688 merge_d40=0.688
+  SS22-29126^2022_05_1   nbox 2->1 | base=0.028 merge=0.028 merge_d40=0.036
+  SS22-04076^2022_01_1   nbox 10->2 | base=0.633 merge=0.580 merge_d40=0.546
+  SS22-55042^2022_08_3   nbox 10->2 | base=0.385 merge=0.332 merge_d40=0.326
+  SS23-04505^2023_01_1   nbox 8->1 | base=0.943 merge=0.957 merge_d40=0.957
+  SS23-18073^2023_03_2   nbox 3->2 | base=0.656 merge=0.644 merge_d40=0.641
+  SS23-12958^2023_02_2   nbox 2->1 | base=0.238 merge=0.259 merge_d40=0.296
+  SS22-41080^2022_07_0   nbox 12->2 | base=0.803 merge=0.792 merge_d40=0.787
+  SS23-19048^2023_03_2   nbox 2->2 | base=0.278 merge=0.279 merge_d40=0.326
+  SS22-49101^2022_08_0   nbox 10->2 | base=0.514 merge=0.492 merge_d40=0.434
+  SS21-60615^2021_09_2   nbox 11->2 | base=0.693 merge=0.626 merge_d40=0.612
+  SS21-60938^2021_09_3   nbox 2->2 | base=0.228 merge=0.227 merge_d40=0.195
+  SS21-34765^2021_06_0   nbox 10->2 | base=0.480 merge=0.437 merge_d40=0.410
+  SS22-17247^2022_03_2   nbox 3->1 | base=0.391 merge=0.464 merge_d40=0.507
+  SS22-49101^2022_08_0   nbox 12->1 | base=0.374 merge=0.346 merge_d40=0.350
+  SS21-35913^2021_06_1   nbox 7->2 | base=0.486 merge=0.417 merge_d40=0.382
+  SS23-21408^2023_04_0   nbox 3->1 | base=0.253 merge=0.246 merge_d40=0.266
+  SS23-32996^2023_05_2   nbox 7->1 | base=0.636 merge=0.521 merge_d40=0.508
+  SS22-41080^2022_07_0   nbox 6->4 | base=0.615 merge=0.610 merge_d40=0.599
+  SS23-18116^2023_03_2   nbox 8->1 | base=0.704 merge=0.662 merge_d40=0.659
+  SS21-39246^2021_06_2   nbox 7->1 | base=0.940 merge=0.932 merge_d40=0.902
+  SS21-43481^2021_07_1   nbox 5->1 | base=0.364 merge=0.355 merge_d40=0.360
+  SS23-23412^2023_04_1   nbox 6->1 | base=0.480 merge=0.439 merge_d40=0.437
+  SS22-05400^2022_01_2   nbox 3->1 | base=0.426 merge=0.434 merge_d40=0.495
+  SS21-38745^2021_06_2   nbox 7->1 | base=0.939 merge=0.957 merge_d40=0.958
+  SS22-43857^2022_07_1   nbox 6->1 | base=0.643 merge=0.630 merge_d40=0.626
+  SS21-42051^2021_07_0   nbox 8->1 | base=0.855 merge=0.838 merge_d40=0.830
+  SS21-39090^2021_06_2   nbox 3->1 | base=0.854 merge=0.904 merge_d40=0.912
+  SS21-37297^2021_06_1   nbox 6->1 | base=0.572 merge=0.555 merge_d40=0.546
+  SS21-37293^2021_06_1   nbox 4->1 | base=0.874 merge=0.873 merge_d40=0.872
+  SS21-35590^2021_06_0   nbox 9->2 | base=0.770 merge=0.740 merge_d40=0.710
+  SS21-35425^2021_06_0   nbox 4->1 | base=0.875 merge=0.838 merge_d40=0.838
+  SS21-41214^2021_07_0   nbox 11->2 | base=0.184 merge=0.147 merge_d40=0.136
+  SS21-35590^2021_06_1   nbox 8->2 | base=0.777 merge=0.749 merge_d40=0.713
+
+===== GỘP BOX (blob) trên 50 vẽ tay =====
+#box trung vị: raw=6 -> merge=1 (mean 6.2->1.5)
+  base       median=0.6347 mean=0.5897 | 1u=0.854 >1u=0.564
+  merge      median=0.6084 mean=0.5735 | 1u=0.838 >1u=0.507
+  merge_d40  median=0.6056 mean=0.5690 | 1u=0.834 >1u=0.471
+SO: base = detector 0.635 | ceiling 0.883
+-> results/blob_merge.json

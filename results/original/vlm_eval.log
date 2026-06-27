@@ -1,0 +1,40 @@
+[gate 12:53] GPU 2405MB <4500, chờ
+[gate 12:54] GPU 2405MB <4500, chờ
+[gate 12:55] GPU 2405MB <4500, chờ
+[gate 12:56] GPU 2405MB <4500, chờ
+[gate 12:57] GPU 2405MB <4500, chờ
+[gate 12:58] GPU 2405MB <4500, chờ
+[gate 12:59] GPU 2405MB <4500, chờ
+[gate 13:00] GPU 2405MB <4500, chờ
+[gate 13:01] GPU 2405MB <4500, chờ
+[gate 13:02] GPU 2405MB <4500, chờ
+[gate 13:03] GPU 2405MB <4500, chờ
+[gate 13:04] GPU 2405MB <4500, chờ
+[gate 13:05] GPU 2405MB <4500, chờ
+[gate 13:06] GPU 2405MB <4500, chờ
+[gate 13:07] GPU 2405MB <4500, chờ
+[gate 13:08] GPU 2405MB <4500, chờ
+[gate 13:09] GPU 2405MB <4500, chờ
+[gate 13:10] GPU 2405MB <4500, chờ
+[gate 13:11] GPU 2405MB <4500, chờ
+[gate 13:12] GPU 2405MB <4500, chờ
+[gate 13:13] GPU 2405MB <4500, chờ
+[gate] GPU 11011MB -> chạy
+  SS21-42826   n=1 VLM=0.893 detector=0.887  (VLM+0.006)
+  SS22-49889   n=3 VLM=0.492 detector=0.638  (det+0.146)
+  SS23-12955   n=1 VLM=0.000 detector=0.853  (det+0.853)
+  SS22-23641   n=2 VLM=0.000 detector=0.448  (det+0.448)
+  SS21-34765   n=4 VLM=0.147 detector=0.480  (det+0.333)
+  SS22-02205   n=3 VLM=0.202 detector=0.626  (det+0.425)
+  SS23-61141   n=2 VLM=0.396 detector=0.790  (det+0.394)
+  SS22-45604   n=2 VLM=0.804 detector=0.672  (VLM+0.132)
+  SS21-58881   n=1 VLM=0.054 detector=0.384  (det+0.330)
+  SS21-53209   n=2 VLM=0.503 detector=0.789  (det+0.286)
+  SS21-42835   n=3 VLM=0.156 detector=0.168  (det+0.012)
+  SS23-45516   n=1 VLM=0.544 detector=0.856  (det+0.312)
+
+===== VLM-CRITIC vs DETECTOR (n=12 ca) =====
+VLM-box     median=0.2986 mean=0.3491
+detector    median=0.6549 mean=0.6325
+VLM thắng 2/12 ca
+-> results/vlm_critic.json

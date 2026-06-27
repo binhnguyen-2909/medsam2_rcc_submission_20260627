@@ -1,0 +1,15 @@
+Ảnh có nhãn u: 183
+Ô hợp lệ: 4826 | dương (>= 0.08): 2283 (47.3%)
+CV 5 fold, mỗi fold train 100 model rồi biểu quyết đa số...
+
+AUC mức ô (out-of-fold): 0.824
+
+=== Quét ngưỡng biểu quyết (CV theo bệnh nhân) ===
+VOTE_THR | %u trong box(tv) | phủ>=90% | chứa tâm | box/bp(tv) |  IoU(tv)
+     0.5 |            98.9% |    65.6% |    77.0% |      60.1% |    0.385
+     0.6 |            97.7% |    61.7% |    75.4% |      53.4% |    0.407
+     0.7 |            97.2% |    59.0% |    75.4% |      50.0% |    0.398
+     0.8 |            92.4% |    55.7% |    73.8% |      40.0% |    0.390
+     0.9 |            84.8% |    46.4% |    67.8% |      33.4% |    0.365
+
+-> models/cellbox_ensemble.pt (100 model, vote_thr=0.6)

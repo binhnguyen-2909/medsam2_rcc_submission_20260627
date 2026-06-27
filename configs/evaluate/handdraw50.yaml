@@ -1,0 +1,18 @@
+evaluation:
+  name: handdraw50_independent_eval
+  image_dir: data/raw/images
+  mask_dir: data/ground_truth/handdraw_eval_masks
+  select_file: data/manifests/handdraw_select.json
+  metrics:
+    - dice
+    - hd95
+  stratify_by:
+    - single_tumor
+    - multi_tumor
+baselines:
+  semi_auto_seg_crop_lab:
+    config: configs/model/seg_crop_lab.yaml
+    median_dice: 0.8834342375294867
+  full_auto_detector:
+    config: configs/model/full_auto_detector.yaml
+    median_dice: 0.6346997351358046

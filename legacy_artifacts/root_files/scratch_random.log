@@ -1,0 +1,19 @@
+pool=1008 -> mẫu ngẫu nhiên N=150 (seed 20260621)
+
+N=150 (box=bbox tách-mảnh, vs curated)
+Dice : median=0.961 mean=0.942
+  Dice p10: 0.851
+  Dice p25: 0.929
+  Dice p50: 0.961
+  Dice p75: 0.984
+  Dice p90: 0.995
+Dice <0.9: 24 | <0.8: 7 | <0.5: 0
+HD95 : median=30.5px mean=45.4px
+6 ca thấp nhất:
+  SS21-34460^2021_06_03_15_56_55^^ cc=3 Dice=0.649 HD95=69px
+  SS22-11842^2022_02_25_11_06_04^^ cc=1 Dice=0.692 HD95=173px
+  SS21-51759^2021_08_19_08_13_25^^ cc=5 Dice=0.765 HD95=160px
+  SS21-61385^2021_09_30_14_01_15^^ cc=6 Dice=0.768 HD95=336px
+  SS23-04472^2023_01_19_11_13_31^^ cc=3 Dice=0.773 HD95=139px
+  SS22-49247^2022_08_05_10_16_29^^ cc=3 Dice=0.777 HD95=247px
+-> results/eval_random150.csv

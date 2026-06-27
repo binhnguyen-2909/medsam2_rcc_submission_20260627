@@ -1,0 +1,8 @@
+
+===== CHẨN ĐOÁN LOCALIZE (50 vẽ tay, segmenter giống nhau) =====
+recall mảnh: median=1.000 mean=0.820  (1.0=phủ hết mảnh u)
+box thừa (FP)/ảnh: median=0.0 mean=0.46
+Dice full-auto (mọi detector box) : median=0.6347 mean=0.5897
+Dice bỏ-FP (chỉ box khớp GT)      : median=0.6372 mean=0.6132  <- FP hại bao nhiêu
+Dice recall-ceiling (GT-box frag detector phủ): median=0.8440 mean=0.7615  <- thiếu mảnh hại bao nhiêu
+Dice ceiling (mọi GT frag)        : 0.8834  <- trần

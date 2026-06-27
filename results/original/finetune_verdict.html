@@ -1,0 +1,96 @@
+<title>RCC box→mask: Zero-shot vs Fine-tune</title>
+<style>
+  :root{--bg:#0f1115;--card:#1a1d24;--ink:#e8eaed;--mut:#9aa0aa;--good:#34d399;--bad:#f87171;--line:#2a2e37;--accent:#60a5fa}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 -apple-system,Segoe UI,Roboto,sans-serif;padding:28px 18px}
+  .wrap{max-width:880px;margin:0 auto}
+  h1{font-size:25px;margin:0 0 4px}
+  .sub{color:var(--mut);margin:0 0 22px}
+  .verdict{background:linear-gradient(90deg,#16241c,#1a1d24);border:1px solid var(--good);border-radius:12px;padding:18px 20px;margin-bottom:22px}
+  .verdict b{color:var(--good)}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px 20px;margin-bottom:18px}
+  .big{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:22px}
+  .stat{flex:1;min-width:150px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px}
+  .stat .n{font-size:30px;font-weight:700}
+  .stat .l{color:var(--mut);font-size:13px}
+  .win{color:var(--good)} .lose{color:var(--bad)}
+  table{width:100%;border-collapse:collapse;font-size:14px}
+  th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line)}
+  th{color:var(--mut);font-weight:600}
+  .chartbox{overflow-x:auto}
+  svg{display:block;min-width:560px}
+  .note{color:var(--mut);font-size:13.5px}
+  .tag{display:inline-block;font-size:12px;padding:2px 8px;border-radius:20px;border:1px solid var(--line);color:var(--mut)}
+  h2{font-size:17px;margin:0 0 12px}
+  .rec li{margin:6px 0}
+</style>
+<div class="wrap">
+  <h1>RCC khối u — box→mask: Zero-shot thắng Fine-tune</h1>
+  <p class="sub">SAM2.1 (hiera-tiny @1024) · 43 ảnh train / 12 ảnh test · chia theo bệnh nhân, 0 rò rỉ</p>
+
+  <div class="verdict">
+    <b>Kết luận:</b> Fine-tune trên 43 ảnh <b style="color:var(--bad)">làm giảm</b> chất lượng.
+    Zero-shot đạt test Dice <b>0.958</b> và <b>không epoch nào vượt qua</b> — dùng thẳng zero-shot.
+  </div>
+
+  <div class="big">
+    <div class="stat"><div class="n win">0.958</div><div class="l">Test Dice — Zero-shot (epoch 0)</div></div>
+    <div class="stat"><div class="n lose">0.927</div><div class="l">Test Dice — sau 60 epoch</div></div>
+    <div class="stat"><div class="n">0.117→0.017</div><div class="l">Train loss (model thuộc lòng train)</div></div>
+  </div>
+
+  <div class="card">
+    <h2>Đường cong: học train càng kỹ, test càng tệ (overfit)</h2>
+    <div class="chartbox">
+      <svg width="820" height="300" viewBox="0 0 820 300" font-family="sans-serif">
+        <!-- axes -->
+        <line x1="60" y1="20" x2="60" y2="250" stroke="#2a2e37"/>
+        <line x1="60" y1="250" x2="780" y2="250" stroke="#2a2e37"/>
+        <!-- y labels (Dice 0.90..0.96) -->
+        <text x="52" y="28" fill="#9aa0aa" font-size="11" text-anchor="end">0.96</text>
+        <text x="52" y="135" fill="#9aa0aa" font-size="11" text-anchor="end">0.93</text>
+        <text x="52" y="246" fill="#9aa0aa" font-size="11" text-anchor="end">0.90</text>
+        <text x="36" y="140" fill="#9aa0aa" font-size="11" transform="rotate(-90 36 140)" text-anchor="middle">Test Dice</text>
+        <!-- x labels -->
+        <text x="60"  y="268" fill="#9aa0aa" font-size="11" text-anchor="middle">0</text>
+        <text x="420" y="268" fill="#9aa0aa" font-size="11" text-anchor="middle">30</text>
+        <text x="780" y="268" fill="#9aa0aa" font-size="11" text-anchor="middle">60 epoch</text>
+        <!-- zero-shot reference line at 0.958 -->
+        <!-- y = 250 - (dice-0.90)/0.06*230 ; x = 60 + ep/60*720 -->
+        <line x1="60" y1="27.7" x2="780" y2="27.7" stroke="#34d399" stroke-dasharray="5 4" opacity="0.7"/>
+        <text x="775" y="22" fill="#34d399" font-size="11" text-anchor="end">zero-shot 0.958</text>
+        <!-- fine-tune dice polyline (epochs 0,5,10..60) -->
+        <polyline fill="none" stroke="#f87171" stroke-width="2.5"
+          points="60,27.7 120,40.8 180,125.2 240,86.2 300,83.7 360,63.2 420,65.0 480,143.6 540,63.6 600,67.7 660,88.5 720,103.0 780,93.4"/>
+        <g fill="#f87171">
+          <circle cx="60" cy="27.7" r="3"/><circle cx="180" cy="125.2" r="3"/><circle cx="480" cy="143.6" r="3"/><circle cx="780" cy="93.4" r="3"/>
+        </g>
+      </svg>
+    </div>
+    <p class="note">Đỏ = test Dice của model fine-tune (đo mỗi 5 epoch). Luôn nằm dưới đường xanh zero-shot. Train loss đồng thời giảm còn 1/7 → bằng chứng overfit, không phải thiếu học.</p>
+  </div>
+
+  <div class="card">
+    <h2>Vì sao</h2>
+    <table>
+      <tr><th>Yếu tố</th><th>Ảnh hưởng</th></tr>
+      <tr><td>43 ảnh train</td><td>Quá ít để dạy lại một foundation model đã rất mạnh</td></tr>
+      <tr><td>Prior pretrained SAM2.1</td><td>Đã giỏi box→mask sẵn; fine-tune chỉ làm "quên"</td></tr>
+      <tr><td>Mask GT do SAM2.1 hỗ trợ tạo</td><td>Mục tiêu học ≈ chính output zero-shot → không có gì mới để học</td></tr>
+    </table>
+  </div>
+
+  <div class="card">
+    <h2>Lưu ý đọc số (quan trọng)</h2>
+    <p class="note">Dice đo với <b>box GT làm prompt</b>, mà mask GT lại do SAM2.1 hỗ trợ tạo lúc gán → con số tuyệt đối <b>0.958 bị thiên vị cao</b>. Nhưng <b>kết luận tương đối</b> (fine-tune không giúp, thậm chí hại) thì <b>vững</b>, không phụ thuộc thiên vị này.</p>
+  </div>
+
+  <div class="card rec">
+    <h2>Khuyến nghị</h2>
+    <ul>
+      <li><b>Giao model = SAM2.1 zero-shot box→mask</b> (checkpoint gốc <span class="tag">sam2.1_hiera_tiny.pt</span>), không fine-tune.</li>
+      <li>Nếu sau này muốn TỰ ĐỘNG hoá (bỏ bước vẽ box): cần dữ liệu lớn hơn nhiều + huấn luyện bộ <i>phát hiện</i> vị trí u — là dự án riêng.</li>
+      <li>Tập test 12 ảnh nên mở rộng + gán độc lập (không qua SAM) để có Dice khách quan.</li>
+    </ul>
+  </div>
+</div>

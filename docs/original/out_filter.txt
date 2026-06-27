@@ -1,0 +1,4 @@
+Ngưỡng cut_surface_score = 0.516  (phân vị 5% của 55 ảnh đã gán)
+Nhóm đã gán: min 0.34 / med 0.82 / max 1.28  -> giữ 52/55
+Toàn bộ: giữ 1128/1392 ảnh là MẶT-CẮT (81%), loại 264 (mặt-ngoài/nghi)
+-> processed/cut_surface_filter.csv ; results/cut_filter_montage.jpg

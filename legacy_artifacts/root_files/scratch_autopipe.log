@@ -1,0 +1,17 @@
+GPU 10063 -> run
+eval=200 ca / 158 bệnh nhân | proposer train trên 550 ca (đã loại eval)
+build_dataset train (proposer)...
+train 14553 ô -> train 100 model...
+build_dataset eval (features)...
+SAM zero-shot...
+SAM fine-tuned...
+
+===== PIPELINE TỰ ĐỘNG (auto-box held-out -> SAM) vs mask tay, N=200 =====
+Box localize: IoU(auto-box, GT-bbox) median=0.525 | box trượt hẳn (IoU<0.1): 27
+Zero-shot  Dice: median=0.5436 mean=0.5146
+Fine-tuned Dice: median=0.5968 mean=0.5436
+delta FT-ZS: mean=+0.0290 | FT thắng/thua=110/69
+  ảnh 1 u (n=115): ZS=0.717 FT=0.706
+  ảnh >1 u (n=85): ZS=0.412 FT=0.522
+-> results/autopipe_ft_vs_zs.csv
+DONE autopipe

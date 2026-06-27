@@ -1,0 +1,96 @@
+[gate 12:45] GPU 2343MB < 7000, chờ...
+[gate 12:46] GPU 2343MB < 7000, chờ...
+[gate 12:48] GPU 2405MB < 7000, chờ...
+[gate 12:49] GPU 2405MB < 7000, chờ...
+[gate 12:51] GPU 2405MB < 7000, chờ...
+[gate 12:52] GPU 2405MB < 7000, chờ...
+[gate 12:54] GPU 2405MB < 7000, chờ...
+[gate 12:55] GPU 2405MB < 7000, chờ...
+[gate 12:57] GPU 2405MB < 7000, chờ...
+[gate 12:58] GPU 2405MB < 7000, chờ...
+[gate 13:00] GPU 2405MB < 7000, chờ...
+[gate 13:01] GPU 2405MB < 7000, chờ...
+[gate 13:03] GPU 2405MB < 7000, chờ...
+[gate 13:04] GPU 2405MB < 7000, chờ...
+[gate 13:06] GPU 2405MB < 7000, chờ...
+[gate 13:07] GPU 2405MB < 7000, chờ...
+[gate 13:09] GPU 2405MB < 7000, chờ...
+[gate 13:10] GPU 2405MB < 7000, chờ...
+[gate 13:12] GPU 2405MB < 7000, chờ...
+[gate 13:13] GPU 2405MB < 7000, chờ...
+[gate] GPU free=11011MB -> chạy M2F
+[m2f] train=512 val=30 (lab,6ch) Q=20
+[m2f] params=3.04M
+[ep 1] loss=1.3231 handdraw_fullauto=0.4121  *best
+[ep 5] loss=1.0095 handdraw_fullauto=0.4045
+[ep 10] loss=0.9557 handdraw_fullauto=0.4784  *best
+[ep 15] loss=0.9186 handdraw_fullauto=0.5151  *best
+[ep 20] loss=0.8876 handdraw_fullauto=0.4973
+[ep 25] loss=0.8812 handdraw_fullauto=0.5072
+[ep 30] loss=0.8719 handdraw_fullauto=0.5365  *best
+[ep 35] loss=0.8435 handdraw_fullauto=0.5430  *best
+[ep 40] loss=0.8266 handdraw_fullauto=0.5119
+[ep 45] loss=0.8318 handdraw_fullauto=0.5160
+[ep 50] loss=0.8105 handdraw_fullauto=0.5067
+[ep 55] loss=0.7933 handdraw_fullauto=0.5301
+[ep 60] loss=0.7995 handdraw_fullauto=0.5096
+[ep 65] loss=0.7812 handdraw_fullauto=0.5145
+[ep 70] loss=0.7581 handdraw_fullauto=0.5078
+[ep 75] loss=0.7547 handdraw_fullauto=0.5281
+[ep 80] loss=0.7636 handdraw_fullauto=0.5219
+
+Train xong. best handdraw full-auto=0.5430 -> checkpoints/mask2former_lite.pt
+  SS22-02205^2022_01_1   n=2 dice=0.407
+  SS21-42826^2021_07_0   n=1 dice=0.882
+  SS21-58881^2021_09_1   n=1 dice=0.068
+  SS22-49889^2022_08_0   n=3 dice=0.547
+  SS22-23641^2022_04_2   n=2 dice=0.088
+  SS23-61141^2023_09_1   n=2 dice=0.119
+  SS22-45604^2022_07_2   n=2 dice=0.806
+  SS21-42835^2021_07_0   n=3 dice=0.543
+  SS21-34765^2021_06_0   n=4 dice=0.451
+  SS21-53209^2021_08_2   n=2 dice=0.608
+  SS23-12955^2023_02_2   n=1 dice=0.306
+  SS23-45516^2023_07_1   n=1 dice=0.854
+  SS21-58163^2021_09_1   n=4 dice=0.378
+  SS23-49481^2023_07_2   n=3 dice=0.231
+  SS23-18116^2023_03_2   n=3 dice=0.769
+  SS21-37627^2021_06_1   n=1 dice=0.810
+  SS22-38394^2022_06_2   n=1 dice=0.768
+  SS22-29126^2022_05_1   n=1 dice=0.048
+  SS22-04076^2022_01_1   n=2 dice=0.543
+  SS22-55042^2022_08_3   n=2 dice=0.028
+  SS23-04505^2023_01_1   n=1 dice=0.950
+  SS23-18073^2023_03_2   n=3 dice=0.724
+  SS23-12958^2023_02_2   n=2 dice=0.363
+  SS22-41080^2022_07_0   n=3 dice=0.758
+  SS23-19048^2023_03_2   n=4 dice=0.566
+  SS22-49101^2022_08_0   n=5 dice=0.487
+  SS21-60615^2021_09_2   n=3 dice=0.796
+  SS21-60938^2021_09_3   n=2 dice=0.252
+  SS21-34765^2021_06_0   n=4 dice=0.481
+  SS22-17247^2022_03_2   n=1 dice=0.383
+  SS22-49101^2022_08_0   n=6 dice=0.236
+  SS21-35913^2021_06_1   n=3 dice=0.258
+  SS23-21408^2023_04_0   n=4 dice=0.498
+  SS23-32996^2023_05_2   n=2 dice=0.766
+  SS22-41080^2022_07_0   n=6 dice=0.703
+  SS23-18116^2023_03_2   n=2 dice=0.605
+  SS21-39246^2021_06_2   n=1 dice=0.944
+  SS21-43481^2021_07_1   n=2 dice=0.293
+  SS23-23412^2023_04_1   n=1 dice=0.380
+  SS22-05400^2022_01_2   n=1 dice=0.494
+  SS21-38745^2021_06_2   n=1 dice=0.934
+  SS22-43857^2022_07_1   n=3 dice=0.647
+  SS21-42051^2021_07_0   n=1 dice=0.853
+  SS21-39090^2021_06_2   n=1 dice=0.846
+  SS21-37297^2021_06_1   n=1 dice=0.569
+  SS21-37293^2021_06_1   n=1 dice=0.872
+  SS21-35590^2021_06_0   n=2 dice=0.192
+  SS21-35425^2021_06_0   n=1 dice=0.837
+  SS21-41214^2021_07_0   n=2 dice=0.323
+  SS21-35590^2021_06_1   n=2 dice=0.162
+
+===== MASK2FORMER-LITE full-auto trên 50 vẽ tay =====
+Dice median=0.5430 mean=0.5285 | 1u=0.823 >1u=0.484
+SO: full-auto detector+seg 0.635 | nhãn SAM cũ 0.554 | semi-auto 0.883

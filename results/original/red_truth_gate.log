@@ -1,0 +1,6 @@
+[gate] chờ GPU 07:34
+[gate] GPU 3039MiB -> chạy 07:34
+[step] eval ZS baseline 07:34
+[step] train đỏ 07:36
+[step] eval FT 08:01
+[gate] XONG 08:03

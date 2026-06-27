@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+
+# Generated caches and run outputs.
+cache_feats/
+experiments/runs/*/checkpoints/*.pt
+experiments/runs/*/predictions/
+experiments/runs/*/logs/*.log
+
+# Keep templates.
+!experiments/_templates/

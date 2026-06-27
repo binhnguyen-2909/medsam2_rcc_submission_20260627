@@ -1,0 +1,3 @@
+loaded checkpoints/seg_crop_segR_lab.pt lab
+VERIFY deliverable v2 (SegResNet+LAB, box GT-mảnh) N=50: median=0.8834 mean=0.8682 | 1u=0.890(n18) >1u=0.880(n32)
+SO: SAM(GT-box)=0.857 | seg_crop eval gốc segR_lab ceiling=0.883

@@ -1,0 +1,19 @@
+detector epoch=40 val_dice(train-time)=0.6739@thr0.5
+Quét objectness-thr trên val...
+  thr=0.3: val Dice median=0.5600 | box/ảnh tv=13
+  thr=0.4: val Dice median=0.5870 | box/ảnh tv=10
+  thr=0.5: val Dice median=0.6963 | box/ảnh tv=6
+  thr=0.6: val Dice median=0.5843 | box/ảnh tv=5
+  thr=0.7: val Dice median=0.5150 | box/ảnh tv=2
+-> chọn thr=0.5
+Eval eval200 (N=200) thr=0.5...
+
+===== DETECTOR DENSE end-to-end, N=200, thr=0.5 =====
+box/ảnh trung vị=7 | tìm >=1 box: 200/200
+Detector  Dice median=0.5697 mean=0.5456
+Cellbox(cũ,ZS) Dice median=0.5505 mean=0.5244
+  1 u  (n=115): DENSE=0.557 | cũ=0.702
+  >1 u (n=85): DENSE=0.576 | cũ=0.426
+DENSE thắng cellbox: 99/200  delta median=+0.0000
+-> results/detector_e2e.csv
+-> results/detector_montage.png (3403, 2096, 3)

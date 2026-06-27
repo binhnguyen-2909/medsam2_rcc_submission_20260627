@@ -1,0 +1,33 @@
+[09:12:57] ===== PHASE 1: TRAIN SONG SONG (refiner + slic + grid) =====
+PIDs refiner=3946092 slic=3946093 grid=3946094 — chờ cả 3...
+[09:52:47] PHASE 1 xong. ckpt:
+checkpoints/box_refiner.pt
+checkpoints/grid_clf.pt
+checkpoints/slic_clf.pt
+[09:52:47] ===== PHASE 2: YOLOv11 =====
+ultralytics 8.4.78
+[11:21:25] YOLO xong. best: KHÔNG có
+[11:21:25] ===== PHASE 3: EVAL (song song 2 luồng) =====
+[11:21:25] EVAL slic
+[11:21:25] EVAL refiner
+[11:22:44] EVAL refiner xong
+[11:32:59] EVAL slic xong
+[11:32:59] EVAL yolo
+[11:32:59] EVAL grid
+[11:33:53] EVAL yolo xong
+[11:33:55] EVAL grid xong
+[gdino] bỏ qua (chưa cài)
+[11:33:55] ===== XONG =====
+=== BẢNG TỔNG HỢP ===
+method           median     mean      1u     >1u
+iter             0.6397   0.5936   0.850   0.568
+detector         0.6347   0.5897   0.854   0.564
+size             0.6347   0.5930   0.854   0.570
+refiner          0.6296   0.5900   0.855   0.564
+centerpoint      0.5992   0.5672   0.824   0.544
+yolo             0.5606   0.5088   0.831   0.473
+grid             0.5046   0.5213   0.834   0.395
+slic             0.4946   0.5108   0.821   0.365
+amg              0.3556   0.3637   0.305   0.357
+anomaly          0.0573   0.1297   0.008   0.119
+SO: full-auto detector 0.635 | ceiling box-GT 0.883 | nhãn SAM cũ 0.554

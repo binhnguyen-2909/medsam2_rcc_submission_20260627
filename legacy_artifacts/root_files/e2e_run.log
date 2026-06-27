@@ -1,0 +1,72 @@
+[2026-06-23 13:55:09] chờ GPU >= 5000 MiB (ổn định 2 lần)...
+[13:55:09] free=10063 (lần 1/2)
+[13:55:29] free=10063 (lần 2/2)
+[13:55:29] đủ GPU -> CHẠY pipeline
+[split] eval200=200 | train(SAM)=526 | val_sel=24 | proposer_train(remaining)=550 | 0 rò rỉ bệnh nhân eval
+[2] finetune SAM held-out (batch 128, precompute 32)...
+Train 526 ảnh | Test 24 ảnh
+Nạp SAM2.1@1024 trên cuda ...
+Số tham số train: 4.22M
+Trích đặc trưng encoder cho train (BATCH GPU=8, workers=16)...
+Mẫu train (cụm u): 915
+Nhóm kích thước: [((1824, 2736), 895), ((2736, 1824), 20)] | batch=32
+[epoch 0] zero-shot test Dice = 0.9373
+[epoch 1] train_loss=0.1015
+[epoch 2] train_loss=0.0871 | test Dice=0.9376  *best-FT -> lưu
+[epoch 3] train_loss=0.0827
+[epoch 4] train_loss=0.0797 | test Dice=0.9452  *best-FT -> lưu
+[epoch 5] train_loss=0.0788
+[epoch 6] train_loss=0.0783 | test Dice=0.9443
+[epoch 7] train_loss=0.0748
+[epoch 8] train_loss=0.0744 | test Dice=0.9376
+[epoch 9] train_loss=0.0711
+[epoch 10] train_loss=0.0692 | test Dice=0.9389
+[epoch 11] train_loss=0.0691
+[epoch 12] train_loss=0.0683 | test Dice=0.9390
+[epoch 13] train_loss=0.0744
+[epoch 14] train_loss=0.0678 | test Dice=0.9370
+[epoch 15] train_loss=0.0649
+[epoch 16] train_loss=0.0642 | test Dice=0.9385
+[epoch 17] train_loss=0.0602
+[epoch 18] train_loss=0.0626 | test Dice=0.9387
+[epoch 19] train_loss=0.0580
+[epoch 20] train_loss=0.0598 | test Dice=0.9375
+[epoch 21] train_loss=0.0584
+[epoch 22] train_loss=0.0578 | test Dice=0.9404
+[epoch 23] train_loss=0.0602
+[epoch 24] train_loss=0.0549 | test Dice=0.9334
+[epoch 25] train_loss=0.0547
+[epoch 26] train_loss=0.0559 | test Dice=0.9387
+[epoch 27] train_loss=0.0547
+[epoch 28] train_loss=0.0521 | test Dice=0.9368
+[epoch 29] train_loss=0.0532
+[epoch 30] train_loss=0.0525 | test Dice=0.9367
+[epoch 31] train_loss=0.0507
+[epoch 32] train_loss=0.0519 | test Dice=0.9312
+[epoch 33] train_loss=0.0506
+[epoch 34] train_loss=0.0504 | test Dice=0.9337
+[epoch 35] train_loss=0.0487
+[epoch 36] train_loss=0.0493 | test Dice=0.9303
+[epoch 37] train_loss=0.0483
+[epoch 38] train_loss=0.0476 | test Dice=0.9348
+[epoch 39] train_loss=0.0468
+[epoch 40] train_loss=0.0456 | test Dice=0.9302
+
+Xong. zero-shot Dice=0.9373 | BEST fine-tuned Dice=0.9452 (VƯỢT zero-shot)
+Checkpoint LƯU: checkpoints/sam2.1_rcc_ft_e2e.pt (epoch test-Dice cao nhất) | log: /home/hvusynh2/nguyenduong/MedSAM2 a/MedSAM2/results/finetune_log.csv
+[3] build_dataset proposer-train (held-out)...
+   14553 ô -> train 100 model
+[4] build_dataset eval200 (features) + propose multi-box...
+[5] SAM zero-shot...
+[5] SAM fine-tuned(e2e)...
+
+===== END-TO-END (auto multi-box -> SAM -> vs mask tay), N=200 =====
+auto-box tìm thấy >=1 box: 200/200 | tổng box trung vị/ảnh: 1
+Zero-shot  Dice median=0.5505 mean=0.5244
+Fine-tuned Dice median=0.5767 mean=0.5489
+delta FT-ZS mean=+0.0245 | FT thắng/thua=105/84
+  1 u  (n=115): ZS=0.702 FT=0.637
+  >1 u (n=85): ZS=0.426 FT=0.486
+-> results/e2e_ft_vs_zs.csv
+-> results/e2e_montage.png (4699, 2088, 3)
+[2026-06-23 15:22:52] DONE e2e_pipeline (exit 0)

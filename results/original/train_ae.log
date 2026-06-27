@@ -1,0 +1,7 @@
+[ae] trích patch MÔ LÀNH từ 178 ảnh...
+[ae] patch mô lành=1676
+[ep 10] recon_mse=0.0392
+[ep 20] recon_mse=0.0207
+[ep 30] recon_mse=0.0147
+[ep 40] recon_mse=0.0121
+[ae] -> checkpoints/anomaly_ae.pt

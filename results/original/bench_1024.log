@@ -1,0 +1,13 @@
+
+=== Nạp SAM2.1: checkpoints/sam2.1_hiera_tiny.pt (res=1024) ===
+  SS21-33569^2021_06_01_09 score=0.922 area=90674
+  SS21-34107^2021_06_03_09 score=0.941 area=396068
+  SS21-35590^2021_06_09_10 score=0.969 area=260095
+
+=== Nạp MedSAM2: checkpoints/MedSAM2_latest.pt (res=1024) ===
+  SS21-33569^2021_06_01_09 score=0.652 area=88775
+  SS21-34107^2021_06_03_09 score=0.773 area=436552
+  SS21-35590^2021_06_09_10 score=0.477 area=453047
+
+Grid -> results/backbone_benchmark_1024.png
+CSV  -> results/backbone_benchmark_1024.csv

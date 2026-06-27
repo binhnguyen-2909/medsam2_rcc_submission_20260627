@@ -1,0 +1,75 @@
+[ellipse-reg] train=295 val=23 frag (lab,6ch)
+[ep 1] loss=1.8909 val_ellDice=0.8241  *best
+[ep 5] loss=1.4753 val_ellDice=0.7923
+[ep 10] loss=1.4532 val_ellDice=0.8078
+[ep 15] loss=1.4284 val_ellDice=0.7878
+[ep 20] loss=1.3875 val_ellDice=0.8157
+[ep 25] loss=1.3580 val_ellDice=0.8067
+[ep 30] loss=1.3644 val_ellDice=0.7893
+[ep 35] loss=1.3128 val_ellDice=0.8256  *best
+[ep 40] loss=1.3812 val_ellDice=0.8069
+[ep 45] loss=1.3405 val_ellDice=0.8057
+[ep 50] loss=1.3856 val_ellDice=0.7989
+[ep 55] loss=1.3581 val_ellDice=0.8086
+[ep 60] loss=1.3799 val_ellDice=0.8072
+[ep 65] loss=1.3343 val_ellDice=0.8008
+[ep 70] loss=1.2994 val_ellDice=0.8053
+[ep 75] loss=1.3549 val_ellDice=0.8075
+[ep 80] loss=1.3673 val_ellDice=0.8057
+
+Train xong. best val=0.8256 -> checkpoints/ellipse_reg.pt
+  SS22-02205^2022_01_1   auto=0.597 ceil=0.800
+  SS21-42826^2021_07_0   auto=0.765 ceil=0.933
+  SS21-58881^2021_09_1   auto=0.328 ceil=0.791
+  SS22-49889^2022_08_0   auto=0.652 ceil=0.893
+  SS22-23641^2022_04_2   auto=0.503 ceil=0.917
+  SS23-61141^2023_09_1   auto=0.716 ceil=0.856
+  SS22-45604^2022_07_2   auto=0.631 ceil=0.866
+  SS21-42835^2021_07_0   auto=0.192 ceil=0.544
+  SS21-34765^2021_06_0   auto=0.474 ceil=0.886
+  SS21-53209^2021_08_2   auto=0.747 ceil=0.829
+  SS23-12955^2023_02_2   auto=0.860 ceil=0.889
+  SS23-45516^2023_07_1   auto=0.837 ceil=0.806
+  SS21-58163^2021_09_1   auto=0.367 ceil=0.855
+  SS23-49481^2023_07_2   auto=0.257 ceil=0.854
+  SS23-18116^2023_03_2   auto=0.804 ceil=0.858
+  SS21-37627^2021_06_1   auto=0.901 ceil=0.758
+  SS22-38394^2022_06_2   auto=0.560 ceil=0.678
+  SS22-29126^2022_05_1   auto=0.024 ceil=0.530
+  SS22-04076^2022_01_1   auto=0.631 ceil=0.863
+  SS22-55042^2022_08_3   auto=0.377 ceil=0.818
+  SS23-04505^2023_01_1   auto=0.747 ceil=0.890
+  SS23-18073^2023_03_2   auto=0.616 ceil=0.849
+  SS23-12958^2023_02_2   auto=0.229 ceil=0.817
+  SS22-41080^2022_07_0   auto=0.734 ceil=0.786
+  SS23-19048^2023_03_2   auto=0.272 ceil=0.842
+  SS22-49101^2022_08_0   auto=0.479 ceil=0.869
+  SS21-60615^2021_09_2   auto=0.690 ceil=0.806
+  SS21-60938^2021_09_3   auto=0.244 ceil=0.931
+  SS21-34765^2021_06_0   auto=0.453 ceil=0.882
+  SS22-17247^2022_03_2   auto=0.456 ceil=0.768
+  SS22-49101^2022_08_0   auto=0.367 ceil=0.849
+  SS21-35913^2021_06_1   auto=0.555 ceil=0.842
+  SS23-21408^2023_04_0   auto=0.231 ceil=0.867
+  SS23-32996^2023_05_2   auto=0.560 ceil=0.850
+  SS22-41080^2022_07_0   auto=0.610 ceil=0.844
+  SS23-18116^2023_03_2   auto=0.597 ceil=0.866
+  SS21-39246^2021_06_2   auto=0.655 ceil=0.940
+  SS21-43481^2021_07_1   auto=0.313 ceil=0.842
+  SS23-23412^2023_04_1   auto=0.478 ceil=0.822
+  SS22-05400^2022_01_2   auto=0.366 ceil=0.867
+  SS21-38745^2021_06_2   auto=0.734 ceil=0.906
+  SS22-43857^2022_07_1   auto=0.446 ceil=0.770
+  SS21-42051^2021_07_0   auto=0.619 ceil=0.919
+  SS21-39090^2021_06_2   auto=0.753 ceil=0.814
+  SS21-37297^2021_06_1   auto=0.390 ceil=0.866
+  SS21-37293^2021_06_1   auto=0.686 ceil=0.842
+  SS21-35590^2021_06_0   auto=0.846 ceil=0.833
+  SS21-35425^2021_06_0   auto=0.924 ceil=0.965
+  SS21-41214^2021_07_0   auto=0.201 ceil=0.909
+  SS21-35590^2021_06_1   auto=0.821 ceil=0.830
+
+===== ELLIPSE-REG trên 50 vẽ tay =====
+FULL-AUTO (box detector): median=0.5787 mean=0.5459 | 1u=0.670 >1u=0.529
+CEILING   (box GT-mảnh) : median=0.8498 mean=0.8381 | 1u=0.854 >1u=0.850
+SO: full-auto 0.635 | ceiling segmenter 0.883 | ellipse_of_GT 0.949

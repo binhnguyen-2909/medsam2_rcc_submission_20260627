@@ -1,0 +1,8 @@
+[amg-clf] dựng crops từ 178 ảnh...
+[amg-clf] crops=1201 pos=954 (79.4%)
+[ep 5] loss=0.0056
+[ep 10] loss=0.0191
+[ep 15] loss=0.0014
+[ep 20] loss=0.0005
+[ep 25] loss=0.0152
+[amg-clf] -> checkpoints/amg_clf.pt

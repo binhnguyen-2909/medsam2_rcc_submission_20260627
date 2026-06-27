@@ -1,0 +1,20 @@
+[ckpt=checkpoints/detector_maskloss.pt tag='_maskloss'] -> results/detector_e2e_maskloss.csv
+detector epoch=14 val_dice(train-time)=0.6863@thr0.5
+Quét objectness-thr trên val...
+  thr=0.3: val Dice median=0.5896 | box/ảnh tv=17
+  thr=0.4: val Dice median=0.6448 | box/ảnh tv=10
+  thr=0.5: val Dice median=0.6735 | box/ảnh tv=4
+  thr=0.6: val Dice median=0.6338 | box/ảnh tv=1
+  thr=0.7: val Dice median=0.4897 | box/ảnh tv=1
+-> chọn thr=0.5
+Eval eval200 (N=200) thr=0.5...
+
+===== DETECTOR DENSE end-to-end, N=200, thr=0.5 =====
+box/ảnh trung vị=5 | tìm >=1 box: 200/200
+Detector  Dice median=0.6359 mean=0.5903
+Cellbox(cũ,ZS) Dice median=0.5505 mean=0.5244
+  1 u  (n=115): DENSE=0.666 | cũ=0.702
+  >1 u (n=85): DENSE=0.601 | cũ=0.426
+DENSE thắng cellbox: 109/200  delta median=+0.0076
+-> results/detector_e2e_maskloss.csv
+-> results/detector_montage_maskloss.png (3079, 2096, 3)

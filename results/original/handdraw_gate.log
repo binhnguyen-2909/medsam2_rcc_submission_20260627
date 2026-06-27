@@ -1,0 +1,62 @@
+detector=checkpoints/detector_maskloss.pt ep14 | N=50
+  SS22-02205^2022_01_1 n_u=3 box.5=3 drop=0 | base@.5=0.72 gate@.5=0.72 gate@.35=0.56 gate@.25=0.47 gate@.15=0.47
+  SS21-42826^2021_07_0 n_u=1 box.5=5 drop=0 | base@.5=0.88 gate@.5=0.88 gate@.35=0.88 gate@.25=0.88 gate@.15=0.88
+  SS21-58881^2021_09_1 n_u=1 box.5=3 drop=0 | base@.5=0.50 gate@.5=0.50 gate@.35=0.40 gate@.25=0.30 gate@.15=0.25
+  SS22-49889^2022_08_0 n_u=3 box.5=6 drop=0 | base@.5=0.61 gate@.5=0.61 gate@.35=0.31 gate@.25=0.32 gate@.15=0.32
+  SS22-23641^2022_04_2 n_u=2 box.5=2 drop=0 | base@.5=0.27 gate@.5=0.27 gate@.35=0.15 gate@.25=0.08 gate@.15=0.08
+  SS23-61141^2023_09_1 n_u=2 box.5=2 drop=0 | base@.5=0.73 gate@.5=0.73 gate@.35=0.60 gate@.25=0.60 gate@.15=0.60
+  SS22-45604^2022_07_2 n_u=2 box.5=1 drop=0 | base@.5=0.59 gate@.5=0.59 gate@.35=0.58 gate@.25=0.77 gate@.15=0.77
+  SS21-42835^2021_07_0 n_u=3 box.5=2 drop=0 | base@.5=0.06 gate@.5=0.06 gate@.35=0.08 gate@.25=0.07 gate@.15=0.07
+  SS21-34765^2021_06_0 n_u=4 box.5=8 drop=0 | base@.5=0.62 gate@.5=0.62 gate@.35=0.51 gate@.25=0.49 gate@.15=0.49
+  SS21-53209^2021_08_2 n_u=2 box.5=11 drop=0 | base@.5=0.77 gate@.5=0.77 gate@.35=0.62 gate@.25=0.62 gate@.15=0.62
+  SS23-12955^2023_02_2 n_u=1 box.5=1 drop=0 | base@.5=0.29 gate@.5=0.29 gate@.35=0.28 gate@.25=0.15 gate@.15=0.14
+  SS23-45516^2023_07_1 n_u=1 box.5=6 drop=0 | base@.5=0.87 gate@.5=0.87 gate@.35=0.87 gate@.25=0.87 gate@.15=0.87
+  SS21-58163^2021_09_1 n_u=4 box.5=3 drop=0 | base@.5=0.35 gate@.5=0.35 gate@.35=0.20 gate@.25=0.17 gate@.15=0.17
+  SS23-49481^2023_07_2 n_u=3 box.5=2 drop=0 | base@.5=0.30 gate@.5=0.30 gate@.35=0.22 gate@.25=0.14 gate@.15=0.24
+  SS23-18116^2023_03_2 n_u=3 box.5=8 drop=0 | base@.5=0.83 gate@.5=0.83 gate@.35=0.65 gate@.25=0.65 gate@.15=0.65
+  SS21-37627^2021_06_1 n_u=1 box.5=4 drop=0 | base@.5=0.81 gate@.5=0.81 gate@.35=0.82 gate@.25=0.20 gate@.15=0.20
+  SS22-38394^2022_06_2 n_u=1 box.5=9 drop=0 | base@.5=0.49 gate@.5=0.49 gate@.35=0.37 gate@.25=0.36 gate@.15=0.36
+  SS22-29126^2022_05_1 n_u=1 box.5=1 drop=0 | base@.5=0.03 gate@.5=0.03 gate@.35=0.09 gate@.25=0.14 gate@.15=0.22
+  SS22-04076^2022_01_1 n_u=2 box.5=8 drop=0 | base@.5=0.49 gate@.5=0.49 gate@.35=0.41 gate@.25=0.41 gate@.15=0.41
+  SS22-55042^2022_08_3 n_u=2 box.5=1 drop=0 | base@.5=0.00 gate@.5=0.00 gate@.35=0.25 gate@.25=0.23 gate@.15=0.23
+  SS23-04505^2023_01_1 n_u=1 box.5=8 drop=1 | base@.5=0.94 gate@.5=0.94 gate@.35=0.94 gate@.25=0.68 gate@.15=0.68
+  SS23-18073^2023_03_2 n_u=4 box.5=3 drop=0 | base@.5=0.68 gate@.5=0.68 gate@.35=0.46 gate@.25=0.41 gate@.15=0.41
+  SS23-12958^2023_02_2 n_u=2 box.5=1 drop=0 | base@.5=0.11 gate@.5=0.11 gate@.35=0.49 gate@.25=0.25 gate@.15=0.25
+  SS22-41080^2022_07_0 n_u=3 box.5=11 drop=0 | base@.5=0.77 gate@.5=0.77 gate@.35=0.74 gate@.25=0.74 gate@.15=0.74
+  SS23-19048^2023_03_2 n_u=4 box.5=1 drop=0 | base@.5=0.18 gate@.5=0.18 gate@.35=0.47 gate@.25=0.40 gate@.15=0.40
+  SS22-49101^2022_08_0 n_u=5 box.5=9 drop=0 | base@.5=0.37 gate@.5=0.37 gate@.35=0.41 gate@.25=0.41 gate@.15=0.41
+  SS21-60615^2021_09_2 n_u=3 box.5=11 drop=0 | base@.5=0.79 gate@.5=0.79 gate@.35=0.61 gate@.25=0.56 gate@.15=0.56
+  SS21-60938^2021_09_3 n_u=2 box.5=1 drop=0 | base@.5=0.00 gate@.5=0.00 gate@.35=0.00 gate@.25=0.08 gate@.15=0.08
+  SS21-34765^2021_06_0 n_u=4 box.5=6 drop=0 | base@.5=0.56 gate@.5=0.56 gate@.35=0.48 gate@.25=0.39 gate@.15=0.39
+  SS22-17247^2022_03_2 n_u=1 box.5=1 drop=0 | base@.5=0.05 gate@.5=0.05 gate@.35=0.69 gate@.25=0.41 gate@.15=0.41
+  SS22-49101^2022_08_0 n_u=6 box.5=2 drop=0 | base@.5=0.32 gate@.5=0.32 gate@.35=0.39 gate@.25=0.39 gate@.15=0.39
+  SS21-35913^2021_06_1 n_u=3 box.5=3 drop=0 | base@.5=0.57 gate@.5=0.57 gate@.35=0.42 gate@.25=0.22 gate@.15=0.22
+  SS23-21408^2023_04_0 n_u=4 box.5=1 drop=0 | base@.5=0.16 gate@.5=0.16 gate@.35=0.16 gate@.25=0.17 gate@.15=0.20
+  SS23-32996^2023_05_2 n_u=2 box.5=7 drop=0 | base@.5=0.59 gate@.5=0.59 gate@.35=0.59 gate@.25=0.38 gate@.15=0.29
+  SS22-41080^2022_07_0 n_u=6 box.5=9 drop=0 | base@.5=0.76 gate@.5=0.76 gate@.35=0.76 gate@.25=0.76 gate@.15=0.76
+  SS23-18116^2023_03_2 n_u=2 box.5=8 drop=0 | base@.5=0.67 gate@.5=0.67 gate@.35=0.65 gate@.25=0.65 gate@.15=0.65
+  SS21-39246^2021_06_2 n_u=1 box.5=6 drop=0 | base@.5=0.92 gate@.5=0.92 gate@.35=0.92 gate@.25=0.92 gate@.15=0.92
+  SS21-43481^2021_07_1 n_u=2 box.5=7 drop=0 | base@.5=0.37 gate@.5=0.37 gate@.35=0.30 gate@.25=0.22 gate@.15=0.22
+  SS23-23412^2023_04_1 n_u=1 box.5=1 drop=0 | base@.5=0.87 gate@.5=0.87 gate@.35=0.53 gate@.25=0.45 gate@.15=0.40
+  SS22-05400^2022_01_2 n_u=1 box.5=1 drop=0 | base@.5=0.44 gate@.5=0.44 gate@.35=0.59 gate@.25=0.52 gate@.15=0.42
+  SS21-38745^2021_06_2 n_u=1 box.5=4 drop=0 | base@.5=0.93 gate@.5=0.93 gate@.35=0.93 gate@.25=0.94 gate@.15=0.94
+  SS22-43857^2022_07_1 n_u=3 box.5=12 drop=4 | base@.5=0.32 gate@.5=0.32 gate@.35=0.28 gate@.25=0.28 gate@.15=0.28
+  SS21-42051^2021_07_0 n_u=1 box.5=6 drop=0 | base@.5=0.84 gate@.5=0.84 gate@.35=0.84 gate@.25=0.84 gate@.15=0.59
+  SS21-39090^2021_06_2 n_u=1 box.5=7 drop=0 | base@.5=0.88 gate@.5=0.88 gate@.35=0.88 gate@.25=0.88 gate@.15=0.88
+  SS21-37297^2021_06_1 n_u=1 box.5=6 drop=0 | base@.5=0.58 gate@.5=0.58 gate@.35=0.58 gate@.25=0.57 gate@.15=0.57
+  SS21-37293^2021_06_1 n_u=1 box.5=4 drop=0 | base@.5=0.29 gate@.5=0.29 gate@.35=0.29 gate@.25=0.29 gate@.15=0.29
+  SS21-35590^2021_06_0 n_u=2 box.5=10 drop=0 | base@.5=0.69 gate@.5=0.69 gate@.35=0.63 gate@.25=0.39 gate@.15=0.39
+  SS21-35425^2021_06_0 n_u=1 box.5=2 drop=0 | base@.5=0.90 gate@.5=0.90 gate@.35=0.83 gate@.25=0.83 gate@.15=0.83
+  SS21-41214^2021_07_0 n_u=2 box.5=1 drop=0 | base@.5=0.00 gate@.5=0.00 gate@.35=0.30 gate@.25=0.22 gate@.15=0.22
+  SS21-35590^2021_06_1 n_u=2 box.5=9 drop=0 | base@.5=0.69 gate@.5=0.69 gate@.35=0.50 gate@.25=0.50 gate@.15=0.50
+
+===== (A) THƯỚC/NHÃN ngoài bệnh phẩm @thr=0.5 =====
+Tổng box=244 | rơi-ngoài-bệnh-phẩm=5 (2.0%) | ảnh dính=2/50
+
+===== (B) Dice theo cấu hình (median | 1u | >1u) =====
+  base@.5    median=0.5811 mean=0.5293 | 1u=0.826 >1u=0.566
+  gate@.5    median=0.5811 mean=0.5292 | 1u=0.826 >1u=0.566
+  gate@.35   median=0.5083 mean=0.5098 | 1u=0.754 >1u=0.461
+  gate@.25   median=0.4076 mean=0.4532 | 1u=0.546 >1u=0.390
+  gate@.15   median=0.4055 mean=0.4462 | 1u=0.492 >1u=0.390
+-> results/handdraw_gate.csv

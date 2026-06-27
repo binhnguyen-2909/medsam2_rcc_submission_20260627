@@ -1,0 +1,6 @@
+{
+ "ckpt": "sam2.1_hiera_large.pt",
+ "res": 1024,
+ "n_test": 12,
+ "zero_shot_dice": 0.9461
+}

@@ -1,0 +1,88 @@
+[split] train=514 val=24 (eval200=200 test12=12 loại khỏi train)
+Nạp SAM2.1 tiny@1024 (đông cứng) ...
+[precompute] cần 0 (đã có 1028)
+[precompute] cần 0 (đã có 24)
+Mẫu train (kể cả flip): 1028
+Tham số detector: 2.37M
+[ep 1] loss=2.109 cls=0.259 l1=0.089 giou=0.702 mask=0.000
+[ep 2] loss=1.934 cls=0.216 l1=0.080 giou=0.659 mask=0.000 | val_dice=0.6292@thr0.3  *best
+[ep 3] loss=1.874 cls=0.203 l1=0.077 giou=0.644 mask=0.000
+[ep 4] loss=1.841 cls=0.196 l1=0.074 giou=0.637 mask=0.000 | val_dice=0.4777@thr0.3
+[ep 5] loss=1.796 cls=0.185 l1=0.072 giou=0.627 mask=0.000
+[ep 6] loss=1.787 cls=0.183 l1=0.072 giou=0.623 mask=0.000 | val_dice=0.5869@thr0.3
+[ep 7] loss=1.744 cls=0.169 l1=0.069 giou=0.616 mask=0.000
+[ep 8] loss=1.725 cls=0.169 l1=0.067 giou=0.610 mask=0.000 | val_dice=0.5073@thr0.3
+[ep 9] loss=1.720 cls=0.160 l1=0.068 giou=0.610 mask=0.000
+[ep 10] loss=1.706 cls=0.160 l1=0.067 giou=0.605 mask=0.000 | val_dice=0.6651@thr0.5  *best
+[ep 11] loss=1.694 cls=0.164 l1=0.066 giou=0.601 mask=0.000
+[ep 12] loss=1.693 cls=0.160 l1=0.066 giou=0.602 mask=0.000 | val_dice=0.6006@thr0.5
+[ep 13] loss=1.664 cls=0.152 l1=0.064 giou=0.595 mask=0.000
+[ep 14] loss=1.659 cls=0.152 l1=0.064 giou=0.593 mask=0.000 | val_dice=0.6485@thr0.5
+[ep 15] loss=1.628 cls=0.142 l1=0.063 giou=0.586 mask=0.000
+[ep 16] loss=1.632 cls=0.139 l1=0.063 giou=0.589 mask=0.000 | val_dice=0.6128@thr0.7
+[ep 17] loss=1.655 cls=0.148 l1=0.065 giou=0.590 mask=0.000
+[ep 18] loss=1.606 cls=0.134 l1=0.062 giou=0.582 mask=0.000 | val_dice=0.6015@thr0.5
+[ep 19] loss=1.595 cls=0.133 l1=0.061 giou=0.579 mask=0.000
+[ep 20] loss=1.581 cls=0.128 l1=0.060 giou=0.576 mask=0.000 | val_dice=0.6320@thr0.5
+[ep 21] loss=1.562 cls=0.121 l1=0.059 giou=0.572 mask=0.000
+[ep 22] loss=1.560 cls=0.120 l1=0.060 giou=0.570 mask=0.000 | val_dice=0.6365@thr0.7
+[ep 23] loss=1.560 cls=0.119 l1=0.060 giou=0.572 mask=0.000
+[ep 24] loss=1.548 cls=0.119 l1=0.058 giou=0.569 mask=0.000 | val_dice=0.5177@thr0.3
+[ep 25] loss=1.528 cls=0.111 l1=0.058 giou=0.564 mask=0.000
+[ep 26] loss=1.532 cls=0.111 l1=0.058 giou=0.566 mask=0.000 | val_dice=0.6098@thr0.7
+[ep 27] loss=1.517 cls=0.109 l1=0.057 giou=0.562 mask=0.000
+[ep 28] loss=1.512 cls=0.105 l1=0.057 giou=0.561 mask=0.000 | val_dice=0.6142@thr0.5
+[ep 29] loss=1.492 cls=0.103 l1=0.056 giou=0.556 mask=0.000
+[ep 30] loss=1.482 cls=0.098 l1=0.055 giou=0.555 mask=0.000 | val_dice=0.5851@thr0.3
+[ep 31] loss=1.485 cls=0.098 l1=0.056 giou=0.553 mask=0.000
+[ep 32] loss=1.476 cls=0.095 l1=0.055 giou=0.553 mask=0.000 | val_dice=0.6564@thr0.3
+[ep 33] loss=1.472 cls=0.093 l1=0.055 giou=0.553 mask=0.000
+[ep 34] loss=1.456 cls=0.089 l1=0.054 giou=0.548 mask=0.000 | val_dice=0.6157@thr0.5
+[ep 35] loss=1.449 cls=0.086 l1=0.054 giou=0.547 mask=0.000
+[ep 36] loss=1.451 cls=0.088 l1=0.053 giou=0.548 mask=0.000 | val_dice=0.6215@thr0.5
+[ep 37] loss=1.435 cls=0.082 l1=0.053 giou=0.544 mask=0.000
+[ep 38] loss=1.421 cls=0.078 l1=0.052 giou=0.541 mask=0.000 | val_dice=0.6102@thr0.7
+[ep 39] loss=1.427 cls=0.079 l1=0.052 giou=0.543 mask=0.000
+[ep 40] loss=1.432 cls=0.081 l1=0.053 giou=0.544 mask=0.000 | val_dice=0.6739@thr0.5  *best
+[ep 41] loss=1.423 cls=0.077 l1=0.052 giou=0.543 mask=0.000
+[ep 42] loss=1.421 cls=0.074 l1=0.053 giou=0.542 mask=0.000 | val_dice=0.6042@thr0.5
+[ep 43] loss=1.410 cls=0.073 l1=0.052 giou=0.540 mask=0.000
+[ep 44] loss=1.404 cls=0.069 l1=0.051 giou=0.539 mask=0.000 | val_dice=0.6232@thr0.7
+[ep 45] loss=1.395 cls=0.069 l1=0.051 giou=0.537 mask=0.000
+[ep 46] loss=1.397 cls=0.068 l1=0.051 giou=0.536 mask=0.000 | val_dice=0.6315@thr0.7
+[ep 47] loss=1.389 cls=0.066 l1=0.050 giou=0.535 mask=0.000
+[ep 48] loss=1.399 cls=0.067 l1=0.051 giou=0.538 mask=0.000 | val_dice=0.5940@thr0.7
+[ep 49] loss=1.384 cls=0.064 l1=0.051 giou=0.533 mask=0.000
+[ep 50] loss=1.386 cls=0.065 l1=0.050 giou=0.536 mask=0.000 | val_dice=0.6067@thr0.7
+[ep 51] loss=1.381 cls=0.060 l1=0.050 giou=0.535 mask=0.000
+[ep 52] loss=1.379 cls=0.062 l1=0.050 giou=0.533 mask=0.000 | val_dice=0.6444@thr0.7
+[ep 53] loss=1.382 cls=0.061 l1=0.050 giou=0.535 mask=0.000
+[ep 54] loss=1.363 cls=0.056 l1=0.049 giou=0.530 mask=0.000 | val_dice=0.6403@thr0.7
+[ep 55] loss=1.354 cls=0.054 l1=0.049 giou=0.529 mask=0.000
+[ep 56] loss=1.354 cls=0.051 l1=0.048 giou=0.530 mask=0.000 | val_dice=0.5663@thr0.7
+[ep 57] loss=1.368 cls=0.058 l1=0.050 giou=0.530 mask=0.000
+[ep 58] loss=1.360 cls=0.053 l1=0.049 giou=0.530 mask=0.000 | val_dice=0.5523@thr0.7
+[ep 59] loss=1.349 cls=0.052 l1=0.048 giou=0.528 mask=0.000
+[ep 60] loss=1.353 cls=0.054 l1=0.049 giou=0.528 mask=0.000 | val_dice=0.6562@thr0.5
+[ep 61] loss=1.336 cls=0.047 l1=0.048 giou=0.526 mask=0.000
+[ep 62] loss=1.342 cls=0.049 l1=0.048 giou=0.526 mask=0.000 | val_dice=0.5276@thr0.5
+[ep 63] loss=1.335 cls=0.046 l1=0.048 giou=0.525 mask=0.000
+[ep 64] loss=1.336 cls=0.047 l1=0.048 giou=0.524 mask=0.000 | val_dice=0.6029@thr0.7
+[ep 65] loss=1.336 cls=0.046 l1=0.048 giou=0.526 mask=0.000
+[ep 66] loss=1.333 cls=0.047 l1=0.048 giou=0.524 mask=0.000 | val_dice=0.5824@thr0.3
+[ep 67] loss=1.320 cls=0.039 l1=0.047 giou=0.522 mask=0.000
+[ep 68] loss=1.332 cls=0.045 l1=0.048 giou=0.524 mask=0.000 | val_dice=0.5889@thr0.7
+[ep 69] loss=1.329 cls=0.042 l1=0.048 giou=0.524 mask=0.000
+[ep 70] loss=1.328 cls=0.042 l1=0.047 giou=0.524 mask=0.000 | val_dice=0.6084@thr0.7
+[ep 71] loss=1.320 cls=0.041 l1=0.047 giou=0.522 mask=0.000
+[ep 72] loss=1.326 cls=0.042 l1=0.048 giou=0.523 mask=0.000 | val_dice=0.5999@thr0.7
+[ep 73] loss=1.319 cls=0.040 l1=0.047 giou=0.523 mask=0.000
+[ep 74] loss=1.320 cls=0.039 l1=0.047 giou=0.523 mask=0.000 | val_dice=0.5726@thr0.7
+[ep 75] loss=1.317 cls=0.038 l1=0.047 giou=0.523 mask=0.000
+[ep 76] loss=1.307 cls=0.036 l1=0.046 giou=0.519 mask=0.000 | val_dice=0.5948@thr0.5
+[ep 77] loss=1.308 cls=0.035 l1=0.047 giou=0.520 mask=0.000
+[ep 78] loss=1.312 cls=0.039 l1=0.046 giou=0.521 mask=0.000 | val_dice=0.6022@thr0.7
+[ep 79] loss=1.314 cls=0.037 l1=0.047 giou=0.521 mask=0.000
+[ep 80] loss=1.294 cls=0.032 l1=0.046 giou=0.517 mask=0.000 | val_dice=0.6224@thr0.7
+
+Xong. best val end-to-end Dice = 0.6739 -> checkpoints/detector.pt

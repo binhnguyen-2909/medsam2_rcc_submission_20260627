@@ -1,0 +1,7 @@
+=== eval refiner @ 10:05:41 ===
+Dice median=0.6296 mean=0.5900 (n=50) | 1u=0.855(n18) >1u=0.564(n32)
+=== eval slic @ 10:07:00 ===
+Dice median=0.4946 mean=0.5108 (n=50) | 1u=0.821(n18) >1u=0.365(n32)
+=== eval grid @ 10:18:36 ===
+Dice median=0.5046 mean=0.5213 (n=50) | 1u=0.834(n18) >1u=0.395(n32)
+EVAL3 XONG

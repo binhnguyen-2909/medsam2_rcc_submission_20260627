@@ -1,0 +1,13 @@
+model:
+  name: dense_detector_recall_plus_segmenter
+  detector_checkpoint: checkpoints/detector_recall.pt
+  segmenter_config: configs/model/seg_crop_lab.yaml
+  objectness_threshold: 0.5
+  fallback_threshold: 0.35
+expected_metrics:
+  eval_set: labels_handdraw_50
+  median_dice: 0.6346997351358046
+  mean_dice: 0.589668144571813
+notes:
+  status: research_baseline
+  bottleneck: localization_box_iou_not_segmentation_quality

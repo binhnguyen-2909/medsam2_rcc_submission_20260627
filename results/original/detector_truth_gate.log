@@ -1,0 +1,5 @@
+[gate] bắt đầu chờ GPU 00:12
+[gate] GPU free 3039MiB >= 2800 -> train 00:12
+[gate] train xong 01:26
+[chain] eval handdraw 01:26
+[chain] XONG 01:28; default csv = grid64

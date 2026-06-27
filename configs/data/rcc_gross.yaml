@@ -1,0 +1,17 @@
+dataset:
+  name: rcc_gross_pathology_20241212
+  task: tumor_segmentation_from_gross_pathology_photo
+  image_dir: data/raw/images
+  sam_assisted_mask_dir: data/ground_truth/sam_assisted_masks
+  sam_assisted_prompt_dir: data/ground_truth/sam_assisted_prompts
+  truth_mask_dir: data/ground_truth/truth_masks
+  handdraw_eval_mask_dir: data/ground_truth/handdraw_eval_masks
+  processed_dir: data/processed
+  manifests_dir: data/manifests
+  split_file: data/manifests/split.json
+  frozen_test_file: data/manifests/test_frozen.json
+  handdraw_select_file: data/manifests/handdraw_select.json
+notes:
+  raw_images_are: gross_pathology_photos_of_kidney_RCC_cut_surface
+  excel_size_meaning: tumor_size_only_not_location
+  px_per_cm_status: unreliable_not_used_for_primary_qc

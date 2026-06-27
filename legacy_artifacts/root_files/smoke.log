@@ -1,0 +1,11 @@
+Train 170 ảnh | Test 12 ảnh
+Nạp SAM2.1@1024 trên cuda ...
+Số tham số train: 4.22M
+Trích đặc trưng encoder cho train (1 lần, workers=16)...
+Mẫu train (cụm u): 246
+Nhóm kích thước: [((1824, 2736), 245), ((2736, 1824), 1)] | batch=32
+[epoch 0] zero-shot test Dice = 0.9580
+[epoch 1] train_loss=0.1413 | test Dice=0.9342
+
+Xong. zero-shot Dice=0.9580 -> BEST fine-tuned Dice=0.9580
+Checkpoint: /home/hvusynh2/nguyenduong/MedSAM2 a/MedSAM2/checkpoints/sam2.1_rcc_ft.pt | log: /home/hvusynh2/nguyenduong/MedSAM2 a/MedSAM2/results/finetune_log.csv | results/finetune_last.json

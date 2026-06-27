@@ -1,0 +1,3 @@
+[SAM2.1] CEILING median=0.8594 (1u=0.880 >1u=0.843) | FULL-AUTO median=0.6658 (1u=0.785 >1u=0.582)
+[MedSAM2] CEILING median=0.8405 (1u=0.887 >1u=0.826) | FULL-AUTO median=0.6146 (1u=0.830 >1u=0.548)
+SO: SegResNet+LAB ceiling 0.883 / full-auto 0.635

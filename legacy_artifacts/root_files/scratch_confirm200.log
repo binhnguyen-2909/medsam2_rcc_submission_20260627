@@ -1,0 +1,14 @@
+[17:01:03] chờ GPU >= 6000 MiB trống...
+[17:58:10] GPU free=32112MiB -> chạy
+N=200 (seed 777)
+lượt 1: zero-shot...
+lượt 2: fine-tuned...
+
+=== N=200 (FT epoch6 vs zero-shot, vs curated GT) ===
+Zero-shot : median=0.9645 mean=0.9469
+Fine-tuned: median=0.9502 mean=0.9376
+Delta FT-ZS: mean=-0.0092 median=-0.0053
+FT thắng/hòa/thua: 68/0/132
+FT hơn rõ >+0.02: 30 | tệ rõ <-0.02: 66
+-> results/confirm200_ft_vs_zs.csv
+[18:01:29] DONE confirm200

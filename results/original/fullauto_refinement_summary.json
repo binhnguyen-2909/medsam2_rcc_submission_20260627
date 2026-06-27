@@ -1,0 +1,98 @@
+[
+ {
+  "config": "baseline",
+  "median": 0.66585,
+  "mean": 0.593678,
+  "one_u_median": 0.7847500000000001,
+  "multi_u_median": 0.58215,
+  "box_median": 6.0
+ },
+ {
+  "config": "specimen_mincc",
+  "median": 0.6592,
+  "mean": 0.586826,
+  "one_u_median": 0.7407,
+  "multi_u_median": 0.5546500000000001,
+  "box_median": 6.0
+ },
+ {
+  "config": "color_specimen",
+  "median": 0.65395,
+  "mean": 0.585514,
+  "one_u_median": 0.73515,
+  "multi_u_median": 0.5539000000000001,
+  "box_median": 6.0
+ },
+ {
+  "config": "nms07_specimen",
+  "median": 0.65135,
+  "mean": 0.6008119999999999,
+  "one_u_median": 0.79155,
+  "multi_u_median": 0.54515,
+  "box_median": 14.0
+ },
+ {
+  "config": "specimen_erode_open",
+  "median": 0.65015,
+  "mean": 0.5839500000000001,
+  "one_u_median": 0.72645,
+  "multi_u_median": 0.5514,
+  "box_median": 6.0
+ },
+ {
+  "config": "specimen_active",
+  "median": 0.63625,
+  "mean": 0.5793,
+  "one_u_median": 0.71635,
+  "multi_u_median": 0.5456000000000001,
+  "box_median": 6.0
+ },
+ {
+  "config": "nms03_specimen",
+  "median": 0.6190500000000001,
+  "mean": 0.573728,
+  "one_u_median": 0.7283999999999999,
+  "multi_u_median": 0.54555,
+  "box_median": 2.0
+ },
+ {
+  "config": "thr06_specimen",
+  "median": 0.5527,
+  "mean": 0.537308,
+  "one_u_median": 0.7323500000000001,
+  "multi_u_median": 0.44175,
+  "box_median": 2.5
+ },
+ {
+  "config": "thr06_nms03_specimen",
+  "median": 0.5345,
+  "mean": 0.506796,
+  "one_u_median": 0.6998500000000001,
+  "multi_u_median": 0.43345,
+  "box_median": 1.0
+ },
+ {
+  "config": "thr06_nms03_erode_open",
+  "median": 0.53195,
+  "mean": 0.5026979999999999,
+  "one_u_median": 0.6959,
+  "multi_u_median": 0.4276,
+  "box_median": 1.0
+ },
+ {
+  "config": "specimen_largest",
+  "median": 0.48625,
+  "mean": 0.488926,
+  "one_u_median": 0.7407,
+  "multi_u_median": 0.36135,
+  "box_median": 6.0
+ },
+ {
+  "config": "thr07_specimen",
+  "median": 0.46485,
+  "mean": 0.450196,
+  "one_u_median": 0.6696500000000001,
+  "multi_u_median": 0.3802,
+  "box_median": 1.0
+ }
+]

@@ -1,0 +1,50 @@
+detector=checkpoints/detector_maskloss.pt ep14 | COVER=0.3
+  SS22-02205^2022_01_1 comp=3 box=3 recall=1.00 seg_ceil=0.81 fp=0 auto=0.72
+  SS22-49889^2022_08_0 comp=3 box=6 recall=0.67 seg_ceil=0.79 fp=0 auto=0.61
+  SS22-23641^2022_04_2 comp=2 box=2 recall=0.50 seg_ceil=0.80 fp=0 auto=0.27
+  SS23-61141^2023_09_1 comp=2 box=2 recall=1.00 seg_ceil=0.92 fp=0 auto=0.73
+  SS22-45604^2022_07_2 comp=2 box=6 recall=0.50 seg_ceil=0.96 fp=0 auto=0.58
+  SS21-42835^2021_07_0 comp=3 box=2 recall=0.33 seg_ceil=0.64 fp=1 auto=0.06
+  SS21-34765^2021_06_0 comp=4 box=8 recall=0.75 seg_ceil=0.87 fp=0 auto=0.62
+  SS21-53209^2021_08_2 comp=2 box=11 recall=1.00 seg_ceil=0.93 fp=0 auto=0.77
+  SS21-58163^2021_09_1 comp=4 box=3 recall=0.75 seg_ceil=0.73 fp=2 auto=0.35
+  SS23-49481^2023_07_2 comp=3 box=2 recall=0.33 seg_ceil=0.81 fp=0 auto=0.30
+  SS23-18116^2023_03_2 comp=3 box=8 recall=0.67 seg_ceil=0.87 fp=0 auto=0.83
+  SS22-04076^2022_01_1 comp=2 box=8 recall=1.00 seg_ceil=0.94 fp=0 auto=0.49
+  SS22-55042^2022_08_3 comp=2 box=12 recall=1.00 seg_ceil=0.83 fp=3 auto=0.25
+  SS23-18073^2023_03_2 comp=4 box=3 recall=0.50 seg_ceil=0.73 fp=0 auto=0.68
+  SS23-12958^2023_02_2 comp=2 box=6 recall=1.00 seg_ceil=0.53 fp=1 auto=0.49
+  SS22-41080^2022_07_0 comp=3 box=11 recall=0.67 seg_ceil=0.87 fp=0 auto=0.77
+  SS23-19048^2023_03_2 comp=4 box=14 recall=1.00 seg_ceil=0.77 fp=1 auto=0.47
+  SS22-49101^2022_08_0 comp=5 box=9 recall=0.40 seg_ceil=0.84 fp=0 auto=0.37
+  SS21-60615^2021_09_2 comp=3 box=11 recall=1.00 seg_ceil=0.85 fp=0 auto=0.79
+  SS21-60938^2021_09_3 comp=2 box=1 recall=0.00 seg_ceil=0.76 fp=1 auto=0.00
+  SS21-34765^2021_06_0 comp=4 box=6 recall=0.50 seg_ceil=0.83 fp=0 auto=0.56
+  SS22-49101^2022_08_0 comp=6 box=2 recall=0.50 seg_ceil=0.84 fp=0 auto=0.32
+  SS21-35913^2021_06_1 comp=3 box=3 recall=0.67 seg_ceil=0.81 fp=0 auto=0.57
+  SS23-21408^2023_04_0 comp=4 box=1 recall=0.25 seg_ceil=0.74 fp=0 auto=0.16
+  SS23-32996^2023_05_2 comp=2 box=7 recall=1.00 seg_ceil=0.72 fp=0 auto=0.59
+  SS22-41080^2022_07_0 comp=6 box=9 recall=1.00 seg_ceil=0.87 fp=0 auto=0.76
+  SS23-18116^2023_03_2 comp=2 box=8 recall=1.00 seg_ceil=0.89 fp=0 auto=0.67
+  SS21-43481^2021_07_1 comp=2 box=7 recall=1.00 seg_ceil=0.81 fp=0 auto=0.37
+  SS22-43857^2022_07_1 comp=3 box=8 recall=1.00 seg_ceil=0.82 fp=0 auto=0.32
+  SS21-35590^2021_06_0 comp=2 box=10 recall=1.00 seg_ceil=0.92 fp=0 auto=0.69
+  SS21-41214^2021_07_0 comp=2 box=13 recall=1.00 seg_ceil=0.82 fp=5 auto=0.30
+  SS21-35590^2021_06_1 comp=2 box=9 recall=1.00 seg_ceil=0.91 fp=0 auto=0.69
+
+===== PHÂN RÃ ĐA-U (N=32 ca đa-u) =====
+RECALL mảnh (detector phủ): median=0.88 mean=0.75 | ca recall<1.0 (sót mảnh): 16/32
+SEG-CEIL (SAM|box-tay-đúng-mảnh): median=0.82 mean=0.82 = TRẦN nếu localize hoàn hảo
+BOX THỪA: tổng=14 | ca có fp>=1: 7/32
+
+-- nhóm AUTO<0.30 (6 ca) --
+  recall median=0.42 | seg_ceil median=0.78 | fp tổng=10
+
+-- quy lỗi từng ca xấu (auto<0.30) --
+  SS21-60938^2021_09_3 comp=2 recall=0.00 seg_ceil=0.76 auto=0.00 fp=1 -> RECALL (sót mảnh)
+  SS21-42835^2021_07_0 comp=3 recall=0.33 seg_ceil=0.64 auto=0.06 fp=1 -> RECALL (sót mảnh)
+  SS23-21408^2023_04_0 comp=4 recall=0.25 seg_ceil=0.74 auto=0.16 fp=0 -> RECALL (sót mảnh)
+  SS22-55042^2022_08_3 comp=2 recall=1.00 seg_ceil=0.83 auto=0.25 fp=3 -> SEGMENT/box-lỏng (box phủ nhưng SAM sai)
+  SS22-23641^2022_04_2 comp=2 recall=0.50 seg_ceil=0.80 auto=0.27 fp=0 -> RECALL (sót mảnh)
+  SS21-41214^2021_07_0 comp=2 recall=1.00 seg_ceil=0.82 auto=0.30 fp=5 -> SEGMENT/box-lỏng (box phủ nhưng SAM sai)
+-> results/handdraw_diag.csv

@@ -1,0 +1,53 @@
+[split] train=514 val=24 (eval200=200 test12=12 loại khỏi train)
+Nạp SAM2.1 tiny@1024 (đông cứng) ...
+[precompute] cần 0 (đã có 1028)
+[precompute] cần 0 (đã có 24)
+Mẫu train (kể cả flip): 1028
+Tham số detector: 2.37M
+[ep 1] loss=2.107 cls=0.253 l1=0.091 giou=0.700 mask=0.000 | val_dice=0.5616@thr0.2  *best
+[ep 2] loss=1.953 cls=0.218 l1=0.082 giou=0.662 mask=0.000 | val_dice=0.6068@thr0.3  *best
+[ep 3] loss=1.901 cls=0.207 l1=0.079 giou=0.650 mask=0.000 | val_dice=0.5537@thr0.3
+[ep 4] loss=1.852 cls=0.193 l1=0.076 giou=0.639 mask=0.000 | val_dice=0.5711@thr0.3
+[ep 5] loss=1.818 cls=0.188 l1=0.074 giou=0.630 mask=0.000 | val_dice=0.6697@thr0.5  *best
+[ep 6] loss=1.790 cls=0.173 l1=0.073 giou=0.627 mask=0.000 | val_dice=0.5850@thr0.3
+[ep 7] loss=1.784 cls=0.174 l1=0.072 giou=0.624 mask=0.000 | val_dice=0.5719@thr0.3
+[ep 8] loss=1.747 cls=0.166 l1=0.070 giou=0.616 mask=0.000 | val_dice=0.5268@thr0.5
+[ep 9] loss=1.744 cls=0.167 l1=0.070 giou=0.614 mask=0.000 | val_dice=0.5723@thr0.5
+[ep 10] loss=1.717 cls=0.159 l1=0.068 giou=0.608 mask=0.000 | val_dice=0.6893@thr0.5  *best
+[ep 11] loss=1.700 cls=0.155 l1=0.067 giou=0.604 mask=0.000 | val_dice=0.5541@thr0.5
+[ep 12] loss=1.701 cls=0.156 l1=0.067 giou=0.604 mask=0.000 | val_dice=0.6759@thr0.3
+[ep 13] loss=1.679 cls=0.148 l1=0.066 giou=0.600 mask=0.000 | val_dice=0.6355@thr0.5
+[ep 14] loss=1.655 cls=0.141 l1=0.065 giou=0.595 mask=0.000 | val_dice=0.7303@thr0.5  *best
+[ep 15] loss=1.653 cls=0.141 l1=0.065 giou=0.593 mask=0.000 | val_dice=0.5493@thr0.3
+[ep 16] loss=1.646 cls=0.139 l1=0.065 giou=0.591 mask=0.000 | val_dice=0.5789@thr0.5
+[ep 17] loss=1.626 cls=0.136 l1=0.063 giou=0.586 mask=0.000 | val_dice=0.6134@thr0.5
+[ep 18] loss=1.611 cls=0.129 l1=0.063 giou=0.584 mask=0.000 | val_dice=0.5958@thr0.5
+[ep 19] loss=1.607 cls=0.136 l1=0.062 giou=0.581 mask=0.000 | val_dice=0.6283@thr0.5
+[ep 20] loss=1.591 cls=0.127 l1=0.061 giou=0.579 mask=0.000 | val_dice=0.5575@thr0.5
+[ep 21] loss=1.590 cls=0.126 l1=0.061 giou=0.578 mask=0.000 | val_dice=0.5830@thr0.5
+[ep 22] loss=1.572 cls=0.121 l1=0.061 giou=0.574 mask=0.000 | val_dice=0.5741@thr0.7
+[ep 23] loss=1.574 cls=0.121 l1=0.061 giou=0.575 mask=0.000 | val_dice=0.5994@thr0.5
+[ep 24] loss=1.550 cls=0.117 l1=0.059 giou=0.570 mask=0.000 | val_dice=0.5819@thr0.5
+[ep 25] loss=1.542 cls=0.110 l1=0.059 giou=0.568 mask=0.000 | val_dice=0.5859@thr0.5
+[ep 26] loss=1.532 cls=0.110 l1=0.058 giou=0.566 mask=0.000 | val_dice=0.5810@thr0.5
+[ep 27] loss=1.525 cls=0.108 l1=0.058 giou=0.564 mask=0.000 | val_dice=0.5856@thr0.5
+[ep 28] loss=1.513 cls=0.102 l1=0.057 giou=0.562 mask=0.000 | val_dice=0.5941@thr0.5
+[ep 29] loss=1.509 cls=0.104 l1=0.057 giou=0.561 mask=0.000 | val_dice=0.6568@thr0.5
+[ep 30] loss=1.507 cls=0.100 l1=0.057 giou=0.561 mask=0.000 | val_dice=0.6691@thr0.5
+[ep 31] loss=1.484 cls=0.094 l1=0.056 giou=0.556 mask=0.000 | val_dice=0.5841@thr0.7
+[ep 32] loss=1.480 cls=0.092 l1=0.055 giou=0.557 mask=0.000 | val_dice=0.6590@thr0.5
+[ep 33] loss=1.479 cls=0.090 l1=0.055 giou=0.556 mask=0.000 | val_dice=0.6131@thr0.7
+[ep 34] loss=1.463 cls=0.085 l1=0.055 giou=0.552 mask=0.000 | val_dice=0.5948@thr0.5
+[ep 35] loss=1.461 cls=0.083 l1=0.055 giou=0.552 mask=0.000 | val_dice=0.6459@thr0.5
+[ep 36] loss=1.455 cls=0.082 l1=0.054 giou=0.551 mask=0.000 | val_dice=0.5832@thr0.5
+[ep 37] loss=1.444 cls=0.081 l1=0.053 giou=0.548 mask=0.000 | val_dice=0.6063@thr0.5
+[ep 38] loss=1.443 cls=0.079 l1=0.053 giou=0.549 mask=0.000 | val_dice=0.6678@thr0.7
+[ep 39] loss=1.437 cls=0.077 l1=0.053 giou=0.547 mask=0.000 | val_dice=0.6084@thr0.5
+[ep 40] loss=1.441 cls=0.079 l1=0.053 giou=0.548 mask=0.000 | val_dice=0.5851@thr0.5
+[ep 41] loss=1.424 cls=0.073 l1=0.053 giou=0.544 mask=0.000 | val_dice=0.5988@thr0.7
+[ep 42] loss=1.423 cls=0.071 l1=0.053 giou=0.545 mask=0.000 | val_dice=0.6815@thr0.7
+[ep 43] loss=1.424 cls=0.071 l1=0.052 giou=0.546 mask=0.000 | val_dice=0.5855@thr0.5
+[ep 44] loss=1.415 cls=0.067 l1=0.052 giou=0.543 mask=0.000 | val_dice=0.6604@thr0.5
+[ep 45] loss=1.412 cls=0.069 l1=0.052 giou=0.542 mask=0.000 | val_dice=0.6201@thr0.7
+
+Xong. best val end-to-end Dice = 0.7303 -> checkpoints/detector_truth.pt

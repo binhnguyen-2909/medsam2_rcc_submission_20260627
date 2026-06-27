@@ -1,0 +1,21 @@
+train:
+  script: src/train/seg_crop_legacy.py
+  architecture: segresnet
+  channels: lab
+  loss: dicebce
+  epochs: 60
+  batch_size: 6
+  input_size: 512
+  seed: 20260626
+  augmentations:
+    random_flip: true
+    random_rotation_90: true
+    color_jitter_hsv: true
+    box_jitter_pad_range: [0.10, 0.45]
+    box_jitter_shift_fraction: 0.12
+outputs:
+  checkpoint: checkpoints/seg_crop_segR_lab.pt
+  result_json: results/tables/seg_crop_segR_lab.json
+notes:
+  legacy_script_has_original_paths: true
+  use_this_file_as_parameter_record_before_porting_training_to_package_api: true

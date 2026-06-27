@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES= python src/inference/predict_seg_crop.py --config configs/model/seg_crop_lab.yaml --image "data/raw/images/SS22-02205^2022_01_12_09_37_05^^.jpg" --box "765,489,2065,1429" --out experiments/runs/smoke_seg_crop_lab/predictions/SS22-02205_mask.png --overlay experiments/runs/smoke_seg_crop_lab/predictions/SS22-02205_overlay.jpg

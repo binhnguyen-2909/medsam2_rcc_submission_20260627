@@ -1,0 +1,5 @@
+
+Iterative refine (detector box -> seg -> rebox -> seg):
+  iter0 (gốc): median=0.6347 mean=0.5897
+  iter1      : median=0.6397 mean=0.5936
+  iter2      : median=0.6242 mean=0.5941

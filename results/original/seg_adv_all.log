@@ -1,0 +1,375 @@
+====================================================================
+[00:15:51] BẮT ĐẦU segR_lab_adv
+[gate] GPU free=12945MB >= 6000 -> chạy
+[cfg] segR_lab_adv: arch=segresnet ch=lab(6) adv=True(λ0.05) cldice=False(λ0.5)
+[split] train patch=295 val patch=23 (50 vẽ tay HELD-OUT)
+[model] G params=6.30M
+[model] D params=1.72M (PatchGAN, LSGAN)
+[ep 1] loss_g=0.9725 loss_d=0.2867 val_dice=0.6528  *best
+[ep 2] loss_g=0.8693 loss_d=0.1758 val_dice=0.6990  *best
+[ep 3] loss_g=0.8371 loss_d=0.1115 val_dice=0.7841  *best
+[ep 4] loss_g=0.7901 loss_d=0.0878 val_dice=0.7975  *best
+[ep 5] loss_g=0.7608 loss_d=0.0467 val_dice=0.8409  *best
+[ep 6] loss_g=0.7072 loss_d=0.0415 val_dice=0.7667
+[ep 7] loss_g=0.6931 loss_d=0.0441 val_dice=0.8136
+[ep 8] loss_g=0.6680 loss_d=0.0266 val_dice=0.8617  *best
+[ep 9] loss_g=0.6365 loss_d=0.0432 val_dice=0.7709
+[ep 10] loss_g=0.6161 loss_d=0.0389 val_dice=0.8259
+[ep 11] loss_g=0.6012 loss_d=0.0310 val_dice=0.8420
+[ep 12] loss_g=0.5966 loss_d=0.0268 val_dice=0.8575
+[ep 13] loss_g=0.5837 loss_d=0.0569 val_dice=0.8635  *best
+[ep 14] loss_g=0.5566 loss_d=0.0629 val_dice=0.8547
+[ep 15] loss_g=0.5611 loss_d=0.0646 val_dice=0.7792
+[ep 16] loss_g=0.5687 loss_d=0.0339 val_dice=0.8471
+[ep 17] loss_g=0.5532 loss_d=0.0320 val_dice=0.8466
+[ep 18] loss_g=0.5702 loss_d=0.0343 val_dice=0.8256
+[ep 19] loss_g=0.5439 loss_d=0.0591 val_dice=0.8482
+[ep 20] loss_g=0.5425 loss_d=0.0295 val_dice=0.8271
+[ep 21] loss_g=0.5410 loss_d=0.0499 val_dice=0.8283
+[ep 22] loss_g=0.5395 loss_d=0.0220 val_dice=0.8353
+[ep 23] loss_g=0.5380 loss_d=0.0250 val_dice=0.8276
+[ep 24] loss_g=0.5413 loss_d=0.0266 val_dice=0.8391
+[ep 25] loss_g=0.5227 loss_d=0.0392 val_dice=0.8451
+[ep 26] loss_g=0.5392 loss_d=0.0558 val_dice=0.8249
+[ep 27] loss_g=0.5207 loss_d=0.0336 val_dice=0.8230
+[ep 28] loss_g=0.5186 loss_d=0.0458 val_dice=0.8394
+[ep 29] loss_g=0.5275 loss_d=0.0395 val_dice=0.8311
+[ep 30] loss_g=0.5319 loss_d=0.0195 val_dice=0.8400
+[ep 31] loss_g=0.5377 loss_d=0.0097 val_dice=0.8242
+[ep 32] loss_g=0.5198 loss_d=0.0297 val_dice=0.8370
+[ep 33] loss_g=0.5008 loss_d=0.0502 val_dice=0.8374
+[ep 34] loss_g=0.5030 loss_d=0.0564 val_dice=0.8306
+[ep 35] loss_g=0.5097 loss_d=0.0407 val_dice=0.8273
+[ep 36] loss_g=0.4887 loss_d=0.0360 val_dice=0.8282
+[ep 37] loss_g=0.4928 loss_d=0.0468 val_dice=0.8291
+[ep 38] loss_g=0.4858 loss_d=0.0705 val_dice=0.8257
+[ep 39] loss_g=0.4807 loss_d=0.0619 val_dice=0.8387
+[ep 40] loss_g=0.4944 loss_d=0.0609 val_dice=0.8347
+[ep 41] loss_g=0.4780 loss_d=0.0699 val_dice=0.8293
+[ep 42] loss_g=0.4894 loss_d=0.0590 val_dice=0.8300
+[ep 43] loss_g=0.4834 loss_d=0.0346 val_dice=0.8253
+[ep 44] loss_g=0.4777 loss_d=0.0406 val_dice=0.8289
+[ep 45] loss_g=0.4813 loss_d=0.0272 val_dice=0.8244
+[ep 46] loss_g=0.4770 loss_d=0.0285 val_dice=0.8291
+[ep 47] loss_g=0.4808 loss_d=0.0290 val_dice=0.8246
+[ep 48] loss_g=0.4821 loss_d=0.0327 val_dice=0.8352
+[ep 49] loss_g=0.4739 loss_d=0.0422 val_dice=0.8191
+[ep 50] loss_g=0.4630 loss_d=0.0380 val_dice=0.8333
+[ep 51] loss_g=0.4658 loss_d=0.0457 val_dice=0.8339
+[ep 52] loss_g=0.4610 loss_d=0.0430 val_dice=0.8325
+[ep 53] loss_g=0.4610 loss_d=0.0405 val_dice=0.8296
+[ep 54] loss_g=0.4597 loss_d=0.0641 val_dice=0.8339
+[ep 55] loss_g=0.4741 loss_d=0.0296 val_dice=0.8330
+[ep 56] loss_g=0.4654 loss_d=0.0290 val_dice=0.8302
+[ep 57] loss_g=0.4527 loss_d=0.0324 val_dice=0.8321
+[ep 58] loss_g=0.4569 loss_d=0.0256 val_dice=0.8324
+[ep 59] loss_g=0.4577 loss_d=0.0360 val_dice=0.8320
+[ep 60] loss_g=0.4644 loss_d=0.0288 val_dice=0.8319
+
+Train xong. best val(patch)=0.8635 -> checkpoints/seg_crop_segR_lab_adv.pt
+  SS22-02205^2022_01_12_   n=3 auto=0.605 ceil=0.816 (#box 5)
+  SS21-42826^2021_07_09_   n=1 auto=0.886 ceil=0.890 (#box 5)
+  SS21-58881^2021_09_16_   n=1 auto=0.335 ceil=0.905 (#box 3)
+  SS22-49889^2022_08_09_   n=3 auto=0.623 ceil=0.863 (#box 6)
+  SS22-23641^2022_04_22_   n=2 auto=0.474 ceil=0.902 (#box 3)
+  SS23-61141^2023_09_13_   n=2 auto=0.772 ceil=0.897 (#box 3)
+  SS22-45604^2022_07_22_   n=2 auto=0.668 ceil=0.871 (#box 8)
+  SS21-42835^2021_07_09_   n=3 auto=0.169 ceil=0.597 (#box 4)
+  SS21-34765^2021_06_04_   n=4 auto=0.467 ceil=0.904 (#box 9)
+  SS21-53209^2021_08_24_   n=2 auto=0.787 ceil=0.884 (#box 12)
+  SS23-12955^2023_02_23_   n=1 auto=0.843 ceil=0.895 (#box 1)
+  SS23-45516^2023_07_12_   n=1 auto=0.851 ceil=0.862 (#box 5)
+  SS21-58163^2021_09_15_   n=4 auto=0.345 ceil=0.901 (#box 6)
+  SS23-49481^2023_07_27_   n=3 auto=0.271 ceil=0.892 (#box 3)
+  SS23-18116^2023_03_21_   n=3 auto=0.810 ceil=0.875 (#box 9)
+  SS21-37627^2021_06_17_   n=1 auto=0.807 ceil=0.823 (#box 5)
+  SS22-38394^2022_06_24_   n=1 auto=0.687 ceil=0.789 (#box 6)
+  SS22-29126^2022_05_16_   n=1 auto=0.026 ceil=0.621 (#box 2)
+  SS22-04076^2022_01_19_   n=2 auto=0.630 ceil=0.906 (#box 10)
+  SS22-55042^2022_08_30_   n=2 auto=0.395 ceil=0.861 (#box 10)
+  SS23-04505^2023_01_19_   n=1 auto=0.949 ceil=0.949 (#box 8)
+  SS23-18073^2023_03_21_   n=4 auto=0.650 ceil=0.881 (#box 3)
+  SS23-12958^2023_02_23_   n=2 auto=0.241 ceil=0.823 (#box 2)
+  SS22-41080^2022_07_06_   n=3 auto=0.796 ceil=0.818 (#box 12)
+  SS23-19048^2023_03_23_   n=4 auto=0.290 ceil=0.892 (#box 2)
+  SS22-49101^2022_08_04_   n=5 auto=0.468 ceil=0.893 (#box 10)
+  SS21-60615^2021_09_29_   n=3 auto=0.683 ceil=0.832 (#box 11)
+  SS21-60938^2021_09_30_   n=2 auto=0.223 ceil=0.909 (#box 2)
+  SS21-34765^2021_06_07_   n=4 auto=0.434 ceil=0.895 (#box 10)
+  SS22-17247^2022_03_24_   n=1 auto=0.513 ceil=0.791 (#box 3)
+  SS22-49101^2022_08_04_   n=6 auto=0.376 ceil=0.846 (#box 12)
+  SS21-35913^2021_06_11_   n=3 auto=0.554 ceil=0.857 (#box 7)
+  SS23-21408^2023_04_03_   n=4 auto=0.247 ceil=0.908 (#box 3)
+  SS23-32996^2023_05_24_   n=2 auto=0.586 ceil=0.878 (#box 7)
+  SS22-41080^2022_07_06_   n=6 auto=0.610 ceil=0.863 (#box 6)
+  SS23-18116^2023_03_22_   n=2 auto=0.695 ceil=0.845 (#box 8)
+  SS21-39246^2021_06_25_   n=1 auto=0.939 ceil=0.938 (#box 7)
+  SS21-43481^2021_07_14_   n=2 auto=0.345 ceil=0.858 (#box 5)
+  SS23-23412^2023_04_11_   n=1 auto=0.488 ceil=0.834 (#box 6)
+  SS22-05400^2022_01_25_   n=1 auto=0.405 ceil=0.870 (#box 3)
+  SS21-38745^2021_06_22_   n=1 auto=0.937 ceil=0.939 (#box 7)
+  SS22-43857^2022_07_15_   n=3 auto=0.639 ceil=0.820 (#box 6)
+  SS21-42051^2021_07_07_   n=1 auto=0.855 ceil=0.935 (#box 8)
+  SS21-39090^2021_06_24_   n=1 auto=0.850 ceil=0.873 (#box 3)
+  SS21-37297^2021_06_17_   n=1 auto=0.572 ceil=0.897 (#box 6)
+  SS21-37293^2021_06_16_   n=1 auto=0.872 ceil=0.872 (#box 4)
+  SS21-35590^2021_06_09_   n=2 auto=0.797 ceil=0.903 (#box 9)
+  SS21-35425^2021_06_09_   n=1 auto=0.866 ceil=0.848 (#box 4)
+  SS21-41214^2021_07_05_   n=2 auto=0.186 ceil=0.897 (#box 11)
+  SS21-35590^2021_06_10_   n=2 auto=0.798 ceil=0.917 (#box 8)
+
+===== SEG-CROP [segR_lab_adv] trên 50 vẽ tay =====
+FULL-AUTO (box detector): median=0.6164 mean=0.5863 | 1u=0.846(n18) >1u=0.570(n32)
+CEILING   (box GT-mảnh) : median=0.8770 mean=0.8647 | 1u=0.873 >1u=0.880
+SO SÁNH: full-auto box->SAM=0.666 | ceiling box->SAM=0.857 | red-ceiling=0.938 | nhãn SAM cũ=0.554
+[00:44:58] XONG segR_lab_adv
+====================================================================
+[00:44:58] BẮT ĐẦU segR_lab_cldice
+[gate] GPU free=12945MB >= 6000 -> chạy
+[cfg] segR_lab_cldice: arch=segresnet ch=lab(6) adv=False(λ0.05) cldice=True(λ0.5)
+[split] train patch=295 val patch=23 (50 vẽ tay HELD-OUT)
+[model] G params=6.30M
+[ep 1] loss_g=1.1837 loss_d=0.0000 val_dice=0.6850  *best
+[ep 2] loss_g=0.9983 loss_d=0.0000 val_dice=0.7550  *best
+[ep 3] loss_g=0.9486 loss_d=0.0000 val_dice=0.7906  *best
+[ep 4] loss_g=0.8915 loss_d=0.0000 val_dice=0.7959  *best
+[ep 5] loss_g=0.8520 loss_d=0.0000 val_dice=0.8406  *best
+[ep 6] loss_g=0.8128 loss_d=0.0000 val_dice=0.8630  *best
+[ep 7] loss_g=0.7704 loss_d=0.0000 val_dice=0.8612
+[ep 8] loss_g=0.7223 loss_d=0.0000 val_dice=0.8559
+[ep 9] loss_g=0.7107 loss_d=0.0000 val_dice=0.8664  *best
+[ep 10] loss_g=0.6901 loss_d=0.0000 val_dice=0.8480
+[ep 11] loss_g=0.6966 loss_d=0.0000 val_dice=0.8594
+[ep 12] loss_g=0.6762 loss_d=0.0000 val_dice=0.8577
+[ep 13] loss_g=0.6618 loss_d=0.0000 val_dice=0.8565
+[ep 14] loss_g=0.6577 loss_d=0.0000 val_dice=0.8597
+[ep 15] loss_g=0.6499 loss_d=0.0000 val_dice=0.8460
+[ep 16] loss_g=0.6428 loss_d=0.0000 val_dice=0.8578
+[ep 17] loss_g=0.6314 loss_d=0.0000 val_dice=0.8471
+[ep 18] loss_g=0.6238 loss_d=0.0000 val_dice=0.8569
+[ep 19] loss_g=0.6347 loss_d=0.0000 val_dice=0.8600
+[ep 20] loss_g=0.6282 loss_d=0.0000 val_dice=0.8574
+[ep 21] loss_g=0.6269 loss_d=0.0000 val_dice=0.8606
+[ep 22] loss_g=0.6050 loss_d=0.0000 val_dice=0.8562
+[ep 23] loss_g=0.5978 loss_d=0.0000 val_dice=0.8550
+[ep 24] loss_g=0.5957 loss_d=0.0000 val_dice=0.8623
+[ep 25] loss_g=0.6019 loss_d=0.0000 val_dice=0.8574
+[ep 26] loss_g=0.5756 loss_d=0.0000 val_dice=0.8587
+[ep 27] loss_g=0.5945 loss_d=0.0000 val_dice=0.8521
+[ep 28] loss_g=0.5899 loss_d=0.0000 val_dice=0.8477
+[ep 29] loss_g=0.5915 loss_d=0.0000 val_dice=0.8550
+[ep 30] loss_g=0.6084 loss_d=0.0000 val_dice=0.8517
+[ep 31] loss_g=0.5858 loss_d=0.0000 val_dice=0.8431
+[ep 32] loss_g=0.5718 loss_d=0.0000 val_dice=0.8485
+[ep 33] loss_g=0.5793 loss_d=0.0000 val_dice=0.8519
+[ep 34] loss_g=0.5666 loss_d=0.0000 val_dice=0.8655
+[ep 35] loss_g=0.5580 loss_d=0.0000 val_dice=0.8521
+[ep 36] loss_g=0.5605 loss_d=0.0000 val_dice=0.8538
+[ep 37] loss_g=0.5648 loss_d=0.0000 val_dice=0.8499
+[ep 38] loss_g=0.5600 loss_d=0.0000 val_dice=0.8586
+[ep 39] loss_g=0.5539 loss_d=0.0000 val_dice=0.8474
+[ep 40] loss_g=0.5378 loss_d=0.0000 val_dice=0.8598
+[ep 41] loss_g=0.5400 loss_d=0.0000 val_dice=0.8532
+[ep 42] loss_g=0.5453 loss_d=0.0000 val_dice=0.8548
+[ep 43] loss_g=0.5446 loss_d=0.0000 val_dice=0.8577
+[ep 44] loss_g=0.5356 loss_d=0.0000 val_dice=0.8572
+[ep 45] loss_g=0.5392 loss_d=0.0000 val_dice=0.8576
+[ep 46] loss_g=0.5352 loss_d=0.0000 val_dice=0.8553
+[ep 47] loss_g=0.5298 loss_d=0.0000 val_dice=0.8574
+[ep 48] loss_g=0.5182 loss_d=0.0000 val_dice=0.8582
+[ep 49] loss_g=0.5177 loss_d=0.0000 val_dice=0.8599
+[ep 50] loss_g=0.5303 loss_d=0.0000 val_dice=0.8573
+[ep 51] loss_g=0.5263 loss_d=0.0000 val_dice=0.8542
+[ep 52] loss_g=0.5032 loss_d=0.0000 val_dice=0.8486
+[ep 53] loss_g=0.5157 loss_d=0.0000 val_dice=0.8507
+[ep 54] loss_g=0.5132 loss_d=0.0000 val_dice=0.8527
+[ep 55] loss_g=0.5106 loss_d=0.0000 val_dice=0.8542
+[ep 56] loss_g=0.5018 loss_d=0.0000 val_dice=0.8539
+[ep 57] loss_g=0.5118 loss_d=0.0000 val_dice=0.8552
+[ep 58] loss_g=0.5123 loss_d=0.0000 val_dice=0.8550
+[ep 59] loss_g=0.5091 loss_d=0.0000 val_dice=0.8547
+[ep 60] loss_g=0.5181 loss_d=0.0000 val_dice=0.8546
+
+Train xong. best val(patch)=0.8664 -> checkpoints/seg_crop_segR_lab_cldice.pt
+  SS22-02205^2022_01_12_   n=3 auto=0.615 ceil=0.818 (#box 5)
+  SS21-42826^2021_07_09_   n=1 auto=0.886 ceil=0.907 (#box 5)
+  SS21-58881^2021_09_16_   n=1 auto=0.345 ceil=0.935 (#box 3)
+  SS22-49889^2022_08_09_   n=3 auto=0.611 ceil=0.875 (#box 6)
+  SS22-23641^2022_04_22_   n=2 auto=0.447 ceil=0.910 (#box 3)
+  SS23-61141^2023_09_13_   n=2 auto=0.778 ceil=0.890 (#box 3)
+  SS22-45604^2022_07_22_   n=2 auto=0.676 ceil=0.895 (#box 8)
+  SS21-42835^2021_07_09_   n=3 auto=0.155 ceil=0.590 (#box 4)
+  SS21-34765^2021_06_04_   n=4 auto=0.457 ceil=0.909 (#box 9)
+  SS21-53209^2021_08_24_   n=2 auto=0.778 ceil=0.907 (#box 12)
+  SS23-12955^2023_02_23_   n=1 auto=0.833 ceil=0.891 (#box 1)
+  SS23-45516^2023_07_12_   n=1 auto=0.858 ceil=0.863 (#box 5)
+  SS21-58163^2021_09_15_   n=4 auto=0.338 ceil=0.912 (#box 6)
+  SS23-49481^2023_07_27_   n=3 auto=0.280 ceil=0.894 (#box 3)
+  SS23-18116^2023_03_21_   n=3 auto=0.790 ceil=0.905 (#box 9)
+  SS21-37627^2021_06_17_   n=1 auto=0.815 ceil=0.824 (#box 5)
+  SS22-38394^2022_06_24_   n=1 auto=0.690 ceil=0.755 (#box 6)
+  SS22-29126^2022_05_16_   n=1 auto=0.028 ceil=0.599 (#box 2)
+  SS22-04076^2022_01_19_   n=2 auto=0.609 ceil=0.913 (#box 10)
+  SS22-55042^2022_08_30_   n=2 auto=0.391 ceil=0.867 (#box 10)
+  SS23-04505^2023_01_19_   n=1 auto=0.951 ceil=0.950 (#box 8)
+  SS23-18073^2023_03_21_   n=4 auto=0.651 ceil=0.885 (#box 3)
+  SS23-12958^2023_02_23_   n=2 auto=0.249 ceil=0.840 (#box 2)
+  SS22-41080^2022_07_06_   n=3 auto=0.809 ceil=0.851 (#box 12)
+  SS23-19048^2023_03_23_   n=4 auto=0.304 ceil=0.903 (#box 2)
+  SS22-49101^2022_08_04_   n=5 auto=0.454 ceil=0.895 (#box 10)
+  SS21-60615^2021_09_29_   n=3 auto=0.663 ceil=0.831 (#box 11)
+  SS21-60938^2021_09_30_   n=2 auto=0.212 ceil=0.911 (#box 2)
+  SS21-34765^2021_06_07_   n=4 auto=0.418 ceil=0.903 (#box 10)
+  SS22-17247^2022_03_24_   n=1 auto=0.531 ceil=0.800 (#box 3)
+  SS22-49101^2022_08_04_   n=6 auto=0.378 ceil=0.861 (#box 12)
+  SS21-35913^2021_06_11_   n=3 auto=0.556 ceil=0.869 (#box 7)
+  SS23-21408^2023_04_03_   n=4 auto=0.253 ceil=0.919 (#box 3)
+  SS23-32996^2023_05_24_   n=2 auto=0.558 ceil=0.886 (#box 7)
+  SS22-41080^2022_07_06_   n=6 auto=0.616 ceil=0.886 (#box 6)
+  SS23-18116^2023_03_22_   n=2 auto=0.638 ceil=0.728 (#box 8)
+  SS21-39246^2021_06_25_   n=1 auto=0.937 ceil=0.937 (#box 7)
+  SS21-43481^2021_07_14_   n=2 auto=0.336 ceil=0.863 (#box 5)
+  SS23-23412^2023_04_11_   n=1 auto=0.482 ceil=0.930 (#box 6)
+  SS22-05400^2022_01_25_   n=1 auto=0.423 ceil=0.874 (#box 3)
+  SS21-38745^2021_06_22_   n=1 auto=0.948 ceil=0.940 (#box 7)
+  SS22-43857^2022_07_15_   n=3 auto=0.644 ceil=0.821 (#box 6)
+  SS21-42051^2021_07_07_   n=1 auto=0.849 ceil=0.933 (#box 8)
+  SS21-39090^2021_06_24_   n=1 auto=0.842 ceil=0.872 (#box 3)
+  SS21-37297^2021_06_17_   n=1 auto=0.573 ceil=0.897 (#box 6)
+  SS21-37293^2021_06_16_   n=1 auto=0.873 ceil=0.877 (#box 4)
+  SS21-35590^2021_06_09_   n=2 auto=0.775 ceil=0.909 (#box 9)
+  SS21-35425^2021_06_09_   n=1 auto=0.868 ceil=0.903 (#box 4)
+  SS21-41214^2021_07_05_   n=2 auto=0.178 ceil=0.904 (#box 11)
+  SS21-35590^2021_06_10_   n=2 auto=0.781 ceil=0.921 (#box 8)
+
+===== SEG-CROP [segR_lab_cldice] trên 50 vẽ tay =====
+FULL-AUTO (box detector): median=0.6133 mean=0.5826 | 1u=0.838(n18) >1u=0.557(n32)
+CEILING   (box GT-mảnh) : median=0.8925 mean=0.8711 | 1u=0.894 >1u=0.892
+SO SÁNH: full-auto box->SAM=0.666 | ceiling box->SAM=0.857 | red-ceiling=0.938 | nhãn SAM cũ=0.554
+[01:11:54] XONG segR_lab_cldice
+====================================================================
+[01:11:54] BẮT ĐẦU segR_lab_adv_cldice
+[gate] GPU free=12945MB >= 6000 -> chạy
+[cfg] segR_lab_adv_cldice: arch=segresnet ch=lab(6) adv=True(λ0.05) cldice=True(λ0.5)
+[split] train patch=295 val patch=23 (50 vẽ tay HELD-OUT)
+[model] G params=6.30M
+[model] D params=1.72M (PatchGAN, LSGAN)
+[ep 1] loss_g=1.1956 loss_d=0.2846 val_dice=0.6160  *best
+[ep 2] loss_g=1.0382 loss_d=0.1748 val_dice=0.7615  *best
+[ep 3] loss_g=0.9745 loss_d=0.1042 val_dice=0.7267
+[ep 4] loss_g=0.9229 loss_d=0.0629 val_dice=0.8156  *best
+[ep 5] loss_g=0.8677 loss_d=0.0443 val_dice=0.8443  *best
+[ep 6] loss_g=0.8260 loss_d=0.0309 val_dice=0.8177
+[ep 7] loss_g=0.7916 loss_d=0.0339 val_dice=0.8653  *best
+[ep 8] loss_g=0.7516 loss_d=0.0374 val_dice=0.8675  *best
+[ep 9] loss_g=0.7452 loss_d=0.0746 val_dice=0.8609
+[ep 10] loss_g=0.7334 loss_d=0.0396 val_dice=0.8629
+[ep 11] loss_g=0.7228 loss_d=0.0459 val_dice=0.8628
+[ep 12] loss_g=0.7074 loss_d=0.0258 val_dice=0.8635
+[ep 13] loss_g=0.7126 loss_d=0.0351 val_dice=0.8680  *best
+[ep 14] loss_g=0.6925 loss_d=0.0638 val_dice=0.8548
+[ep 15] loss_g=0.6870 loss_d=0.0632 val_dice=0.7978
+[ep 16] loss_g=0.6885 loss_d=0.0436 val_dice=0.8583
+[ep 17] loss_g=0.6840 loss_d=0.0287 val_dice=0.8573
+[ep 18] loss_g=0.6880 loss_d=0.0315 val_dice=0.8478
+[ep 19] loss_g=0.6628 loss_d=0.0257 val_dice=0.8583
+[ep 20] loss_g=0.6592 loss_d=0.0339 val_dice=0.8431
+[ep 21] loss_g=0.6601 loss_d=0.0375 val_dice=0.8389
+[ep 22] loss_g=0.6749 loss_d=0.0384 val_dice=0.8199
+[ep 23] loss_g=0.6639 loss_d=0.0352 val_dice=0.8494
+[ep 24] loss_g=0.6627 loss_d=0.0551 val_dice=0.8538
+[ep 25] loss_g=0.6467 loss_d=0.0656 val_dice=0.8605
+[ep 26] loss_g=0.6601 loss_d=0.0890 val_dice=0.8296
+[ep 27] loss_g=0.6482 loss_d=0.0226 val_dice=0.8434
+[ep 28] loss_g=0.6418 loss_d=0.0307 val_dice=0.8519
+[ep 29] loss_g=0.6436 loss_d=0.0419 val_dice=0.8286
+[ep 30] loss_g=0.6366 loss_d=0.0355 val_dice=0.8634
+[ep 31] loss_g=0.6416 loss_d=0.0798 val_dice=0.8520
+[ep 32] loss_g=0.6440 loss_d=0.0603 val_dice=0.8529
+[ep 33] loss_g=0.6252 loss_d=0.0672 val_dice=0.8550
+[ep 34] loss_g=0.6149 loss_d=0.0440 val_dice=0.8508
+[ep 35] loss_g=0.6357 loss_d=0.0449 val_dice=0.8481
+[ep 36] loss_g=0.6108 loss_d=0.0706 val_dice=0.8464
+[ep 37] loss_g=0.6086 loss_d=0.0357 val_dice=0.8486
+[ep 38] loss_g=0.6076 loss_d=0.0260 val_dice=0.8583
+[ep 39] loss_g=0.5997 loss_d=0.0253 val_dice=0.8561
+[ep 40] loss_g=0.6102 loss_d=0.0391 val_dice=0.8550
+[ep 41] loss_g=0.6069 loss_d=0.0634 val_dice=0.8494
+[ep 42] loss_g=0.6052 loss_d=0.0522 val_dice=0.8513
+[ep 43] loss_g=0.5842 loss_d=0.0498 val_dice=0.8467
+[ep 44] loss_g=0.5926 loss_d=0.0356 val_dice=0.8540
+[ep 45] loss_g=0.5867 loss_d=0.0555 val_dice=0.8521
+[ep 46] loss_g=0.5875 loss_d=0.0603 val_dice=0.8547
+[ep 47] loss_g=0.5804 loss_d=0.0806 val_dice=0.8488
+[ep 48] loss_g=0.5863 loss_d=0.0399 val_dice=0.8560
+[ep 49] loss_g=0.5825 loss_d=0.0371 val_dice=0.8395
+[ep 50] loss_g=0.5711 loss_d=0.0256 val_dice=0.8549
+[ep 51] loss_g=0.5711 loss_d=0.0611 val_dice=0.8567
+[ep 52] loss_g=0.5755 loss_d=0.0311 val_dice=0.8537
+[ep 53] loss_g=0.5694 loss_d=0.0376 val_dice=0.8528
+[ep 54] loss_g=0.5706 loss_d=0.0291 val_dice=0.8551
+[ep 55] loss_g=0.5761 loss_d=0.0255 val_dice=0.8547
+[ep 56] loss_g=0.5797 loss_d=0.0341 val_dice=0.8548
+[ep 57] loss_g=0.5514 loss_d=0.0451 val_dice=0.8556
+[ep 58] loss_g=0.5584 loss_d=0.0269 val_dice=0.8556
+[ep 59] loss_g=0.5640 loss_d=0.0337 val_dice=0.8558
+[ep 60] loss_g=0.5698 loss_d=0.0321 val_dice=0.8558
+
+Train xong. best val(patch)=0.8680 -> checkpoints/seg_crop_segR_lab_adv_cldice.pt
+  SS22-02205^2022_01_12_   n=3 auto=0.617 ceil=0.816 (#box 5)
+  SS21-42826^2021_07_09_   n=1 auto=0.883 ceil=0.910 (#box 5)
+  SS21-58881^2021_09_16_   n=1 auto=0.343 ceil=0.934 (#box 3)
+  SS22-49889^2022_08_09_   n=3 auto=0.612 ceil=0.877 (#box 6)
+  SS22-23641^2022_04_22_   n=2 auto=0.445 ceil=0.911 (#box 3)
+  SS23-61141^2023_09_13_   n=2 auto=0.781 ceil=0.922 (#box 3)
+  SS22-45604^2022_07_22_   n=2 auto=0.680 ceil=0.882 (#box 8)
+  SS21-42835^2021_07_09_   n=3 auto=0.157 ceil=0.597 (#box 4)
+  SS21-34765^2021_06_04_   n=4 auto=0.459 ceil=0.912 (#box 9)
+  SS21-53209^2021_08_24_   n=2 auto=0.778 ceil=0.908 (#box 12)
+  SS23-12955^2023_02_23_   n=1 auto=0.832 ceil=0.892 (#box 1)
+  SS23-45516^2023_07_12_   n=1 auto=0.855 ceil=0.865 (#box 5)
+  SS21-58163^2021_09_15_   n=4 auto=0.338 ceil=0.913 (#box 6)
+  SS23-49481^2023_07_27_   n=3 auto=0.280 ceil=0.892 (#box 3)
+  SS23-18116^2023_03_21_   n=3 auto=0.796 ceil=0.904 (#box 9)
+  SS21-37627^2021_06_17_   n=1 auto=0.817 ceil=0.826 (#box 5)
+  SS22-38394^2022_06_24_   n=1 auto=0.674 ceil=0.757 (#box 6)
+  SS22-29126^2022_05_16_   n=1 auto=0.029 ceil=0.636 (#box 2)
+  SS22-04076^2022_01_19_   n=2 auto=0.599 ceil=0.918 (#box 10)
+  SS22-55042^2022_08_30_   n=2 auto=0.384 ceil=0.865 (#box 10)
+  SS23-04505^2023_01_19_   n=1 auto=0.955 ceil=0.955 (#box 8)
+  SS23-18073^2023_03_21_   n=4 auto=0.657 ceil=0.876 (#box 3)
+  SS23-12958^2023_02_23_   n=2 auto=0.258 ceil=0.855 (#box 2)
+  SS22-41080^2022_07_06_   n=3 auto=0.808 ceil=0.843 (#box 12)
+  SS23-19048^2023_03_23_   n=4 auto=0.303 ceil=0.898 (#box 2)
+  SS22-49101^2022_08_04_   n=5 auto=0.453 ceil=0.893 (#box 10)
+  SS21-60615^2021_09_29_   n=3 auto=0.660 ceil=0.824 (#box 11)
+  SS21-60938^2021_09_30_   n=2 auto=0.214 ceil=0.919 (#box 2)
+  SS21-34765^2021_06_07_   n=4 auto=0.422 ceil=0.905 (#box 10)
+  SS22-17247^2022_03_24_   n=1 auto=0.533 ceil=0.781 (#box 3)
+  SS22-49101^2022_08_04_   n=6 auto=0.374 ceil=0.852 (#box 12)
+  SS21-35913^2021_06_11_   n=3 auto=0.539 ceil=0.839 (#box 7)
+  SS23-21408^2023_04_03_   n=4 auto=0.255 ceil=0.919 (#box 3)
+  SS23-32996^2023_05_24_   n=2 auto=0.555 ceil=0.884 (#box 7)
+  SS22-41080^2022_07_06_   n=6 auto=0.612 ceil=0.875 (#box 6)
+  SS23-18116^2023_03_22_   n=2 auto=0.688 ceil=0.844 (#box 8)
+  SS21-39246^2021_06_25_   n=1 auto=0.940 ceil=0.939 (#box 7)
+  SS21-43481^2021_07_14_   n=2 auto=0.349 ceil=0.867 (#box 5)
+  SS23-23412^2023_04_11_   n=1 auto=0.484 ceil=0.908 (#box 6)
+  SS22-05400^2022_01_25_   n=1 auto=0.424 ceil=0.869 (#box 3)
+  SS21-38745^2021_06_22_   n=1 auto=0.941 ceil=0.941 (#box 7)
+  SS22-43857^2022_07_15_   n=3 auto=0.645 ceil=0.811 (#box 6)
+  SS21-42051^2021_07_07_   n=1 auto=0.856 ceil=0.935 (#box 8)
+  SS21-39090^2021_06_24_   n=1 auto=0.867 ceil=0.878 (#box 3)
+  SS21-37297^2021_06_17_   n=1 auto=0.573 ceil=0.903 (#box 6)
+  SS21-37293^2021_06_16_   n=1 auto=0.874 ceil=0.872 (#box 4)
+  SS21-35590^2021_06_09_   n=2 auto=0.770 ceil=0.909 (#box 9)
+  SS21-35425^2021_06_09_   n=1 auto=0.874 ceil=0.865 (#box 4)
+  SS21-41214^2021_07_05_   n=2 auto=0.177 ceil=0.904 (#box 11)
+  SS21-35590^2021_06_10_   n=2 auto=0.774 ceil=0.924 (#box 8)
+
+===== SEG-CROP [segR_lab_adv_cldice] trên 50 vẽ tay =====
+FULL-AUTO (box detector): median=0.6121 mean=0.5839 | 1u=0.844(n18) >1u=0.547(n32)
+CEILING   (box GT-mảnh) : median=0.8880 mean=0.8724 | 1u=0.885 >1u=0.888
+SO SÁNH: full-auto box->SAM=0.666 | ceiling box->SAM=0.857 | red-ceiling=0.938 | nhãn SAM cũ=0.554
+[01:43:44] XONG segR_lab_adv_cldice
+[01:43:44] ===== XONG ADV/clDICE =====

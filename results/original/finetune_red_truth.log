@@ -1,0 +1,47 @@
+[split] truth train=166 val=12 (handdraw 50 HELD-OUT, 0 rò rỉ) | jitter=0.25
+Nạp SAM2.1@1024 ...
+Tham số train (đỏ): 4.22M
+Mẫu train (cụm u): 298
+[ep 0] zero-shot val Dice (trần box->mask, mask thật) = 0.8615
+[ep 1] train_loss=0.2432 | val Dice=0.8565  *best->lưu
+[ep 2] train_loss=0.1857 | val Dice=0.8206
+[ep 3] train_loss=0.1809 | val Dice=0.8496
+[ep 4] train_loss=0.1728 | val Dice=0.8138
+[ep 5] train_loss=0.1539 | val Dice=0.8000
+[ep 6] train_loss=0.1520 | val Dice=0.8280
+[ep 7] train_loss=0.1398 | val Dice=0.7697
+[ep 8] train_loss=0.1430 | val Dice=0.8052
+[ep 9] train_loss=0.1484 | val Dice=0.8080
+[ep 10] train_loss=0.1339 | val Dice=0.8012
+[ep 11] train_loss=0.1322 | val Dice=0.7903
+[ep 12] train_loss=0.1293 | val Dice=0.7922
+[ep 13] train_loss=0.1234 | val Dice=0.7913
+[ep 14] train_loss=0.1215 | val Dice=0.7552
+[ep 15] train_loss=0.1278 | val Dice=0.8070
+[ep 16] train_loss=0.1287 | val Dice=0.7965
+[ep 17] train_loss=0.1324 | val Dice=0.7763
+[ep 18] train_loss=0.1285 | val Dice=0.7964
+[ep 19] train_loss=0.1111 | val Dice=0.7655
+[ep 20] train_loss=0.1102 | val Dice=0.7886
+[ep 21] train_loss=0.1111 | val Dice=0.7732
+[ep 22] train_loss=0.1068 | val Dice=0.7742
+[ep 23] train_loss=0.1192 | val Dice=0.7878
+[ep 24] train_loss=0.1105 | val Dice=0.7767
+[ep 25] train_loss=0.1047 | val Dice=0.7776
+[ep 26] train_loss=0.1041 | val Dice=0.7545
+[ep 27] train_loss=0.1091 | val Dice=0.8083
+[ep 28] train_loss=0.1073 | val Dice=0.7898
+[ep 29] train_loss=0.0991 | val Dice=0.7653
+[ep 30] train_loss=0.0981 | val Dice=0.7828
+[ep 31] train_loss=0.0981 | val Dice=0.7641
+[ep 32] train_loss=0.0901 | val Dice=0.8037
+[ep 33] train_loss=0.0931 | val Dice=0.7901
+[ep 34] train_loss=0.0915 | val Dice=0.7899
+[ep 35] train_loss=0.0956 | val Dice=0.8172
+[ep 36] train_loss=0.0927 | val Dice=0.7563
+[ep 37] train_loss=0.0894 | val Dice=0.7901
+[ep 38] train_loss=0.0883 | val Dice=0.7538
+[ep 39] train_loss=0.0857 | val Dice=0.7590
+[ep 40] train_loss=0.0846 | val Dice=0.7645
+
+Xong. zero-shot val=0.8615 | BEST FT val=0.8565 -> checkpoints/sam2.1_rcc_red_truth.pt

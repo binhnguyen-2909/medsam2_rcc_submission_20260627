@@ -1,0 +1,12 @@
+model:
+  name: sam2_1_hiera_tiny_box_prompt_baseline
+  architecture: sam2.1_hiera_tiny
+  checkpoint: checkpoints/sam2.1_hiera_tiny.pt
+  config_name: configs/sam2.1_hiera_t512
+  image_size: 1024
+inference:
+  multimask_output: true
+  select_mask_by: sam_score_argmax
+notes:
+  status: baseline_not_current_champion
+  reason: SegResNet+LAB crop segmenter improved semi-auto ceiling from about 0.857 to 0.883

@@ -1,0 +1,5 @@
+Tổng: 55 ảnh / 39 bệnh nhân
+TRAIN: 43 ảnh / 29 bệnh nhân
+VAL  : 12 ảnh / 10 bệnh nhân (~22% ảnh)
+Không rò rỉ bệnh nhân ✔
+-> labels/split.json , labels/split.csv

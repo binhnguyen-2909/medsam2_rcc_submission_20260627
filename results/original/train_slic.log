@@ -1,0 +1,9 @@
+[slic] build features từ 178 ảnh...
+[slic] superpixels=123734 pos=10124 (8.2%)
+[ep 10] loss=0.4563
+[ep 20] loss=0.4635
+[ep 30] loss=0.4762
+[ep 40] loss=0.3385
+[ep 50] loss=0.3663
+[ep 60] loss=0.3804
+[slic] thr=0.90 F1=0.712 -> checkpoints/slic_clf.pt

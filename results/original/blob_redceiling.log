@@ -1,0 +1,61 @@
+  SS22-02205^2022_01_1   ellGT=0.915 | auto rc=0.850 rc_ell=0.850 | ceil rc=1.000 rc_ell=0.915
+  SS21-42826^2021_07_0   ellGT=0.951 | auto rc=1.000 rc_ell=0.951 | ceil rc=1.000 rc_ell=0.951
+  SS21-58881^2021_09_1   ellGT=0.955 | auto rc=0.766 rc_ell=0.863 | ceil rc=1.000 rc_ell=0.955
+  SS22-49889^2022_08_0   ellGT=0.959 | auto rc=0.897 rc_ell=0.870 | ceil rc=1.000 rc_ell=0.959
+  SS22-23641^2022_04_2   ellGT=0.994 | auto rc=1.000 rc_ell=0.994 | ceil rc=1.000 rc_ell=0.994
+  SS23-61141^2023_09_1   ellGT=0.970 | auto rc=0.887 rc_ell=0.966 | ceil rc=1.000 rc_ell=0.970
+  SS22-45604^2022_07_2   ellGT=0.932 | auto rc=0.803 rc_ell=0.828 | ceil rc=1.000 rc_ell=0.932
+  SS21-42835^2021_07_0   ellGT=0.842 | auto rc=0.761 rc_ell=0.633 | ceil rc=1.000 rc_ell=0.842
+  SS21-34765^2021_06_0   ellGT=0.967 | auto rc=0.625 rc_ell=0.695 | ceil rc=1.000 rc_ell=0.967
+  SS21-53209^2021_08_2   ellGT=0.937 | auto rc=1.000 rc_ell=0.937 | ceil rc=1.000 rc_ell=0.937
+  SS23-12955^2023_02_2   ellGT=0.954 | auto rc=0.991 rc_ell=0.952 | ceil rc=1.000 rc_ell=0.954
+  SS23-45516^2023_07_1   ellGT=0.971 | auto rc=0.999 rc_ell=0.971 | ceil rc=1.000 rc_ell=0.971
+  SS21-58163^2021_09_1   ellGT=0.956 | auto rc=0.991 rc_ell=0.956 | ceil rc=1.000 rc_ell=0.956
+  SS23-49481^2023_07_2   ellGT=0.955 | auto rc=0.303 rc_ell=0.336 | ceil rc=1.000 rc_ell=0.955
+  SS23-18116^2023_03_2   ellGT=0.948 | auto rc=0.963 rc_ell=0.914 | ceil rc=1.000 rc_ell=0.948
+  SS21-37627^2021_06_1   ellGT=0.932 | auto rc=0.999 rc_ell=0.932 | ceil rc=1.000 rc_ell=0.932
+  SS22-38394^2022_06_2   ellGT=0.775 | auto rc=1.000 rc_ell=0.775 | ceil rc=1.000 rc_ell=0.775
+  SS22-29126^2022_05_1   ellGT=1.000 | auto rc=0.034 rc_ell=0.098 | ceil rc=1.000 rc_ell=1.000
+  SS22-04076^2022_01_1   ellGT=0.950 | auto rc=1.000 rc_ell=0.950 | ceil rc=1.000 rc_ell=0.950
+  SS22-55042^2022_08_3   ellGT=0.923 | auto rc=0.925 rc_ell=0.887 | ceil rc=1.000 rc_ell=0.923
+  SS23-04505^2023_01_1   ellGT=0.901 | auto rc=0.988 rc_ell=0.916 | ceil rc=1.000 rc_ell=0.901
+  SS23-18073^2023_03_2   ellGT=0.911 | auto rc=0.769 rc_ell=0.726 | ceil rc=1.000 rc_ell=0.911
+  SS23-12958^2023_02_2   ellGT=0.930 | auto rc=0.329 rc_ell=0.370 | ceil rc=1.000 rc_ell=0.930
+  SS22-41080^2022_07_0   ellGT=0.812 | auto rc=0.934 rc_ell=0.795 | ceil rc=1.000 rc_ell=0.812
+  SS23-19048^2023_03_2   ellGT=0.936 | auto rc=0.367 rc_ell=0.432 | ceil rc=1.000 rc_ell=0.936
+  SS22-49101^2022_08_0   ellGT=0.940 | auto rc=0.748 rc_ell=0.700 | ceil rc=1.000 rc_ell=0.940
+  SS21-60615^2021_09_2   ellGT=0.892 | auto rc=0.979 rc_ell=0.875 | ceil rc=1.000 rc_ell=0.892
+  SS21-60938^2021_09_3   ellGT=0.994 | auto rc=0.662 rc_ell=0.663 | ceil rc=1.000 rc_ell=0.994
+  SS21-34765^2021_06_0   ellGT=0.970 | auto rc=0.631 rc_ell=0.612 | ceil rc=1.000 rc_ell=0.970
+  SS22-17247^2022_03_2   ellGT=0.871 | auto rc=0.640 rc_ell=0.698 | ceil rc=1.000 rc_ell=0.871
+  SS22-49101^2022_08_0   ellGT=0.922 | auto rc=0.707 rc_ell=0.625 | ceil rc=1.000 rc_ell=0.922
+  SS21-35913^2021_06_1   ellGT=0.941 | auto rc=0.644 rc_ell=0.645 | ceil rc=1.000 rc_ell=0.941
+  SS23-21408^2023_04_0   ellGT=0.981 | auto rc=0.439 rc_ell=0.422 | ceil rc=1.000 rc_ell=0.981
+  SS23-32996^2023_05_2   ellGT=0.972 | auto rc=0.977 rc_ell=0.959 | ceil rc=1.000 rc_ell=0.972
+  SS22-41080^2022_07_0   ellGT=0.906 | auto rc=0.723 rc_ell=0.656 | ceil rc=1.000 rc_ell=0.906
+  SS23-18116^2023_03_2   ellGT=0.935 | auto rc=1.000 rc_ell=0.935 | ceil rc=1.000 rc_ell=0.935
+  SS21-39246^2021_06_2   ellGT=0.957 | auto rc=1.000 rc_ell=0.957 | ceil rc=1.000 rc_ell=0.957
+  SS21-43481^2021_07_1   ellGT=0.917 | auto rc=0.906 rc_ell=0.895 | ceil rc=1.000 rc_ell=0.917
+  SS23-23412^2023_04_1   ellGT=0.956 | auto rc=1.000 rc_ell=0.956 | ceil rc=1.000 rc_ell=0.956
+  SS22-05400^2022_01_2   ellGT=0.967 | auto rc=0.481 rc_ell=0.522 | ceil rc=1.000 rc_ell=0.967
+  SS21-38745^2021_06_2   ellGT=0.961 | auto rc=1.000 rc_ell=0.961 | ceil rc=1.000 rc_ell=0.961
+  SS22-43857^2022_07_1   ellGT=0.865 | auto rc=1.000 rc_ell=0.865 | ceil rc=1.000 rc_ell=0.865
+  SS21-42051^2021_07_0   ellGT=0.956 | auto rc=1.000 rc_ell=0.956 | ceil rc=1.000 rc_ell=0.956
+  SS21-39090^2021_06_2   ellGT=0.910 | auto rc=0.942 rc_ell=0.901 | ceil rc=1.000 rc_ell=0.910
+  SS21-37297^2021_06_1   ellGT=0.958 | auto rc=1.000 rc_ell=0.958 | ceil rc=1.000 rc_ell=0.958
+  SS21-37293^2021_06_1   ellGT=0.870 | auto rc=1.000 rc_ell=0.870 | ceil rc=1.000 rc_ell=0.870
+  SS21-35590^2021_06_0   ellGT=0.969 | auto rc=1.000 rc_ell=0.969 | ceil rc=1.000 rc_ell=0.969
+  SS21-35425^2021_06_0   ellGT=0.979 | auto rc=0.998 rc_ell=0.979 | ceil rc=1.000 rc_ell=0.979
+  SS21-41214^2021_07_0   ellGT=0.939 | auto rc=0.560 rc_ell=0.550 | ceil rc=1.000 rc_ell=0.939
+  SS21-35590^2021_06_1   ellGT=0.960 | auto rc=1.000 rc_ell=0.960 | ceil rc=1.000 rc_ell=0.960
+
+===== ELLIPSE Ở RED-CEILING (50 vẽ tay) =====
+  ellipse_of_GT      median=0.9490 mean=0.9353 | 1u=0.955 >1u=0.939
+  auto_redceil       median=0.9378 mean=0.8243 | 1u=0.999 >1u=0.869
+  auto_redceil_ell   median=0.8724 mean=0.7936 | 1u=0.942 >1u=0.839
+  ceil_redceil       median=1.0000 mean=1.0000 | 1u=1.000 >1u=1.000
+  ceil_redceil_ell   median=0.9490 mean=0.9353 | 1u=0.955 >1u=0.939
+
+SO: red-ceiling thường ~0.938 | ceiling segmenter 0.883 | full-auto 0.635
+=> ellipse_of_GT = trần tuyệt đối của hình elip (u có đủ 'elip' không)
+-> results/blob_redceiling.json

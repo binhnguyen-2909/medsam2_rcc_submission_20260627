@@ -1,0 +1,2 @@
+[chain] train xong 19:51 — chạy eval vẽ tay ckpt _ms
+[chain] XONG eval _ms 19:53; default csv khôi phục = grid64

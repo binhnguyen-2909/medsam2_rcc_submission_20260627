@@ -1,0 +1,33 @@
+[split] train=514 val=24 (eval200=200 test12=12 loại khỏi train)
+Nạp SAM2.1 tiny@1024 (đông cứng) ...
+[precompute] cần 0 (đã có 1028)
+[precompute] cần 0 (đã có 24)
+Mẫu train (kể cả flip): 1028
+Tham số detector: 2.37M
+[ep 1] loss=2.078 cls=0.249 l1=0.088 giou=0.695 mask=0.000 | val_dice=0.6067@thr0.2
+[ep 2] loss=1.950 cls=0.226 l1=0.080 giou=0.661 mask=0.000 | val_dice=0.5854@thr0.3
+[ep 3] loss=1.885 cls=0.208 l1=0.077 giou=0.647 mask=0.000 | val_dice=0.6495@thr0.5
+[ep 4] loss=1.837 cls=0.200 l1=0.074 giou=0.634 mask=0.000 | val_dice=0.5813@thr0.3
+[ep 5] loss=2.332 cls=0.196 l1=0.077 giou=0.639 mask=0.473 | val_dice=0.6057@thr0.3  *best
+[ep 6] loss=2.249 cls=0.180 l1=0.075 giou=0.631 mask=0.430 | val_dice=0.6154@thr0.3  *best
+[ep 7] loss=2.209 cls=0.186 l1=0.074 giou=0.627 mask=0.401 | val_dice=0.5867@thr0.3
+[ep 8] loss=2.158 cls=0.172 l1=0.072 giou=0.621 mask=0.383 | val_dice=0.5572@thr0.3
+[ep 9] loss=2.127 cls=0.175 l1=0.071 giou=0.617 mask=0.361 | val_dice=0.5965@thr0.5
+[ep 10] loss=2.095 cls=0.169 l1=0.071 giou=0.613 mask=0.348 | val_dice=0.5976@thr0.5
+[ep 11] loss=2.074 cls=0.168 l1=0.070 giou=0.609 mask=0.339 | val_dice=0.5648@thr0.3
+[ep 12] loss=2.061 cls=0.167 l1=0.069 giou=0.608 mask=0.334 | val_dice=0.5827@thr0.5
+[ep 13] loss=2.051 cls=0.164 l1=0.070 giou=0.608 mask=0.324 | val_dice=0.5750@thr0.5
+[ep 14] loss=2.027 cls=0.155 l1=0.068 giou=0.604 mask=0.322 | val_dice=0.5921@thr0.5
+[ep 15] loss=1.996 cls=0.154 l1=0.068 giou=0.601 mask=0.299 | val_dice=0.6018@thr0.3
+[ep 16] loss=1.978 cls=0.158 l1=0.067 giou=0.597 mask=0.292 | val_dice=0.5267@thr0.5
+[ep 17] loss=1.972 cls=0.149 l1=0.066 giou=0.597 mask=0.298 | val_dice=0.6726@thr0.5  *best
+[ep 18] loss=1.945 cls=0.148 l1=0.066 giou=0.593 mask=0.282 | val_dice=0.6377@thr0.5
+[ep 19] loss=1.914 cls=0.144 l1=0.065 giou=0.590 mask=0.266 | val_dice=0.5849@thr0.5
+[ep 20] loss=1.908 cls=0.148 l1=0.064 giou=0.588 mask=0.263 | val_dice=0.5073@thr0.3
+[ep 21] loss=1.907 cls=0.142 l1=0.064 giou=0.587 mask=0.269 | val_dice=0.5486@thr0.3
+[ep 22] loss=1.920 cls=0.143 l1=0.065 giou=0.588 mask=0.274 | val_dice=0.5586@thr0.5
+[ep 23] loss=1.867 cls=0.136 l1=0.063 giou=0.582 mask=0.251 | val_dice=0.6022@thr0.5
+[ep 24] loss=1.869 cls=0.135 l1=0.063 giou=0.582 mask=0.256 | val_dice=0.6090@thr0.5
+[ep 25] loss=1.844 cls=0.131 l1=0.063 giou=0.579 mask=0.243 | val_dice=0.6150@thr0.5
+
+Xong. best val end-to-end Dice = 0.6726 -> checkpoints/detector_recall_ms.pt

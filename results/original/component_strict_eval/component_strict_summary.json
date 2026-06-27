@@ -1,0 +1,47 @@
+[
+ {
+  "config": "strict050",
+  "median": 0.6434,
+  "mean": 0.592992,
+  "one_u": 0.76295,
+  "multi_u": 0.5499499999999999,
+  "box_median": 4.5,
+  "mask_over_spec_median": 0.30955
+ },
+ {
+  "config": "comp4_frac045_fb025",
+  "median": 0.6408,
+  "mean": 0.603236,
+  "one_u": 0.7629,
+  "multi_u": 0.5870500000000001,
+  "box_median": 4.0,
+  "mask_over_spec_median": 0.273
+ },
+ {
+  "config": "comp3_frac050_fb025",
+  "median": 0.639,
+  "mean": 0.583932,
+  "one_u": 0.73245,
+  "multi_u": 0.5507500000000001,
+  "box_median": 3.0,
+  "mask_over_spec_median": 0.23455
+ },
+ {
+  "config": "comp2_frac050_fb035",
+  "median": 0.6203000000000001,
+  "mean": 0.573558,
+  "one_u": 0.737,
+  "multi_u": 0.5502,
+  "box_median": 2.0,
+  "mask_over_spec_median": 0.1945
+ },
+ {
+  "config": "comp1_frac050_fb035",
+  "median": 0.503,
+  "mean": 0.47833,
+  "one_u": 0.5952500000000001,
+  "multi_u": 0.4914,
+  "box_median": 1.0,
+  "mask_over_spec_median": 0.1235
+ }
+]
