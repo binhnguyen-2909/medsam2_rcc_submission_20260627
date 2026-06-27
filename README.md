@@ -15,6 +15,28 @@ Current champion from the project memory:
 - independent hand-drawn evaluation: median Dice `0.8834`, mean Dice `0.8682` on `n=50`
 - full-auto localizer remains limited: median Dice about `0.635`
 
+## Read This First
+
+For a quick review of the submission, read these files in order:
+
+1. `README.md`: package purpose, setup, and quick inference command.
+2. `docs/project_summary.md`: research narrative and final interpretation.
+3. `results/README.md`: where the result tables and qualitative outputs live.
+4. `experiments/best_current/README.md`: current best semi-auto deliverable,
+   best stable full-auto run, and recommended next experiment.
+5. `experiments/rejected/README.md`: negative results and directions not to
+   repeat.
+
+The key practical path is:
+
+```text
+draw or provide tight tumor box(es)
+  -> run src/inference/predict_seg_crop.py
+  -> inspect output mask and overlay
+  -> record the run under experiments/runs/
+  -> compare against results/tables/
+```
+
 ## Directory Layout
 
 ```text
@@ -33,18 +55,23 @@ src/
   inference/             production/research inference entrypoints
   external/              vendored SAM2 code needed by legacy baselines
 checkpoints/             required model weights
+models/                  auxiliary legacy localizer weights
 experiments/
   _templates/            README template required for every run
   runs/                  one subfolder per run
 results/                 curated result tables/figures copied from original work
 legacy_artifacts/        original generated artifacts that do not fit clean modules
 docs/                    design notes and reproducibility notes
+scripts/                 reproducibility utilities and legacy shell runners
+notebooks/               optional exploratory notebooks; none required currently
+reports/                 optional generated reports; primary docs are in docs/
+tests/                   placeholder for future automated tests
 ```
 
 ## Setup
 
 ```bash
-cd /home/hvusynh2/nguyenduong/medsam2_rcc_reproducible
+cd /home/hvusynh2/nguyenduong/medsam2_rcc_submission_20260627
 conda env create -f environment.yml
 conda activate medsam2-rcc-repro
 ```
@@ -154,3 +181,12 @@ python scripts/validate_artifacts.py --manifest data/manifests/artifact_checksum
 - `px/cm` from ruler detection was unreliable and should not drive QC.
 - Full-auto localization is the bottleneck; the reliable deliverable is semi-auto
   tight box(es) to tumor mask.
+
+## Recommended Next Direction
+
+If continuing this work, prioritize localization rather than changing the
+box-to-mask segmenter. The best current semi-auto segmenter is already strong
+when boxes are tight. The next full-auto experiment to try is documented in
+`experiments/best_current/README.md`: run the `component_strict comp4` variant
+on the full dataset and compare its stability against
+`full_auto_specimen_strict_20260626`.
