@@ -455,16 +455,59 @@ PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True /home/hvusynh2/conda_envs/medsa
 PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True /home/hvusynh2/conda_envs/medsam2_anno/bin/python -u predict_full_auto_all.py --out results/full_auto_component_strict_comp4_20260627 --overwrite --component_strict --component_max_box 4 --component_min_box_spec_frac 0.45 --component_fallback_thr 0.25
 ```
 
+**Đã chạy xong full-data cho `component_strict comp4`:**
+- Output: `results/full_auto_component_strict_comp4_20260627/`
+- Summary: `results/full_auto_component_strict_comp4_20260627/summary.csv`
+- Boxes: `results/full_auto_component_strict_comp4_20260627/boxes.csv`
+- Masks: `results/full_auto_component_strict_comp4_20260627/masks/`
+- Overlays: `results/full_auto_component_strict_comp4_20260627/overlays_thumb/`
+- Chạy đủ `1393/1393` ca.
+- Có `1393` mask và `1393` overlay.
+- `boxes.csv` có `6408` box data rows.
+- `n_box` median `4`, mean `4.60`, max `23`, zero-box `12`.
+- `mask/specimen` median `0.3503`, mean `0.4677`.
+- `mask_outside_specimen = 0.0` toàn bộ ca.
+- `mask/specimen <0.05`: `116` ca.
+- `mask/specimen <0.10`: `261` ca.
+
+**So với `specimen_strict` full-data:**
+- `mask/specimen` median tăng `0.3373 -> 0.3503`.
+- `mask/specimen <0.10` giảm `399 -> 261` ca, tức giảm nhóm mask quá nhỏ/bỏ sót.
+- `n_box` mean tăng `4.43 -> 4.60`, đúng kỳ vọng vì chia theo lát.
+- zero-box tăng `7 -> 12`, vì component decoder không ép top-1 nếu score không vượt ngưỡng.
+- `mask_outside_specimen` vẫn bằng `0.0`.
+
+**Trạng thái sau run:** `component_strict comp4` là bản full-data tốt nhất hiện tại cho hướng slice-aware/nhiều lát. Cần QC overlay ở các ca nhiều lát để xác nhận tăng recall không đổi lấy quá nhiều tô lem nội-specimen.
+
 **Bản ít lem hơn nếu cần conservative (`component_strict comp2`):**
 ```bash
 PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True /home/hvusynh2/conda_envs/medsam2_anno/bin/python -u predict_full_auto_all.py --out results/full_auto_component_strict_comp2_20260627 --overwrite --component_strict --component_max_box 2 --component_min_box_spec_frac 0.50 --component_fallback_thr 0.35
 ```
 
+**Đã chạy xong full-data cho `component_strict comp2` ngày 2026-06-28:**
+- Output gốc: `results/full_auto_component_strict_comp2_20260628/`
+- Đã copy sang submission: `/home/hvusynh2/nguyenduong/medsam2_rcc_submission_20260627/results/original/full_auto_component_strict_comp2_20260628/`
+- Summary: `results/full_auto_component_strict_comp2_20260628/summary.csv`
+- Boxes: `results/full_auto_component_strict_comp2_20260628/boxes.csv`
+- Masks: `results/full_auto_component_strict_comp2_20260628/masks/`
+- Overlays: `results/full_auto_component_strict_comp2_20260628/overlays_thumb/`
+- Chạy đủ `1393/1393` ca.
+- Có `1393` mask và `1393` overlay.
+- `boxes.csv` có `3242` box data rows.
+- `n_box` median `2`, mean `2.33`, max `10`, zero-box `64`.
+- `mask/specimen` median `0.2247`, mean `0.3567`.
+- `mask_outside_specimen = 0.0` toàn bộ ca.
+- `mask/specimen <0.05`: `252` ca.
+- `mask/specimen <0.10`: `425` ca.
+
+**Diễn giải `comp2`:** đây là bản conservative/ít lem hơn nhưng bỏ sót nhiều hơn `comp4`. Dùng để so QC nếu `comp4` tô nội-specimen quá rộng; không nên coi là bản recall tốt nhất.
+
 ### 20.7. Trạng thái chốt hiện tại
 
-- **Best stable full-data run:** `results/full_auto_specimen_strict_20260626`.
+- **Best stable conservative full-data run:** `results/full_auto_specimen_strict_20260626`.
+- **Best current slice-aware full-data run:** `results/full_auto_component_strict_comp4_20260627`.
 - **Best current technical direction:** `component_strict` / slice-aware strict inference.
-- **Best balanced experimental config:** `comp4_frac045_fb025`.
-- **Best conservative experimental config:** `comp2_frac050_fb035`.
+- **Best balanced config:** `comp4_frac045_fb025`, đã chạy full-data.
+- **Best conservative config:** `comp2_frac050_fb035`, đã chạy full-data và đã copy sang submission.
 - **Không nên quay lại:** chỉ tăng model, chỉ thêm postprocess global, hoặc chỉ tăng/giảm confidence toàn ảnh. Những hướng này không xử lý bản chất ảnh nhiều lát.
-- **Việc nên làm kế tiếp:** chạy `component_strict comp4` toàn bộ data, so overlay ở nhóm nhiều lát; nếu lem quá thì chạy thêm `comp2` và so sánh theo nhóm ca nhiều lát.
+- **Việc nên làm kế tiếp:** QC overlay của `component_strict comp4` và `component_strict comp2` ở nhóm nhiều lát; chọn `comp4` nếu cần recall, chọn `comp2` nếu ưu tiên giảm tô lem.

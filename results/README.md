@@ -23,6 +23,9 @@ The main summary files are in `results/tables/`:
 - `results/original/`: original tables, logs, montages, and figures copied from
   the development workspace. These files preserve experiment history and
   negative/legacy baselines.
+- `results/original/full_auto_component_strict_comp2_20260628/`: full-data
+  conservative component-strict run on all `1393` images. It contains `1393`
+  masks, `1393` overlay thumbnails, `summary.csv`, and `boxes.csv`.
 - `results/original_195/`: selected individual qualitative outputs and an
   inference grid from the original 195-case result set.
 - `results/figures/`: reserved for curated publication/report figures.
